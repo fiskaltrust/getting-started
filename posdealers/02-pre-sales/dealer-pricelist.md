@@ -1,4 +1,9 @@
-# Händler Preisliste
+---
+slug: /posdealers/get-started/pre-sales/dealer-pricelist
+title: Händler-Preisliste
+---
+
+# Händler-Preisliste
 
 Die Händler Preisliste mit Mengenrabatten für Einzelprodukte und Produkt-Bundles finden Sie hier:
 

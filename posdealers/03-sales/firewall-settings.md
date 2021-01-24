@@ -1,4 +1,9 @@
-# Firewall Einstellungen
+---
+slug: /posdealers/get-started/sales/firewall-settings
+title: Firewall-Einstellungen
+---
+
+# Firewall-Einstellungen
 
 ## Lokal installierte Firewall (Windows Firewall)
 

@@ -1,4 +1,9 @@
-# Rollout Szenarien Planung, Tipps & Tricks für DE
+---
+slug: /posdealers/get-started/pre-sales/rollout-scenarios
+title: Rollout-Szenarien-Planung
+---
+
+# Rollout-Szenarien-Planung, Tipps & Tricks für DE
 Um die fiskaltrust.Middleware in Verbindung mit Kassen und TSEs zu verwenden kommen unterschiedliche Szenarien in Frage. Bei jedem dieser Szenarien handelt es sich immer um einen Standort. Diese werden weiter unten erläutert, es gibt allerdings einige Grundvoraussetzungen welche auf jeden Fall gegeben sein müssen, unabhängig vom Szenario.
 
 - Pro Standort muss mindestens eine [SCU](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/compliance-as-a-service/features/SCU-Abstraktion.md) inkl. TSE zugeordnet sein. Die TSE kann entweder eine Hardware-TSE vor Ort sein, oder eine zertifizierte Cloud-TSE.

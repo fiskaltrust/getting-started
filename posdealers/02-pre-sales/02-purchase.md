@@ -1,3 +1,8 @@
+---
+slug: /posdealers/get-started/pre-sales/purchase
+title: Händlereinkaufsprodukte beziehen
+---
+
 # 	Händlereinkaufsprodukte beziehen
 
 ## Überblick

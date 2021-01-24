@@ -1,6 +1,6 @@
 ---
 slug: /posdealers/get-started/rollout-presentation
-title: Get started for POS Dealers
+title: Präsentation zur Rolloutvorbereitung
 ---
 
 # Präsentationen zur Rolloutvorbereitung

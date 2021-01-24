@@ -1,4 +1,9 @@
-# How-To Massenupdate von Cashboxen
+---
+slug: /posdealers/get-started/after-sales/mass-configuration-update
+title: 'How-To: Massenupdate von Cashboxen'
+---
+
+# How-To: Massenupdate von Cashboxen
 
 Für einen Massenupdate bereits ausgerollter Cashboxen stellt fiskaltrust unter dem Portalmenüpunkt ```Konfiguration -> Update``` die Möglichkeit zur Verfügung viele der Cashboxen gleichzeitig zu aktualisieren. 
 

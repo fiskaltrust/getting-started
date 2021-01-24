@@ -1,3 +1,8 @@
+---
+slug: /posdealers/get-started/sales/masterdata-creation
+title: Bereitstellung von Stammdaten
+---
+
 # Bereitstellung von Stammdaten eines KassenBetreibers
 
 Dieses Dokument beschreibt den Minimalumfang jener Stammdaten eines KassenBetreibers, welcher eingepflegt und gewartet werden muß, um Produkte und Features von fiskaltrust nutzen zu können. Daten, welche in diesem Dokument nicht aufgelistet sind, werden von fiskaltrust entweder im Hintergrund automatisiert erzeugt (z.B. TSE Daten für den DSFinV-K Export) oder sind gesetzlich nicht gefordert, oder sind optional und somit für die ordnungsgemäße Funktion nicht zwingend erforderlich. Des weiteren wird beschrieben, wie diese Daten in das fisaltrust.Portal eingepflegt werden können, und wer bzw. welche Rolle (KassenHersteller, KassenHändler, KassenBetreiber, Steuerberater) für die Erzeugung und Wartung dieser Daten verantwortlich ist.

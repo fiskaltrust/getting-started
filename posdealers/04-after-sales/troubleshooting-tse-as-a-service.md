@@ -1,4 +1,9 @@
-# Troubleshooting TSE-as-a-Service
+---
+slug: /posdealers/get-started/after-sales/troubleshooting-tse-as-a-service
+title: 'Troubleshooting: TSE-as-a-Service'
+---
+
+# Troubleshooting: TSE-as-a-Service
 
 Bei einer Verlängerung der Subscription, oder falls die zur Verfügung stehenden Signaturen der Hardware-TSE aufgebraucht wurden, erfolgt derzeit keine automatische Lieferung einer neuen Hardware TSE durch fiskaltrust. Der Tausch muss wie unten beschrieben über den fiskaltrust Händlersupport beantragt werden.
 

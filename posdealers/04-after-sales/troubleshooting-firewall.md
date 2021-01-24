@@ -1,4 +1,9 @@
-# Troubleshooting Firewall 
+---
+slug: /posdealers/get-started/after-sales/troubleshooting-firewall
+title: 'Troubleshooting: Firewall'
+---
+
+# Troubleshooting: Firewall 
 
 Hinter diesen DNS Namen liegt ein Traffic Manager, der einen Redirect auf einen Load Balancer durchführt, der Load Balancer leitet die Anfrage an einen Server weiter, wobei üblicherweise der Load Balancer aber die Antwort zurückliefert und nicht der Server direkt.
 

@@ -24,18 +24,16 @@ module.exports = {
                         'getting-started/posdealers/02-pre-sales/README',
                         'getting-started/posdealers/02-pre-sales/01-purchase-agreement',
                         'getting-started/posdealers/02-pre-sales/02-purchase',
-                        'getting-started/posdealers/02-pre-sales/03-payment',
                         'getting-started/posdealers/02-pre-sales/automated-rollout',
                         'getting-started/posdealers/02-pre-sales/benefits-for-posdealers',
                         'getting-started/posdealers/02-pre-sales/entitlements',
                         'getting-started/posdealers/02-pre-sales/rollout-scenarios',
-                        'getting-started/posdealers/02-pre-sales/sales-material',
                         'getting-started/posdealers/02-pre-sales/purchase-requirements',
                     ]
                 },
                 {
                     type: 'category',
-                    label: 'Pre-Sales',
+                    label: 'Sales',
                     items: [
                         'getting-started/posdealers/03-sales/README',
                         'getting-started/posdealers/03-sales/04c-masterdata-creation',

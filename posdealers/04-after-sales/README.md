@@ -1,3 +1,8 @@
+---
+slug: /posdealers/get-started/after-sales
+title: After-Sales Support- und Troubleshooting Guidelines
+---
+
 # After-Sales Support- und Troubleshooting Guidelines
 
 - [Troubleshooting Firewall](troubleshooting-firewall.md) 

@@ -1,3 +1,8 @@
+---
+slug: /posdealers/get-started/pre-sales/entitlements
+title: Entitlements
+---
+
 # Entitlements ("Ansprüche")
 
 Entitlements („Ansprüche“) sind Gutscheine für bestimmte Produkte und stellen für Kassenhändler die Möglichkeit dar, bestmögliche Mengenrabatte zu erzielen:

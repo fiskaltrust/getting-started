@@ -1,3 +1,8 @@
+---
+slug: /posdealers/get-started/pre-sales/purchase-requirements
+title: Voraussetzungen für den Einkauf
+---
+
 # Voraussetzungen für den Einkauf und Weiterverkauf von Produkten in Deutschland
 
 - Registrierung im [deutschen Produktiv-Portal](https://portal.fiskaltrust.de/)

@@ -1,6 +1,6 @@
 ---
 slug: /posdealers/get-started/support
-title: Support
+title: Kundensupport
 ---
 
 # Kundensupport für Kassenhändler

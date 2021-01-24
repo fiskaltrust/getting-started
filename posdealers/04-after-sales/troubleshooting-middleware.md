@@ -1,4 +1,9 @@
-# Troubleshooting Middleware
+---
+slug: /posdealers/get-started/after-sales/troubleshooting-middleware
+title: 'Troubleshooting: Middleware'
+---
+
+# Troubleshooting: Middleware
 
 ## Verfügbarkeit 
 

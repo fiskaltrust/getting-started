@@ -1,3 +1,8 @@
+---
+slug: /posdealers/get-started/sales/configuration-activation
+title: Produktherstellung & -konfiguration
+---
+
 # Schritte zur Herstellung und Konfiguration der Produkte im Account des KassenBetreibers
 
 Hat ein Kassenbetreiber vom Kassenhändler einen Anspruch auf die Nutzung von Produkten von fiskaltrust erworben, müssen die Entitlements auf die Standorte bzw. Kassen des Betreibers übertragen und die Produkte für den Betreiber aktiviert werden. 

@@ -1,3 +1,8 @@
+---
+slug: /posdealers/get-started/pre-sales/benefits-for-posdealers
+title: Vorteile für Kassenhändler
+---
+
 # Vorteile für Kassenhändler
 
 ## Inhalt des Dokumentes

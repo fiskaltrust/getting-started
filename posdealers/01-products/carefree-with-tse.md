@@ -1,3 +1,8 @@
+---
+slug: /posdealers/get-started/products/carefree-with-tse
+title: fiskaltrust.Sorglos mit TSE
+---
+
 # fiskaltrust.Sorglos mit TSE
 
 ## Produktbeschreibung

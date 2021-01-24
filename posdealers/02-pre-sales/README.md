@@ -1,3 +1,8 @@
+---
+slug: /posdealers/get-started/pre-sales
+title: Übersicht
+---
+
 # Pre-Sales Bereich
 
 Im Pre-Sales Bereich finden Sie folgende Unterlagen zur Übermittlung an Informationsmaterial über fiskaltrust Produkte für ihre Kunden:

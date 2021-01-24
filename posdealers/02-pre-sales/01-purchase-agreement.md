@@ -1,3 +1,8 @@
+---
+slug: /posdealers/get-started/pre-sales/purchase-agreement
+title: Abschluss eines Rahmenvertrags
+---
+
 # How-to-Guide: Abschluss eines Rahmenvertrages
 
 ## Ziel & Inhalt des Dokumentes

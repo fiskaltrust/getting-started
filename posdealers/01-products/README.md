@@ -1,3 +1,8 @@
+---
+slug: /posdealers/get-started/products
+title: Angebote für KassenHändler
+---
+
 # Angebote für KassenHändler
 
 Basis-Produkt der fiskaltrust ist die [fiskaltrust.Middleware](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/compliance-as-a-service/products/middleware.md). Diese wird von KassenHersteller in ihr Kassensystem integriert und dient als Unterstützung zur Erfüllung der gesetzlichen Anforderungen (z.B. §146 AO, KassenSichV) bezüglich der Fiskalisierung für Kassen. 

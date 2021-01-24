@@ -3,7 +3,7 @@ slug: /posdealers/get-started
 title: Get started for POS Dealers
 ---
 
-# Getting started - Empfohlene Schritte für den Einkauf und Weiterverkauf von Produkten von fiskaltrust für Kassenhändler
+# Get started - Empfohlene Schritte für den Einkauf und Weiterverkauf von Produkten von fiskaltrust für Kassenhändler
 
 <div class="alert alert--info" role="alert">Our getting started guide for POS Dealers is currently only available in German & for the German market. We're working on providing an internationalized, English version of this content and will reach out to our partners as soon as it's available.</div>
 
