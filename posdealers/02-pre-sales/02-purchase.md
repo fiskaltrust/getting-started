@@ -8,7 +8,7 @@ Einen Überblick über den gesamten Prozess beginnend von der Registrierung im P
 
 ## Voraussetzungen
 
-siehe [Allgemeine Voraussetzungen für den Einkauf von Produkten](voraussetzungen-einkauf.md)
+siehe [Allgemeine Voraussetzungen für den Einkauf von Produkten](purchase-requirements.md)
 
 **Empfehlungen**
 

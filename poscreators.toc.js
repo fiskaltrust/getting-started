@@ -8,6 +8,6 @@ module.exports = {
                 'getting-started/poscreators/middleware-integration',
                 'getting-started/poscreators/lead-presentation',
             ]
-        }
+        },
     ]
 }

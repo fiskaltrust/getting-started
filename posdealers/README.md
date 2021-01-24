@@ -29,8 +29,8 @@ Dieser Getting Started Guide ist die Fortsetzung unserer Wissensübermittlung f�
 
 | Video                                                    | Unterlagen                                                   | Zielgruppe                                                   |
 | -----------------------------------------------------------| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [Vorbereitung sales Rollout](https://youtu.be/jHTIfADClQ4)| [PowerPoint Präsentation](presentation/sales/media/posdealer-sales-rollout.pptx) | Shareholder, Owner<br/>Account-manager/Sales |
-|[Vorbereitung technisches Rollout](https://youtu.be/9Lr7uxNORvc) | [PowerPoint Präsentation](presentation/tech/media/posdealer-tech-rollout.pptx) | Technicians on site<br/>Support |
+| [Vorbereitung sales Rollout](https://youtu.be/jHTIfADClQ4)| [PowerPoint Präsentation](presentations/sales/media/posdealer-sales-rollout.pptx) | Shareholder, Owner<br/>Account-manager/Sales |
+|[Vorbereitung technisches Rollout](https://youtu.be/9Lr7uxNORvc) | [PowerPoint Präsentation](presentations/tech/media/posdealer-tech-rollout.pptx) | Technicians on site<br/>Support |
 
 ## Kontakt
 
@@ -64,9 +64,9 @@ Als Softwarehersteller entwickelt fiskaltrust Produkte für Kassenbetreiber im B
 
 | Vertiefende Information                                      | Zielgruppe                                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [Rechtliche Grundlagen](../product-service-description/legal-basis-germany.md) | Shareholder, Owner<br/>Account-manager/Sales |
-| [Wie erreicht fiskaltrust Compliance as a Service](../product-service-description/README.md) | Shareholder, Owner<br/>Account-manager/Sales |
-| [Geschäftsmodell von fiskaltrust](../product-service-description/business-model-germany.md) | Shareholder, Owner<br/>Account-manager/Sales |
+| [Rechtliche Grundlagen](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/legal-basis-germany.md) | Shareholder, Owner<br/>Account-manager/Sales |
+| [Wie erreicht fiskaltrust Compliance as a Service](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/README.md) | Shareholder, Owner<br/>Account-manager/Sales |
+| [Geschäftsmodell von fiskaltrust](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/business-model-germany.md) | Shareholder, Owner<br/>Account-manager/Sales |
 
 ## 2. Vorteile für Kassenhändler
 
@@ -88,10 +88,10 @@ Der Kassenhändler erwirbt die Produkte über den Webshop im fiskaltrust.Portal 
 
 | Vertiefende Information                                      | Zielgruppe                                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [Vertriebsmodell](vertriebsmodell.md)                        | Shareholder, Owner<br/>Account-manager/Sales |
-| [Begriffsdefinition Kassenhersteller](../glossar/README.md#kassenhersteller-poscreator) | Shareholder, Owner<br/>Account-manager/Sales |
-| [Begriffsdefinition Kassenhändler](../glossar/README.md#kassenhändler-posdealer) | Shareholder, Owner<br/>Account-manager/Sales |
-| [Begriffsdefinition Kassenbetreiber](../glossar/README.md#kassenbetreiber-posdoperator) | Shareholder, Owner<br/>Account-manager/Sales |
+| [Vertriebsmodell](distribution-model.md)                        | Shareholder, Owner<br/>Account-manager/Sales |
+| [Begriffsdefinition Kassenhersteller](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/glossar/README.md#kassenhersteller-poscreator) | Shareholder, Owner<br/>Account-manager/Sales |
+| [Begriffsdefinition Kassenhändler](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/glossar/README.md#kassenhändler-posdealer) | Shareholder, Owner<br/>Account-manager/Sales |
+| [Begriffsdefinition Kassenbetreiber](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/glossar/README.md#kassenbetreiber-posdoperator) | Shareholder, Owner<br/>Account-manager/Sales |
 
 ## 4. Das Produktangebot von fiskaltrust
 
@@ -119,7 +119,7 @@ Falls Ihre gewöhnliche Geschäftstätigkeit mehreren Rollen unserer Beschreibun
 
 | Vertiefende Information                                      | Zielgruppe                                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [Voraussetzungen für den Einkauf von Produkten als Kassenhändler](02-pre-sales/voraussetzungen-einkauf.md) | Shareholder, Owner<br/>Account-manager/Sales |
+| [Voraussetzungen für den Einkauf von Produkten als Kassenhändler](02-pre-sales/purchase-requirements.md) | Shareholder, Owner<br/>Account-manager/Sales |
 
 ## 6. Einkaufsplanung
 
@@ -164,8 +164,8 @@ Diese und weitere Automatisierungsoptionen finden Sie in der dazugehörigen, wei
 
 | Vertiefende Information                                      | Zielgruppe                                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [Rollout Szenarien Planung, Tipps & Tricks](02-pre-sales/automatisierter-rollout.md) | Technicians on site<br/>Account-manager/Sales<br/>Support |
-| [Rollout Automatisierung](02-pre-sales/automatisierter-rollout.md) | Technicians on site<br/>Support |
+| [Rollout Szenarien Planung, Tipps & Tricks](02-pre-sales/automated-rollout.md) | Technicians on site<br/>Account-manager/Sales<br/>Support |
+| [Rollout Automatisierung](02-pre-sales/automated-rollout.md) | Technicians on site<br/>Support |
 
 Je nach dem für Sie in Frage kommenden Rollout-Szenario und Automatisierungsgrad empfehlen wir Ihnen mit den dazugehörigen technischen Vorbereitungen frühzeitig zu beginnen.
 
@@ -244,7 +244,7 @@ Mit dem erfolgreichen Absetzen des Initial Operation Receipts ist die Inbetriebn
 
 | Vertiefende Information                                      | Zielgruppe                                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [Rollout Automatisierung](02-pre-sales/automatisierter-rollout.md) | Technicians on site<br/>Support |
+| [Rollout Automatisierung](02-pre-sales/automated-rollout.md) | Technicians on site<br/>Support |
 | [Installation der Middleware](https://github.com/fiskaltrust/interface-doc/blob/master/doc/general/installation/installation.md) | Technicians on site<br/>Support |
 | [Initial Operation Receipt](https://github.com/fiskaltrust/interface-doc/blob/master/doc/appendix-de-kassensichv/cash-register-integration/cash-register-integration.md#start-receipt-initial-receipt) | Technicians on site<br/>Support |
 

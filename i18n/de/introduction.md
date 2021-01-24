@@ -1,22 +1,4 @@
-<div align="center">
-<img alt="fiskaltrust" src="../images/fiskaltrust-icon.png" width="450" />
-<br/>
-<strong>Compliance-as-a-Service für KassenSysteme</strong>
-<br/>
-<br/>
-<h1>getting started mit fiskaltrust</h1>
-<br/>
-</div>
-<p align="center">
-<a href="README.md"><img alt="Docs: DE" src="https://img.shields.io/badge/docs-DE-blue" /></a>
-<a href="../en/README.md"><img alt="Docs: EN" src="https://img.shields.io/badge/docs-EN-blue" /></a>
-</p>
-<br/>
-
-Dieses Repository beinhaltet die **getting started Dokumentation** von fiskaltrust. Es unterstüzt KassenHersteller und KassenHändler beim Kennenlernen und Anwenden der fiskaltrust Produkte. 
-
-
-## Einleitung
+# Einleitung
 
 fiskaltrust bietet Compliance-as-a-Service für KassenSysteme im Fiskalisierungsbereich an. Diese wird durch die Verwendung des lizenzkostenfreien fiskaltrust Software-Produkts "fiskaltrust.Middleware" vorgenommen, das vom KassenHersteller in sein KassenSystem integriert wird. 
 
@@ -26,7 +8,7 @@ Die fiskaltrust.Middleware läuft als eigenständiger Service auf der Kasse des 
 
 Des Weiteren bietet fiskaltrust Add-On Produkte als auch Einzelprodukte für KassenBetreiber an. Add-On Produkte erfordern den Einsatz der fiskaltrust.Middleware und bauen auf diese auf. Einzelprodukte sind unabhängig vom Einsatz der fiskaltrust.Middleware. Die fiskaltrust Produkte  werden ausschließlich über unsere KassenHändler-Partner an KassenBetreiber vertrieben und dort in Betrieb genommen. Hierbei handelt es sich um Archivierungsprodukte, automatisierte Meldungen an das Finanzamt, Technische Sicherheitseinrichtungen (TSE) diverser Hersteller als auch um Sorglospakete mit und ohne TSE-as-a-Service. 
 
-### Die unterschiedlichen Rollen der fiskaltrust Partner
+## Die unterschiedlichen Rollen der fiskaltrust Partner
 
 Bei fiskaltrust wird grundsätzlich zwischen drei Partnerrollen unterschieden: KassenHersteller, KassenHändler und KassenBetreiber. 
 

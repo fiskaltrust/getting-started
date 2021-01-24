@@ -5,7 +5,7 @@ title: Vertriebsmodell
 
 # Vertriebsmodell für Kassenhändler
 
-fiskaltrust ist ein Software-Unternehmen, welches sich auf die Entwicklung von Ciskaltrust bietet [Compliance-as-a-Service](../product-service-description/README.md) und [Revisionssichere-Daten-as-a-Service](../product-service-description/README.md) Produkten für Kassenbetreiber innerhalb Europas konzentriert. Das fiskaltrust Basisprodukt, die fsikaltrust.Middleware, wird von Kassenherstellern direkt als Bestandteil Ihrer Kassensoftware integriert.
+fiskaltrust ist ein Software-Unternehmen, welches sich auf die Entwicklung von Ciskaltrust bietet [Compliance-as-a-Service](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/README.md) und [Revisionssichere-Daten-as-a-Service](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/README.md) Produkten für Kassenbetreiber innerhalb Europas konzentriert. Das fiskaltrust Basisprodukt, die fsikaltrust.Middleware, wird von Kassenherstellern direkt als Bestandteil Ihrer Kassensoftware integriert.
 
 Der Vertrieb der fiskaltrust.Produkte und Produkt-Bundles erfolgt in partnerschaftlicher Zusammenarbeit mit den Kassenhändlern. Durch die Nutzung bestehender Vertriebsstrukturen von Kassenhändlern in den jeweiligen Ländern, kann den Kassenbetreibern ein Produktportfolio angeboten werden, welches die individuellen Bedürfnisse eines jeden einzelnen seiner Kunden (Kassenbetreiber) berücksichtigt und erfüllt.
 

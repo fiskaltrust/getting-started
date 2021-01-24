@@ -6,22 +6,22 @@ Das Produkt-Bundle "fiskaltrust.Sorglos mit TSE" beinhaltet unser Basis-Produkt 
 
 ### Basis-Produkt
 
-[Lokal installierte Middleware](../../product-service-description/compliance-as-a-service/products/middleware.md) 
+[Lokal installierte Middleware](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/compliance-as-a-service/products/middleware.md) 
 
 #### Addon-Produkte der fiskaltrust.Middleware
 
--  [POS Archiv](../../product-service-description/revisionsafe-data-as-a-service/products/pos-archive.md) 
--  [Finanzamtmeldung](../../product-service-description/compliance-as-a-service/products/tax-authority-notification.md) 
+-  [POS Archiv](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/revisionsafe-data-as-a-service/products/pos-archive.md) 
+-  [Finanzamtmeldung](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/compliance-as-a-service/products/tax-authority-notification.md) 
 
 #### Einzelprodukte
 
-[Audicon Kassenarchiv Online](../../product-service-description/revisionsafe-data-as-a-service/products/ako.md) 
+[Audicon Kassenarchiv Online](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/revisionsafe-data-as-a-service/products/ako.md) 
 
 #### Technische Sicherheitseinrichtung (TSE)
 
--  [TSE-as-a-Service](../../product-service-description/compliance-as-a-service/features/basics/tse-as-a-service/README.md) - enthält eine Hardware- oder eine Cloud TSE pro Filiale/Standort. 
+-  [TSE-as-a-Service](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/compliance-as-a-service/features/basics/tse-as-a-service/README.md) - enthält eine Hardware- oder eine Cloud TSE pro Filiale/Standort. 
 
-**Hinweis:** Die Auswahl der TSE obliegt der fiskaltrust GmbH. Bitte beachten Sie auch unsere [Fair Use Policy](../../for-posoperators/market-de-fair-use-policy.md).
+**Hinweis:** Die Auswahl der TSE obliegt der fiskaltrust GmbH. Bitte beachten Sie auch unsere [Fair Use Policy](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/for-posoperators/market-de-fair-use-policy.md).
 
 ## How-to-Guide: Einkauf & Weiterverkauf
 
@@ -33,7 +33,7 @@ Im folgendem Guide sind jene Schritte beschrieben, die notwendig sind, um den Ei
 
 Das "fiskaltrust.Sorglos mit TSE" Produkt-Bundle gilt für alle Kassen (Queues) an einem Standort und hat bereits eine TSE (wahlweise Hardware TSE oder Cloud TSE) inkludiert. Um Sie bei der Bedarfsananlyse und Rollout-Planung zu unterstützen haben wir die Dokumentation möglicher [Rollout-Szenarien](../02-pre-sales/rollout-scenarios.md) vorgenommen. In dieser Dokumentation können sie zum Beispiel erfahren, welche Optionen Ihnen zur Verfügung stehen um mehrere Queues mit einer TSE zu betreiben.
 
-Sollten Sie aus Performancegründen oder zur Einhaltung unserer [Fair Use Policy](../../for-posoperators/market-de-fair-use-policy.md) mehrere TSEs benötigen, so können Sie diese für den betreffenden Standort zusätzlich im [fiskaltrust.Webshop](https://portal.fiskaltrust.de/) erwerben.
+Sollten Sie aus Performancegründen oder zur Einhaltung unserer [Fair Use Policy](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/for-posoperators/market-de-fair-use-policy.md) mehrere TSEs benötigen, so können Sie diese für den betreffenden Standort zusätzlich im [fiskaltrust.Webshop](https://portal.fiskaltrust.de/) erwerben.
 
 #### 1.b Marketing-Materialien
 
@@ -49,13 +49,13 @@ Produktinformationen für den Bezug des "fiskaltrust.Sorglos mit TSE" Produkt-Bu
 | **Händlereinkaufsprodukt Artikelnummer** | 4445-021050                                                  |
 | ---------------------------------------- | ------------------------------------------------------------ |
 | **Mengenrabatte möglich**                | ja, ab 10 Bundles                                            |
-| **Preisliste inklusive Mengenrabatte**   | [Händlerpreise & Mengenrabatte](../02-pre-sales/haendler-preisliste.md) |
+| **Preisliste inklusive Mengenrabatte**   | [Händlerpreise & Mengenrabatte](../02-pre-sales/dealer-pricelist.md) |
 
 ##### Bezugsmöglichkeiten
 
 ###### Option A - Bezug für weniger als 10 Standorte
 
-Wird das "fiskaltrust.Sorglos mit TSE" Produkt-Bundle für weniger als 10 Standorte benötigt, kann es direkt im [fiskaltrust.Webshop](https://portal.fiskaltrust.de/) bezogen werden. Bitte beachten Sie hierbei unsere [Voraussetzungen für den Bezug von fiskaltrust Produkten als Kassenhändler](../02-pre-sales/voraussetzungen-einkauf.md).
+Wird das "fiskaltrust.Sorglos mit TSE" Produkt-Bundle für weniger als 10 Standorte benötigt, kann es direkt im [fiskaltrust.Webshop](https://portal.fiskaltrust.de/) bezogen werden. Bitte beachten Sie hierbei unsere [Voraussetzungen für den Bezug von fiskaltrust Produkten als Kassenhändler](../02-pre-sales/purchase-requirements.md).
 
 ###### Option B - Bezug im Rahmen einer Rahmenvereinbarung
 

@@ -11,5 +11,5 @@ Im Folgenden stellen wir Ihnen unsere Präsentationen zur Rolloutvorbereitung, n
 
 | Video                                                    | Unterlagen                                                   | Zielgruppe                                                   |
 | -----------------------------------------------------------| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [Vorbereitung sales Rollout](https://youtu.be/jHTIfADClQ4)| [PowerPoint Präsentation](presentation/sales/media/posdealer-sales-rollout.pptx) | [Shareholder, Owner](../glossar/personas-posdealer.md)<br/>[Account-manager/Sales](../glossar/personas-posdealer.md) |
-|[Vorbereitung technisches Rollout](https://youtu.be/9Lr7uxNORvc) | [PowerPoint Präsentation](presentation/tech/media/posdealer-tech-rollout.pptx) | [Technicians on site](../glossar/personas-posdealer.md#posdealer---technician-on-site)<br/>[Support](../glossar/personas-posdealer.md#posdealer---support) |
+| [Vorbereitung sales Rollout](https://youtu.be/jHTIfADClQ4)| [PowerPoint Präsentation](presentations/sales/media/posdealer-sales-rollout.pptx) | Shareholder, Owner<br/>Account-manager/Sales |
+|[Vorbereitung technisches Rollout](https://youtu.be/9Lr7uxNORvc) | [PowerPoint Präsentation](presentations/tech/media/posdealer-tech-rollout.pptx) | Technicians on site<br/>Support |

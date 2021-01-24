@@ -22,9 +22,9 @@ module.exports = {
                     label: 'Pre-Sales',
                     items: [
                         'getting-started/posdealers/02-pre-sales/README',
-                        'getting-started/posdealers/02-pre-sales/purchase-agreement',
-                        'getting-started/posdealers/02-pre-sales/purchase',
-                        'getting-started/posdealers/02-pre-sales/payment',
+                        'getting-started/posdealers/02-pre-sales/01-purchase-agreement',
+                        'getting-started/posdealers/02-pre-sales/02-purchase',
+                        'getting-started/posdealers/02-pre-sales/03-payment',
                         'getting-started/posdealers/02-pre-sales/automated-rollout',
                         'getting-started/posdealers/02-pre-sales/benefits-for-posdealers',
                         'getting-started/posdealers/02-pre-sales/entitlements',
@@ -54,6 +54,6 @@ module.exports = {
                     ]
                 }
             ]
-        }
+        },
     ]
 }

@@ -36,6 +36,6 @@ Der Weiterverkauf der Produkte erfolgt analog zum ersten Beispiel. Die Marge bet
 
 ## Voraussetzungen für den Bezug von Mengenrabatten
 
-[Registrierung als Kassenhändler im Portal](voraussetzungen-einkauf.md)
+[Registrierung als Kassenhändler im Portal](purchase-requirements.md)
 
 [Abschluss von Rahmenverträgen](01-purchase-agreement.md)

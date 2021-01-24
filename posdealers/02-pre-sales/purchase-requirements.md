@@ -7,6 +7,6 @@
 
 ## Weiterführende Informationen
 
-[Vertriebsmodell](../vertriebsmodell.md)
+[Vertriebsmodell](../distribution-model.md)
 
 [Informationen zum Abschluss eines Rahmenvertrages (inklusive Kreditlimit)](01-purchase-agreement.md)

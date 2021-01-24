@@ -8,18 +8,18 @@ Das Produkt-Bundle "fiskaltrust.Sorglos ohne TSE" beinhaltet unser Basis-Produkt
 
 ## Basis-Produkt
 
-[Lokal installierte Middleware](../../product-service-description/compliance-as-a-service/products/middleware.md) 
+[Lokal installierte Middleware](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/compliance-as-a-service/products/middleware.md) 
 
 ### Addon-Produkte der fiskaltrust.Middleware
 
--  [POS Archiv](../../product-service-description/revisionsafe-data-as-a-service/products/pos-archive.md) 
--  [Finanzamtmeldung](../../product-service-description/compliance-as-a-service/products/tax-authority-notification.md) 
+-  [POS Archiv](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/revisionsafe-data-as-a-service/products/pos-archive.md) 
+-  [Finanzamtmeldung](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/compliance-as-a-service/products/tax-authority-notification.md) 
 
 **Hinweis:** Im "fiskaltrust.Sorglos ohne TSE" Bundle ist **keine** Hardware- oder Cloud TSE-As-A-Service enthalten.
 
 ### Einzelprodukte
 
-[Audicon Kassenarchiv Online](../../product-service-description/revisionsafe-data-as-a-service/products/ako.md) 
+[Audicon Kassenarchiv Online](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/revisionsafe-data-as-a-service/products/ako.md) 
 
 ## Verkaufseinheit
 

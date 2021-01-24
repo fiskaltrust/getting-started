@@ -1,21 +1,4 @@
-<div align="center">
-<img alt="fiskaltrust" src="../images/fiskaltrust-icon.png" width="450" />
-<br/>
-<strong>Compliance-as-a-Service for POSSystems</strong>
-<br/>
-<br/>
-<h1>getting started with fiskaltrust</h1>
-<br/>
-</div>
-<p align="center">
-<a href="../de/README.md"><img alt="Docs: DE" src="https://img.shields.io/badge/docs-DE-blue" /></a>
-<a href="README.md"><img alt="Docs: EN" src="https://img.shields.io/badge/docs-EN-blue" /></a>
-</p>
-<br/>
-
-This repository is home to the **getting started documentation** of fiskaltrust. It supports POSCreators (cash register manufacturers) and POSDealers (cash register dealers) in getting to know and using the fiskaltrust products. 
-
-## Introduction
+# Introduction
 
 fiskaltrust offers Compliance-As-A-Service for POSSystems in the fiscalization area. This is done by using the license-free fiskaltrust software product "fiskaltrust.Middleware", which is integrated by the POSCreator into his POSSystem. 
 

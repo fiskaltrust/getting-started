@@ -62,7 +62,7 @@ By registering in the live portal and digitally signing our cooperation agreemen
 
 ## 2. Middleware Integration
 
-There are several steps which must be followed to successfully integrate your solution with fiskaltrust.Middleware. Those steps include the CashBox Configuration, using the Middleware Launcher, and testing of the communication. Please check our [fiskaltrust.Middleware document](middleware-integration-en.md) for detailed information about this process.
+There are several steps which must be followed to successfully integrate your solution with fiskaltrust.Middleware. Those steps include the CashBox Configuration, using the Middleware Launcher, and testing of the communication. Please check our [fiskaltrust.Middleware document](middleware-integration.md) for detailed information about this process.
 
 ## 3. POS Dealer Onboarding
 

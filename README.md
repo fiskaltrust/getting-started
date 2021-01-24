@@ -10,8 +10,8 @@
 <br/>
 </div>
 <p align="center">
-<a href="./i18n/de/introduction.md"><img alt="Docs: DE" src="https://img.shields.io/badge/docs-DE-blue" /></a>
-<a href="./introduction.md"><img alt="Docs: EN" src="https://img.shields.io/badge/docs-EN-blue" /></a>
+<a href="i18n/de/introduction.md"><img alt="Docs: DE" src="https://img.shields.io/badge/docs-DE-blue" /></a>
+<a href="introduction.md"><img alt="Docs: EN" src="https://img.shields.io/badge/docs-EN-blue" /></a>
 </p>
 <br/>
 

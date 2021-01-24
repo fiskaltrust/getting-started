@@ -43,7 +43,7 @@ Nach der Registrierung im Live Portal wiederholen Sie die oben beschriebenen Sch
 
 ## Integration der fiskaltrust.Middleware ins Kassensystem
 
-Die fiskaltrust.Middleware bietet Ihnen Compliance-As-A-Service im Fiskalisierungsbereich. Sie muss dafür in Ihr Kassensystem integriert werden. In unserer [Anleitung zur Integration der fiskaltrust.Middleware](middleware-integration-en.md) stellen wir Ihnen diesbezüglich eine detaillierte Anleitung zur Anbindung und zur Kommunikation mit der fiskaltrust.Middleware zur Verfügung. Sobald Sie die normalen, "einfachen" Vorgänge Ihres Kassensystems abgebildet haben, empfehlen wir Ihnen parallel zur Weiterentwicklung bereits mit dem nächsten Schritt (Oboarding der Kassenhändler) zu starten.
+Die fiskaltrust.Middleware bietet Ihnen Compliance-As-A-Service im Fiskalisierungsbereich. Sie muss dafür in Ihr Kassensystem integriert werden. In unserer [Anleitung zur Integration der fiskaltrust.Middleware](middleware-integration.md) stellen wir Ihnen diesbezüglich eine detaillierte Anleitung zur Anbindung und zur Kommunikation mit der fiskaltrust.Middleware zur Verfügung. Sobald Sie die normalen, "einfachen" Vorgänge Ihres Kassensystems abgebildet haben, empfehlen wir Ihnen parallel zur Weiterentwicklung bereits mit dem nächsten Schritt (Oboarding der Kassenhändler) zu starten.
 
 ## Onboarding der Kassenhändler
 

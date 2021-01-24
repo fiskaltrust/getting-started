@@ -1,11 +1,11 @@
 ---
 slug: /poscreators/get-started/lead-presentation
-title: Lead presentation
+title: Lead-Präsentation
 ---
 
-# Lead presentation for POS Creators
+# Lead-Präsentation für Kassenhersteller
 
-You can download our PowerPoint lead presentation for POS Creators in the following languages:
+Sie können unsere Lead-Präsentation für Kassenhersteller in folgenden Sprachen herunterladen:
 
 - [English](presentations/lead-presentation-creator-en.pptx)
 - [German](presentations/lead-presentation-creator-de.pptx)

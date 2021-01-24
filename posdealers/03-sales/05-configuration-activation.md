@@ -8,10 +8,10 @@ Dieses Dokument beschreibt den generellen Prozess zur Herstellung von Produkten 
 
 | Voraussetzung                                                | Pflicht                                                      | Optional                                                     |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [**KassenHändler ist mit KassenBetreiber verbunden**](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/for-posdealers/getting-started.md#11-verkn%C3%BCpfung-und-konfiguration-von-kassenbetreibern) | Ja, da ansonsten nicht für den KassenBetreiber die Produkte hergestellt werden können |                                                              |
-| [**Standorte des KassenBetreibers sind definiert**](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/for-posdealers/getting-started.md#11-verkn%C3%BCpfung-und-konfiguration-von-kassenbetreibern) | Ja, für Produkte, welche für einen gesamten Standort gelten (Sorglos-Bundle) |                                                              |
-| **[schreiben/lesen Berechtigung](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/for-posdealers/getting-started.md#11-verkn%C3%BCpfung-und-konfiguration-von-kassenbetreibern)** | Ja, um in den Account des KassenBetreibers wechseln und Produkte aktivieren zu können |                                                              |
-| **[Für KassenBetreiber freigegebene Konfigurations-Templates](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/for-posdealers/02-pre-sales/automatisierter-rollout.md#templating-zum-anlegen-von-cashboxen)** |                                                              | Ja, wenn man Cashboxen gleich automatisiert mit den Produkten herstellen möchte. |
+| [**KassenHändler ist mit KassenBetreiber verbunden**](../README.md#11-verkn%C3%BCpfung-und-konfiguration-von-kassenbetreibern) | Ja, da ansonsten nicht für den KassenBetreiber die Produkte hergestellt werden können |                                                              |
+| [**Standorte des KassenBetreibers sind definiert**](../README.md#11-verkn%C3%BCpfung-und-konfiguration-von-kassenbetreibern) | Ja, für Produkte, welche für einen gesamten Standort gelten (Sorglos-Bundle) |                                                              |
+| **[schreiben/lesen Berechtigung](../README.md#11-verkn%C3%BCpfung-und-konfiguration-von-kassenbetreibern)** | Ja, um in den Account des KassenBetreibers wechseln und Produkte aktivieren zu können |                                                              |
+| **[Für KassenBetreiber freigegebene Konfigurations-Templates](../02-pre-sales/automated-rollout.md#templating-zum-anlegen-von-cashboxen)** |                                                              | Ja, wenn man Cashboxen gleich automatisiert mit den Produkten herstellen möchte. |
 
 ## Optionen zur Herstellung von Produkten für den KassenBetreiber
 
@@ -144,8 +144,8 @@ Wir empfehlen abschließend in den betroffenen Kunden-Accounts und deren Standor
 
 Nach dem Bezug des Händlereinkaufsproduktes fiskaltrust.Sorglos mit TSE stehen zwei unterschiedliche Varianten einer TSE in Form von Entitlements zur Wahl zur Verfügung: Einer Hardware-TSE Subscription, und einer Cloud-TSE Subscription. Dies ermöglicht eine frühzeitige Bestellung des Sorglos Paketes unabhängig von der Verfügbarkeit von zertifizierten TSEs. Erst bei der Herstellung der Produkte muss entschieden werden, welche TSE Subscription zum Einsatz kommen soll.
 
-[Einkauf & Weiterverkauf des fiskaltrust.Sorglos mit TSE Bundles](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/for-posdealers/01-produkte/Sorglos-mit-TSE.md#how-to-guide-einkauf--weiterverkauf)
+[Einkauf & Weiterverkauf des fiskaltrust.Sorglos mit TSE Bundles](../01-products/carefree-with-tse.md#how-to-guide-einkauf--weiterverkauf)
 
 ## Nächste Schritte
 
-[Auslieferung & Inbetriebnahme](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/for-posdealers/getting-started.md#13-auslieferung--inbetriebnahme)
+[Auslieferung & Inbetriebnahme](../README.md#13-auslieferung--inbetriebnahme)
