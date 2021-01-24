@@ -1,4 +1,9 @@
-# Rollout Optimierung durch Automatisierung
+---
+slug: /posdealers/get-started/pre-sales/automated-rollout
+title: Rollout-Automatisierung
+---
+
+# Rollout-Optimierung durch Automatisierung
 
 Dieses Dokument soll Kassenhändler beim Rollout-Prozess unterstützen indem es Möglichkeiten der Vereinfachung und Optimierung des Rollouts durch Automatisierung aufzeigt. 
 
@@ -61,6 +66,7 @@ Im Folgenden werden die einzelnen Schritte des oben beschriebenen Prozess detail
 Das Template ist ein JSON String der eine parametrisierbare Variante der Cashbox (Konfigurationskontainer als JSON String) darstellt und somit die Konfigurationen von Queues, SCUs und Helper beinhalten kann. Parametrisierbar ist es insofern, dass hier die Struktur für die zu generierende Cashbox definiert werden kann (z.B. fünf Queues, eine SCU). Zudem können bei den Werten Variablen als Platzhalter eingesetzt werden können. Sobald die Generierung der daraus resultierenden Cashbox stattfindet, werden die Variablen mit konkreten, finalen Werten befüllt.
 
 Im folgenden ein Beispiel eines solchen Template:
+
 ```json
 {
     "ftCashBoxId": "|[cashbox_id]|",
