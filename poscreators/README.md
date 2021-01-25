@@ -115,5 +115,5 @@ The goal of this stage is about reaching an agreement with the POS Dealers that 
 - FAQ: [fiskaltrust docs - faq](https://docs.fiskaltrust.cloud/doc/faq/qna/market-de.html) and [Github faq repo](https://github.com/fiskaltrust/faq) for creating issues (questions).
 - fiskaltrust gihub repos: [https://github.com/fiskaltrust](https://github.com/fiskaltrust)
 - fiskaltrust videos: [Youtube Channel](https://www.youtube.com/channel/UCmMlqO4L3AzkEhh6WYA8BJg)
-- [POS Creator Lead Presentation](data/presentations/lead-presentation-creator-en.pptx)
+- [POS Creator Lead Presentation](presentations/lead-presentation-creator-en.pptx)
 - POS Creator fiskaltrust.Middleware Webinar Recording on [fiskaltrust YouTube Channel](https://www.youtube.com/watch?v=mq1hHL8ezOg)
