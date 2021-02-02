@@ -30,10 +30,6 @@ Port 443 https ausgehend für
 
 - helipad.fiskaltrust.cloud (neu)
 - packages.fiskaltrust.cloud (neu)
-- helipad.fiskaltrust.at
-- packages.fiskaltrust.at
-- signing.fiskaltrust.at
-- signaturcloud.fiskaltrust.at
 
 ### bei Verwendung der fiskaly TSE
 
