@@ -31,6 +31,8 @@ Port 443 https ausgehend für
 - helipad.fiskaltrust.cloud (neu)
 - packages.fiskaltrust.cloud (neu)
 
+> Achtung: Bei Tests in der Sandbox sind hier die Host-Namen mit dem `-sandbox`-Postfix zu ergänzen, d.h. `helipad-sandbox.fiskaltrust.cloud` und `packages-sandbox.fiskaltrust.cloud`.
+
 ### bei Verwendung der fiskaly TSE
 
 Port 443 https ausgehend für
