@@ -7,7 +7,7 @@ title: Händlereinkaufsprodukte beziehen
 
 ## Überblick
 
-Einen Überblick über den gesamten Prozess beginnend von der Registrierung im Portal als Kassenhändler, über den Kauf von Entitlements, bis hin zum Einladungsmanagement von Kassenbetreibern sowie abschließendem Rollout finden sie hier als pdf Download:
+Einen Überblick über den gesamten Prozess, beginnend von der Registrierung im Portal als Kassenhändler, über den Kauf von Entitlements, bis hin zum Einladungsmanagement von Kassenbetreibern sowie dem abschließendem Rollout finden sie hier als pdf Download:
 
 [Entitlement Flow (pdf)](media/entitlement-flow-overview.pdf)
 
@@ -15,22 +15,22 @@ Einen Überblick über den gesamten Prozess beginnend von der Registrierung im P
 
 siehe [Allgemeine Voraussetzungen für den Einkauf von Produkten](purchase-requirements.md)
 
-**Empfehlungen**
+**Empfehlung**
 
-- Kontrollieren Sie vor der Bestellung Ihre Stammdaten auf Adresse und USt-Id Nummer für die Rechnungserstellung
+- Kontrollieren Sie  vor der Bestellung im fiskaltrust.Portal Ihre Stammdaten wie Adresse und USt-IdNr. Diese sind für die korrekte Rechnungslegung erforderlich. 
 
 ### Schritt 1: Wahl der Händlereinkaufs-Produkte
 
-- Wählen Sie im Portal im Menüpunkt `Shop`/`Products` Ihre gewünschten Händlereinkaufs-Produkte, und legen Sie diese in den Warenkorb, oder
-- Wählen Sie im Portal im Menüpunkt `Shop`/`Quotes` ein für Sie erstelltes Angebot aus, und legen Sie diese in den Warenkorb
+- Wählen Sie im Portal im Menüpunkt "Shop &rarr; Products" Ihre gewünschten Händlereinkaufs-Produkte, und legen Sie diese in den Warenkorb, oder
+- wählen Sie im Portal im Menüpunkt  "Shop &rarr; Quotes" ein für Sie erstelltes Angebot aus, und legen Sie diese in den Warenkorb
 
 ### Schritt 2: Checkout
 
-- Falls Sie auf Basis der Rahmenvereinbarung Anspruch auf Mengenrabatte haben, prüfen Sie ob der dargestellte Preis mit der Vereinbarung Ihres Rahmenvertrages übereinstimmt.
-- Prüfen Sie die Rechnungsdaten und die Lieferadresse.
-- Prüfen Sie die USt-IdNr auf Korrektheit. In Deutschland steht eine Schnittstelle zur Validierung der USt-IdNr aus datenschutzrechtlichen Gründen nicht zur Verfügung. Ist die USt-IdNr korrekt, fahren Sie bitte fort, ansonsten korrigieren Sie bitte Ihre Daten unter `Company`/`Master Data`.
-- Wenn der Bestell-Button deaktiviert ist, kontaktieren Sie das Sales-Team um Ihr Kreditlimit erhöhen zu lassen
-- Mit Abschluss der Bestellung erhalten Sie die Rechnung per E-Mail an die im Primär-Kontakt ihres Accounts angegebene E-Mail Adresse zugestellt.
+- Falls Sie auf Basis der Rahmenvereinbarung Anspruch auf Mengenrabatte haben, prüfen Sie, ob der dargestellte Preis mit der Vereinbarung Ihres Rahmenvertrages übereinstimmt.
+- Prüfen Sie die Rechnungsdaten wie Firmenname und Lieferadresse.
+- Prüfen Sie die USt-IdNr auf Korrektheit. In Deutschland steht eine Schnittstelle zur Validierung der USt-IdNr aus datenschutzrechtlichen Gründen nicht zur Verfügung. Ist die USt-IdNr korrekt, fahren Sie bitte fort, ansonsten korrigieren Sie bitte Ihre Daten unter  "[Firmenname] &rarr; Überblick".
+- Wenn der Bestell-Button deaktiviert ist, kontaktieren Sie das Sales-Team, um Ihr Kreditlimit erhöhen zu lassen
+- Mit Abschluss der Bestellung erhalten Sie die Rechnung per E-Mail. Diese wird versandt **an** die im Primär-Kontakt ihres Accounts angegebene E-Mail Adresse.
 
 ### Schritt 3: Entitlement Verwaltung
 

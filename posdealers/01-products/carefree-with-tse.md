@@ -7,26 +7,28 @@ title: fiskaltrust.Sorglos mit TSE
 
 ## Produktbeschreibung
 
-Das Produkt-Bundle "fiskaltrust.Sorglos mit TSE" beinhaltet unser Basis-Produkt "fiskaltrust.Middleware", die unten gelisteten Zusatzprodukte (Addon-Produkte der fiskaltrust.Middleware und Einzelprodukte), sowie eine TSE-as-a-Service. Dieses Produkt-Bundle wird pro Standort verkauft und ist für den gesamten Standort einsetzbar. D.h. es kann von allen Kassen (Queues) der Filiale bzw. des Standorts genutzt werden.
+Das Produkt-Bundle "fiskaltrust.Sorglos mit TSE" beinhaltet unser Basis-Produkt "fiskaltrust.Middleware", die unten aufgeführten Zusatzprodukte (Addon-Produkte der fiskaltrust.Middleware und Einzelprodukte), sowie eine TSE-as-a-Service. Dieses Produkt-Bundle wird pro Standort verkauft und ist für den gesamten Standort einsetzbar. D.h. es kann von allen Kassen (Queues) der Filiale bzw. des Standorts genutzt werden.
 
 ### Basis-Produkt
 
 [Lokal installierte Middleware](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/compliance-as-a-service/products/middleware.md) 
 
-#### Addon-Produkte der fiskaltrust.Middleware
+### Addon-Produkte der fiskaltrust.Middleware
 
 -  [POS Archiv](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/revisionsafe-data-as-a-service/products/pos-archive.md) 
 -  [Finanzamtmeldung](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/compliance-as-a-service/products/tax-authority-notification.md) 
 
-#### Einzelprodukte
+### Einzelprodukte
 
 [Audicon Kassenarchiv Online](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/revisionsafe-data-as-a-service/products/ako.md) 
 
-#### Technische Sicherheitseinrichtung (TSE)
+### Technische Sicherheitseinrichtung (TSE)
 
 -  [TSE-as-a-Service](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/compliance-as-a-service/features/basics/tse-as-a-service/README.md) - enthält eine Hardware- oder eine Cloud TSE pro Filiale/Standort. 
 
-**Hinweis:** Die Auswahl der TSE obliegt der fiskaltrust GmbH. Bitte beachten Sie auch unsere [Fair Use Policy](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/for-posoperators/market-de-fair-use-policy.md).
+>Hinweis:  
+Die Auswahl der TSE obliegt der fiskaltrust GmbH.  
+Bitte beachten Sie auch unsere [Fair Use Policy](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/for-posoperators/market-de-fair-use-policy.md).
 
 ## How-to-Guide: Einkauf & Weiterverkauf
 
