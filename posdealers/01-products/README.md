@@ -9,18 +9,19 @@ Basis-Produkt der fiskaltrust ist die [fiskaltrust.Middleware](https://github.co
 
 fiskaltrust bietet auf Grundlage dieses Basis-Produkts aber auch unabhängig davon Add-On Produkte für KassenBetreiber an, die über KassenHändler als Partner von fiskaltrust vertrieben werden. Im Folgenden werden wir auf diese Add-On Produkte eingehen. Wir unterteilen hierfür die Produkte in zwei Kategorien. Zum einen Produkte, welche die fiskaltrust.Middleware benötigen und zum anderen Produkte, welche unabhängig von der fiskaltrust.Middleware verwendet werden können.
 
-## 1. Wenn die fiskaltrust.Middleware in die Kasse integriert wurde
+## 1. Kassen mit integrierter fiskaltrust.Middleware
 
 #### Add-On Produkte aufbauend auf das Basis-Produkt
 
-Zum Basis-Produkt, der kostenlosen fiskaltrust.Middleware, bietet fiskaltrust eine Reihe optionaler, kostenpflichtiger Add-On Produkte. Diese werden länderspezifisch pro Kasse bzw. pro Standort (Outlet) angeboten. Es handelt sich hierbei um Backup-Lösungen, Daten-Exporte oder Automatisierungs-Services. In Deutschland bieten wir folgende Produkte an:
+Zum Basis-Produkt, der kostenlosen fiskaltrust.Middleware, bietet fiskaltrust eine Reihe optionaler, kostenpflichtiger Add-On Produkte. Diese werden länderspezifisch pro Kasse bzw. pro Standort (Outlet) angeboten. Es handelt sich hierbei um Backup-Lösungen, Daten-Exporte oder Automatisierungs-Services.  
+In Deutschland bieten wir folgende Produkte an:
 
 - [POS Archiv](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/revisionsafe-data-as-a-service/products/pos-archive.md) 
 - [Finanzamtmeldung](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/compliance-as-a-service/products/tax-authority-notification.md) 
 
 ### Einzelprodukte
 
-Folgende Produkte können in Deutschland für Kassen mit aber auch für Kassen ohne integrierter fiskaltrust.Middleware eingesetzt werden:
+Folgende Produkte können in Deutschland sowohl für Kassen mit als auch ohne integrierte fiskaltrust.Middleware eingesetzt werden:
 
 [Audicon Kassenarchiv Online](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/revisionsafe-data-as-a-service/products/ako.md) 
 
@@ -44,12 +45,12 @@ Folgende TSE können KassenHändler von fiskaltrust für den Wiederverkauf an Ka
 
 #### Hardware TSE
 
-- [Bundesruckerei (Cryptovision)](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/compliance-as-a-service/features/basics/tse-as-a-service/cryptovision.md)
+- [Bundesdruckerei (Cryptovision)](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/compliance-as-a-service/features/basics/tse-as-a-service/cryptovision.md)
 - [Diebold Nixdorf](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/compliance-as-a-service/features/basics/tse-as-a-service/diebold-nixdorf.md)
 - [Epson](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/compliance-as-a-service/features/basics/tse-as-a-service/epson.md)
 - [Swissbit](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/compliance-as-a-service/features/basics/tse-as-a-service/swissbit.md)
 
-## 2. Wenn die fiskaltrust.Middleware NICHT in die Kasse integriert wurde
+## 2. Kassen ohne integrierter fiskaltrust.Middleware
 
 ### Einzelprodukte
 
@@ -70,7 +71,7 @@ Folgende TSE können von KassenHerstellern für den Wiederverkauf an KassenBetre
 
 #### Hardware TSE
 
-- [Bundesruckerei (Cryptovision)](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/compliance-as-a-service/features/basics/tse-as-a-service/cryptovision.md)
+- [Bundesdruckerei (Cryptovision)](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/compliance-as-a-service/features/basics/tse-as-a-service/cryptovision.md)
 - [Diebold Nixdorf](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/compliance-as-a-service/features/basics/tse-as-a-service/diebold-nixdorf.md)
 - [Epson](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/compliance-as-a-service/features/basics/tse-as-a-service/epson.md)
 - [Swissbit](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/compliance-as-a-service/features/basics/tse-as-a-service/swissbit.md)

@@ -1,0 +1,792 @@
+<!DOCTYPE html><html><head>
+      <title>Get started for POS Dealers</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:///c:\Users\RalfFabry\.vscode\extensions\shd101wyy.markdown-preview-enhanced-0.5.16\node_modules\@shd101wyy\mume\dependencies\katex\katex.min.css">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <style>
+      /**
+ * prism.js Github theme based on GitHub's theme.
+ * @author Sam Clarke
+ */
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #333;
+  background: none;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.4;
+
+  -moz-tab-size: 8;
+  -o-tab-size: 8;
+  tab-size: 8;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+  padding: .8em;
+  overflow: auto;
+  /* border: 1px solid #ddd; */
+  border-radius: 3px;
+  /* background: #fff; */
+  background: #f5f5f5;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+  padding: .1em;
+  border-radius: .3em;
+  white-space: normal;
+  background: #f5f5f5;
+}
+
+.token.comment,
+.token.blockquote {
+  color: #969896;
+}
+
+.token.cdata {
+  color: #183691;
+}
+
+.token.doctype,
+.token.punctuation,
+.token.variable,
+.token.macro.property {
+  color: #333;
+}
+
+.token.operator,
+.token.important,
+.token.keyword,
+.token.rule,
+.token.builtin {
+  color: #a71d5d;
+}
+
+.token.string,
+.token.url,
+.token.regex,
+.token.attr-value {
+  color: #183691;
+}
+
+.token.property,
+.token.number,
+.token.boolean,
+.token.entity,
+.token.atrule,
+.token.constant,
+.token.symbol,
+.token.command,
+.token.code {
+  color: #0086b3;
+}
+
+.token.tag,
+.token.selector,
+.token.prolog {
+  color: #63a35c;
+}
+
+.token.function,
+.token.namespace,
+.token.pseudo-element,
+.token.class,
+.token.class-name,
+.token.pseudo-class,
+.token.id,
+.token.url-reference .token.variable,
+.token.attr-name {
+  color: #795da3;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+.token.title,
+.token.title .token.punctuation {
+  font-weight: bold;
+  color: #1d3e81;
+}
+
+.token.list {
+  color: #ed6a43;
+}
+
+.token.inserted {
+  background-color: #eaffea;
+  color: #55a532;
+}
+
+.token.deleted {
+  background-color: #ffecec;
+  color: #bd2c00;
+}
+
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+
+/* JSON */
+.language-json .token.property {
+  color: #183691;
+}
+
+.language-markup .token.tag .token.punctuation {
+  color: #333;
+}
+
+/* CSS */
+code.language-css,
+.language-css .token.function {
+  color: #0086b3;
+}
+
+/* YAML */
+.language-yaml .token.atrule {
+  color: #63a35c;
+}
+
+code.language-yaml {
+  color: #183691;
+}
+
+/* Ruby */
+.language-ruby .token.function {
+  color: #333;
+}
+
+/* Markdown */
+.language-markdown .token.url {
+  color: #795da3;
+}
+
+/* Makefile */
+.language-makefile .token.symbol {
+  color: #795da3;
+}
+
+.language-makefile .token.variable {
+  color: #183691;
+}
+
+.language-makefile .token.builtin {
+  color: #0086b3;
+}
+
+/* Bash */
+.language-bash .token.keyword {
+  color: #0086b3;
+}
+
+/* highlight */
+pre[data-line] {
+  position: relative;
+  padding: 1em 0 1em 3em;
+}
+pre[data-line] .line-highlight-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  display: block;
+  width: 100%;
+}
+
+pre[data-line] .line-highlight {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: inherit 0;
+  margin-top: 1em;
+  background: hsla(24, 20%, 50%,.08);
+  background: linear-gradient(to right, hsla(24, 20%, 50%,.1) 70%, hsla(24, 20%, 50%,0));
+  pointer-events: none;
+  line-height: inherit;
+  white-space: pre;
+}
+
+pre[data-line] .line-highlight:before, 
+pre[data-line] .line-highlight[data-end]:after {
+  content: attr(data-start);
+  position: absolute;
+  top: .4em;
+  left: .6em;
+  min-width: 1em;
+  padding: 0 .5em;
+  background-color: hsla(24, 20%, 50%,.4);
+  color: hsl(24, 20%, 95%);
+  font: bold 65%/1.5 sans-serif;
+  text-align: center;
+  vertical-align: .3em;
+  border-radius: 999px;
+  text-shadow: none;
+  box-shadow: 0 1px white;
+}
+
+pre[data-line] .line-highlight[data-end]:after {
+  content: attr(data-end);
+  top: auto;
+  bottom: .4em;
+}html body{font-family:"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ul,html body>ol{margin-bottom:16px}html body ul,html body ol{padding-left:2em}html body ul.no-list,html body ol.no-list{padding:0;list-style-type:none}html body ul ul,html body ul ol,html body ol ol,html body ol ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:bold;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:bold}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em !important;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::before,html body code::after{letter-spacing:-0.2em;content:"\00a0"}html body pre>code{padding:0;margin:0;font-size:.85em !important;word-break:normal;white-space:pre;background:transparent;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;font-size:.85em !important;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:before,html body pre tt:before,html body pre code:after,html body pre tt:after{content:normal}html body p,html body blockquote,html body ul,html body ol,html body dl,html body pre{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body pre,html body code{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview .pagebreak,.markdown-preview .newpage{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center !important}.markdown-preview:not([for="preview"]) .code-chunk .btn-group{display:none}.markdown-preview:not([for="preview"]) .code-chunk .status{display:none}.markdown-preview:not([for="preview"]) .code-chunk .output-div{margin-bottom:16px}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0}@media screen and (min-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{font-size:14px !important;padding:1em}}@media print{html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,0.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{padding:0 1.6em;margin-top:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc li{margin-bottom:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{list-style-type:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% -  300px);padding:2em calc(50% - 457px -  150px);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+    </head>
+    <body for="html-export">
+      <div class="mume markdown-preview  ">
+      <h1 class="mume-header" id="get-started-empfohlene-schritte-f%C3%BCr-den-einkauf-und-weiterverkauf-von-produkten-von-fiskaltrust-f%C3%BCr-kassenh%C3%A4ndler">Get started - Empfohlene Schritte f&#xFC;r den Einkauf und Weiterverkauf von Produkten von fiskaltrust f&#xFC;r KassenH&#xE4;ndler</h1>
+
+<div class="alert alert--info" role="alert">Our getting started guide for POS Dealers is currently only available in German &amp; for the German market. We&apos;re working on providing an internationalized, English version of this content and will reach out to our partners as soon as it&apos;s available.</div>
+<h2 class="mume-header" id="inhalt-des-dokumentes">Inhalt des Dokumentes</h2>
+
+<p>Dieser Getting Started Guide richtet sich an KassenH&#xE4;ndler. Sie visualisiert durch fiskaltrust empfohlene Schritte f&#xFC;r den erfolgreichen Einkauf, Weiterverkauf, Rollout und Support der fiskaltrust Produkte. Die einzelnen Schritte werden hier kurz beschrieben und jeweils erg&#xE4;nzt mit Verweisen auf detailliertere Informationen.</p>
+<h3 class="mume-header" id="zielgruppen-f%C3%BCr-den-getting-started-guide">Zielgruppen f&#xFC;r den Getting-Started Guide:</h3>
+
+<ul>
+<li>Shareholder, Owner</li>
+<li>Sales- oder Account-Manager</li>
+<li>Technicians on site</li>
+<li>Support</li>
+</ul>
+<h2 class="mume-header" id="ziel-dieser-anleitung">Ziel dieser Anleitung</h2>
+
+<p>Der Inhalt dieser Anleitung dient als Einstiegsinformation und Orientierungshilfe zu unserem Angebot f&#xFC;r KassenH&#xE4;ndler. Ziel ist es, dass unsere KassenH&#xE4;ndler-Partner ein Grundverst&#xE4;ndnis f&#xFC;r unsere Produkte sowie die f&#xFC;r den Vertrieb notwendigen Prozesse erhalten. Auf dieser Basis sollten unsere KassenH&#xE4;ndler-Partner weitgehend ohne weitere fiskaltrust Hilfe unsere Produkte vertreiben und ausliefern k&#xF6;nnen.</p>
+<h2 class="mume-header" id="empfohlene-vorlekt%C3%BCre">Empfohlene Vorlekt&#xFC;re</h2>
+
+<p>Unser Getting Started Guide schlie&#xDF;t an unsere Wissens&#xFC;bermittlung f&#xFC;r KassenH&#xE4;ndler in Bezug auf unsere fiskaltrust Produkte und Services an, welche mit den Pr&#xE4;sentationen zur Rollout-Vorbereitung f&#xFC;r KassenH&#xE4;ndler begonnen wurde.<br>
+Sollten Sie die Pr&#xE4;sentationen noch nicht gesehen oder nicht mehr gegenw&#xE4;rtig haben, so empfehlen wir Ihnen vorab deren Durchsicht.</p>
+<table>
+<thead>
+<tr>
+<th>Video</th>
+<th>Unterlagen</th>
+<th>Zielgruppe</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://youtu.be/jHTIfADClQ4">Vorbereitung Sales Rollout</a></td>
+<td><a href="presentations/sales/media/posdealer-sales-rollout.pptx">PowerPoint Pr&#xE4;sentation</a></td>
+<td>Shareholder, Owner<br>Account-manager/Sales</td>
+</tr>
+<tr>
+<td><a href="https://youtu.be/9Lr7uxNORvc">Vorbereitung technisches Rollout</a></td>
+<td><a href="presentations/tech/media/posdealer-tech-rollout.pptx">PowerPoint Pr&#xE4;sentation</a></td>
+<td>Technicians on site<br>Support</td>
+</tr>
+</tbody>
+</table>
+<h2 class="mume-header" id="kontakt">Kontakt</h2>
+
+<p>Bei Fragen, Anregungen oder Supportf&#xE4;llen steht Ihnen das Support Team von fiskaltrust gerne zur Verf&#xFC;gung:</p>
+<ul>
+<li><a href="mailto:support@fiskaltrust.de">support@fiskaltrust.de</a> (E-Mails werden priorisiert und in Tickets umgewandelt bzw. zugeordnet)</li>
+<li>+49 211 54013 432 (Telefonische Kontaktaufnahmen werden in E-Mails an die oben genannte Adresse umgewandelt)</li>
+</ul>
+<p>Regul&#xE4;re Supportzeiten Mo-Do 9:00 &#x2013; 16:00.</p>
+<h2 class="mume-header" id="%C3%BCbersicht">&#xDC;bersicht</h2>
+
+<ol>
+<li><a href="#1-%C3%BCber-fiskaltrust">&#xDC;ber fiskaltrust</a></li>
+<li><a href="#2-vorteile-f%C3%BCr-kassenh%C3%A4ndler">Vorteile f&#xFC;r KassenH&#xE4;ndler</a></li>
+<li><a href="#3-vertriebsmodell-und-rollen">Vertriebsmodell und Rollen</a></li>
+<li><a href="#4-das-produktangebot-von-fiskaltrust">Das Produktangebot von fiskaltrust zum Weiterverkauf an KassenBetreiber</a></li>
+<li><a href="#5-abschluss-eines-kooperationsvertrages">Abschluss eines Kooperationsvertrages</a></li>
+<li><a href="#6-einkaufsplanung">Einkaufsplanung</a></li>
+<li><a href="#7-optional-abschluss-eines-rahmenvertrages">Optional: Abschluss eines Rahmenvertrages</a></li>
+<li><a href="#8-rollout-szenarien-und-automatisierungsoptionen-analysieren-und-technische-vorbereitungen-treffen">Rollout Szenarien und Automatisierungsoptionen analysieren und technische Vorbereitungen treffen</a></li>
+<li><a href="#9-erwerb-von-h%C3%A4ndlereinkaufsprodukten">Erwerb von H&#xE4;ndlereinkaufsprodukten</a></li>
+<li><a href="#10-weiterverkauf-von-fiskaltrust-produkten">Weiterverkauf von fiskaltrust Produkten</a></li>
+<li><a href="#11-verkn%C3%BCpfung-und-konfiguration-von-kassenbetreibern">Verkn&#xFC;pfung und Konfiguration von KassenBetreibern</a></li>
+<li><a href="#12-herstellung-und-konfiguration-der-produkte-im-account-des-kassenbetreibers">Herstellung und Konfiguration der Produkte im Account des KassenBetreibers</a></li>
+<li><a href="#13-auslieferung--inbetriebnahme">Auslieferung &amp; Inbetriebnahme</a></li>
+<li><a href="#14-after-sales-support">After-sales Support</a></li>
+</ol>
+<h2 class="mume-header" id="1-%C3%BCber-fiskaltrust">1. &#xDC;ber fiskaltrust</h2>
+
+<p>Als Softwarehersteller entwickelt fiskaltrust Produkte f&#xFC;r KassenBetreiber im Bereich Compliance-as-a-Service und revisionssichere-Daten-as-a-Service.<br>
+Diese Produkte werden von KassenHerstellern und KassenH&#xE4;ndlern als Teil Ihrer eigenen L&#xF6;sungen f&#xFC;r KassenBetreiber eingesetzt. Aus Sicht eines KassenBetreibers ist fiskaltrust daher ein All-in-One-L&#xF6;sungsanbieter f&#xFC;r Fiskalisierung. Das bedeutet, dass ein KassenBetreiber, der Nutzer eines fiskaltrust.Sorglos mit TSE Bundles ist, sich f&#xFC;r die Dauer der Subscription keine Gedanken mehr &#xFC;ber das Thema Fiskalisierung machen muss.</p>
+<table>
+<thead>
+<tr>
+<th>Vertiefende Information</th>
+<th>Zielgruppe</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/legal-basis-germany.md">Rechtliche Grundlagen</a></td>
+<td>Shareholder, Owner<br>Account-manager/Sales</td>
+</tr>
+<tr>
+<td><a href="https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/README.md">Wie erreicht fiskaltrust Compliance as a Service</a></td>
+<td>Shareholder, Owner<br>Account-manager/Sales</td>
+</tr>
+<tr>
+<td><a href="https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/business-model-germany.md">Gesch&#xE4;ftsmodell von fiskaltrust</a></td>
+<td>Shareholder, Owner<br>Account-manager/Sales</td>
+</tr>
+</tbody>
+</table>
+<h2 class="mume-header" id="2-vorteile-f%C3%BCr-kassenh%C3%A4ndler">2. Vorteile f&#xFC;r KassenH&#xE4;ndler</h2>
+
+<p>fiskaltrust bietet KassenH&#xE4;ndlern zur Erweiterung ihres Produktportfolios Einzelprodukte zur Prozess-Automatisierung bzw. Archivierung von Daten, sowie Technische Sicherheitseinrichtungen (TSE) und  &quot;Sorglos&quot; Produkt-Bundles im Bereich der Fiskalisierung f&#xFC;r Kassen an. Durch Rahmenvertr&#xE4;ge mit Mengenrabatten wird  KassenH&#xE4;ndlern ein attraktives Kooperationsmodell angeboten. Des Weiteren stellt fiskaltrust KassenH&#xE4;ndlern eine Reihe von kostenlosen Tools zur Verf&#xFC;gung. Mit diesen Tools werden sowohl die manuelle als auch die automatisierte Konfiguration sowie die Auslieferung (Rollout) der Produkte an den Standorten der KassenBetreiber unterst&#xFC;tzt.</p>
+<table>
+<thead>
+<tr>
+<th>Vertiefende Information</th>
+<th>Zielgruppe</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="02-pre-sales/benefits-for-posdealers.md">Benefits f&#xFC;r KassenH&#xE4;ndler</a></td>
+<td>Shareholder, Owner<br>Account-manager/Sales</td>
+</tr>
+</tbody>
+</table>
+<h2 class="mume-header" id="3-vertriebsmodell-und-rollen">3. Vertriebsmodell und Rollen</h2>
+
+<p>fiskaltrust vertreibt seine Produkte und Produkt-Bundles &#xFC;ber KassenH&#xE4;ndler.</p>
+<p>KassenHersteller integrieren unser kostenloses Basisprodukt, die fiskaltrust.Middleware in Ihr Kassensystem. Sie bietet Compliance-As-A-Service im Fiskalisierungsbereich. Auf Basis der integrierten Middleware vertreibt fiskaltrust &#xFC;ber KassenH&#xE4;ndler eigene Produkte und Produkt-Bundles. Diese verkaufen das Kassensystem des KassenHerstellers an KassenBetreiber und betreuen diese.<br>
+Verkauf und Betreuung finden ausschlie&#xDF;lich &#xFC;ber KassenH&#xE4;ndler statt.</p>
+<p>Um fiskaltrust Produkte zu beziehen, muss der KassenH&#xE4;ndler sich bei fiskaltrust registrieren. Er wird dazu vom KassenHersteller in das fiskaltrust.Portal eingeladen. Der KassenH&#xE4;ndler muss die Rolle &quot;KassenH&#xE4;ndler&quot; aktivieren und den f&#xFC;r Ihn hinterlegten KassenH&#xE4;ndler-Kooperationsvertrag digital unterschreiben.<br>
+M&#xF6;chte der KassenH&#xE4;ndler mehr als zehn Produkteinheiten von fiskaltrust erwerben, empfehlen wir, das fiskaltrust Sales Team wegen eines Rahmenvertrags zu kontaktieren. Im Rahmenvertrag werden Abnahmemengen, Zeitraum und die entsprechende Rabattstaffelung vereinbart.</p>
+<p>Der KassenH&#xE4;ndler erwirbt die Produkte &#xFC;ber den Webshop im fiskaltrust.Portal und erh&#xE4;lt dadurch sogenannte Entitlements (&quot;Anspr&#xFC;che&quot;). Um die Entitlements sp&#xE4;ter am Standort des KassenBetreibers aktivieren zu k&#xF6;nnen, muss er den KassenBetreiber ins Portal einladen. Der KassenBetreiber w&#xE4;hlt bei der Registrierung die Rolle &quot;KassenBetreiber&quot; und unterzeichnet digital die Nutzungsvereinbarung f&#xFC;r die fiskaltrust Middleware. Der KassenH&#xE4;ndler verkauft eigenst&#xE4;ndig die fiskaltrust Produkte dem KassenBetreiber weiter, also ohne Zuhilfenahme des fiskaltrust Portals, als Teil seiner eigenen L&#xF6;sung (z.B. als Teil einer Serviceleistung). Nach dem Weiterverkauf der fiskaltrust Produkte, kann der KassenH&#xE4;ndler die erworbenen Entitlements im Portal einl&#xF6;sen und im fiskaltrust.Portal KassenBetreibern die ben&#xF6;tigten Produkte zuweisen.</p>
+<table>
+<thead>
+<tr>
+<th>Vertiefende Information</th>
+<th>Zielgruppe</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="distribution-model.md">Vertriebsmodell</a></td>
+<td>Shareholder, Owner<br>Account-manager/Sales</td>
+</tr>
+<tr>
+<td><a href="https://github.com/fiskaltrust/productdescription-de-doc/blob/master/glossar/README.md#kassenhersteller-poscreator">Begriffsdefinition KassenHersteller</a></td>
+<td>Shareholder, Owner<br>Account-manager/Sales</td>
+</tr>
+<tr>
+<td><a href="https://github.com/fiskaltrust/productdescription-de-doc/blob/master/glossar/README.md#kassenh%C3%A4ndler-posdealer">Begriffsdefinition KassenH&#xE4;ndler</a></td>
+<td>Shareholder, Owner<br>Account-manager/Sales</td>
+</tr>
+<tr>
+<td><a href="https://github.com/fiskaltrust/productdescription-de-doc/blob/master/glossar/README.md#kassenbetreiber-posdoperator">Begriffsdefinition KassenBetreiber</a></td>
+<td>Shareholder, Owner<br>Account-manager/Sales</td>
+</tr>
+</tbody>
+</table>
+<h2 class="mume-header" id="4-das-produktangebot-von-fiskaltrust">4. Das Produktangebot von fiskaltrust</h2>
+
+<p>Das Basis-Produkt von fiskaltrust ist die fiskaltrust.Middleware, eine kostenlose Software welche die gesetzlichen Grund-Anforderungen der Fiskalisierung erf&#xFC;llt. Die fiskaltrust.Middleware wird vom KassenHersteller in die Kassensoftware integriert. Aufgrund der gesetzlichen Anforderungen muss die fiskaltrust.Middleware im sogenannten &quot;Operational Environment&quot; des KassenBetreiber betrieben werden, also meistens lokal vor Ort am Standort. &#xDC;ber die Middleware k&#xF6;nnen lokal an der Kasse ein Tagesabschluss im DSFinV-K Format, sowie die TAR-Files der Technischen Sicherheitseinrichtungen (TSE) exportiert werden.</p>
+<p>Basierend auf der fiskaltrust.Middleware bietet fiskaltrust kostenpflichtige Addon-Produkte an, wie z.B. das POS-Archiv f&#xFC;r die gesetzlich geforderte revisionssichere Aufbewahrung der Kassenbelege, oder z.B. eine L&#xF6;sung f&#xFC;r automatisierte Finanzamtsmeldungen.<br>
+Zus&#xE4;tzlich vertreibt fiskaltrust Technische Sicherheitseinrichtungen (TSE).</p>
+<p>Unabh&#xE4;ngig davon, ob die Kassensoftware die fiskaltrust.Middleware integriert hat, bietet fiskaltrust zudem das Kassenarchiv Online (AKO) als gesondertes Einzelprodukt an. Diese Archivierungsl&#xF6;sung bietet die revisionssichere Speicherung von exportierten Kassendaten (Tagesabschl&#xFC;sse) im DSFinV-K Format. Weiter leistet das AKO die Archivierung weiterer, f&#xFC;r eine m&#xF6;gliche Finanzamtspr&#xFC;fung wichtigen Dokumente, wie z.B. alle Versionen der Verfahrensdokumentationen und aller relevanten sonstigen Dokumente (z.B. Speisekarten) in beliebigen Formaten.</p>
+<p>Des Weiteren bietet fiskaltrust Produkt-Bundles, sogenannte Sorglos-Bundles f&#xFC;r den gesamten Standort an. Sie enthalten die oben beschriebenen Addon- und Einzelprodukte zu einem j&#xE4;hrlichen, pauschalen Mietpreis. Auf Wunsch kann das Soglos-Bundle auch eine Hardware- oder Cloud TSE als Mietmodell (TSE-as-a-Service) enthalten.</p>
+<table>
+<thead>
+<tr>
+<th>Vertiefende Information</th>
+<th>Zielgruppe</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="01-products/README.md">fiskaltrust Produkte &amp; Bundles</a></td>
+<td>Shareholder, Owner<br>Account-manager/Sales<br>Technicians on site<br>Support</td>
+</tr>
+</tbody>
+</table>
+<h2 class="mume-header" id="5-abschluss-eines-kooperationsvertrages">5. Abschluss eines Kooperationsvertrages</h2>
+
+<p>Um als KassenH&#xE4;ndler Produkte von fiskaltrust vertreiben zu k&#xF6;nnen, m&#xFC;ssen Sie eine Kooperationspartnerschaft mit fiskaltrust eingehen.</p>
+<p>Dazu registrieren Sie sich im Portal von fiskaltrust. Im Anschluss m&#xFC;ssen Sie die Rolle als KassenH&#xE4;ndler ausw&#xE4;hlen und digital den Kooperationsvertrag unterzeichnen.</p>
+<p>Damit erhalten Sie die notwendigen Rollenrechte, um im Webshop des Portals Produkte von fiskaltrust einzukaufen, Ihre Kunden einzuladen und deren Daten und Produkte zu verwalten. S&#xF6; k&#xF6;nnen Sie Ihren Kunden im fiskaltrust.Portal die entsprechenden Produkte zuweisen, die Middleware konfigurieren und ausrollen.</p>
+<p>Ihre gew&#xF6;hnliche Gesch&#xE4;ftst&#xE4;tigkeit muss keineswegs einer einzelnen Rolle unserer Beschreibung entsprechen (<a href="#vertriebsmodell-und-rollen">vgl. oben</a>). Sollten Sie zum Beispiel sowohl als KassenHersteller als auch KassenH&#xE4;ndler und vielleicht sogar auch als KassenBetreiber auftreten, stellen Sie bitte nur sicher, dass Sie im Portal all diese Rollen aktiviert und die entsprechenden Vertr&#xE4;ge unterzeichnet haben.</p>
+<table>
+<thead>
+<tr>
+<th>Vertiefende Information</th>
+<th>Zielgruppe</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="02-pre-sales/purchase-requirements.md">Voraussetzungen f&#xFC;r den Einkauf von Produkten als KassenH&#xE4;ndler</a></td>
+<td>Shareholder, Owner<br>Account-manager/Sales</td>
+</tr>
+</tbody>
+</table>
+<h2 class="mume-header" id="6-einkaufsplanung">6. Einkaufsplanung</h2>
+
+<p>Zur Vorbereitung eines Rahmenvertrages mit m&#xF6;glichen Mengenrabatten kalkulieren Sie, welche Produkte Ihre Kunden (KassenBetreiber) in welcher Menge ben&#xF6;tigen werden. Der Bedarf kann je nach eingesetztem Kassensystem, der Systemarchitektur am Standort des Betreibers und bereits etwaigen vorhandenen Produkten stark variieren. Abh&#xE4;ngig vom ermittelten Bedarf empfehlen wir den Abschluss eines Rahmenvertrags, damit Sie sich bessere Einkaufskonditionen sichern.</p>
+<ul>
+<li>Informieren und beraten Sie Ihre Kunden bez&#xFC;glich der Produkte von fiskaltrust</li>
+<li>Planen Sie den Bedarf jeweils nach Kassensystem und den Standortbedingungen</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Vertiefende Information</th>
+<th>Zielgruppe</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Informationsmaterial &#xFC;ber fiskaltrust-Produkte f&#xFC;r KassenBetreiber (in Bearbeitung)</td>
+<td>Shareholder, Owner<br>Account-manager/Sales</td>
+</tr>
+<tr>
+<td><a href="02-pre-sales/rollout-scenarios.md">Rollout-Szenarien zur Bedarfsanalyse und Einkaufsplanung</a></td>
+<td>Shareholder, Owner<br>Account-manager/Sales<br>Technicians on site<br>Support</td>
+</tr>
+<tr>
+<td><a href="02-pre-sales/entitlements.md">Entitlements - &quot;Gutscheinsystem&quot; zum Einl&#xF6;sen von Produkten mit Mengenrabatten</a></td>
+<td>Shareholder, Owner<br>Account-manager/Sales</td>
+</tr>
+</tbody>
+</table>
+<h2 class="mume-header" id="7-optional-abschluss-eines-rahmenvertrages">7. Optional: Abschluss eines Rahmenvertrages</h2>
+
+<p>Wenn laut Ihrer Einkaufsplanung mehr als zehn Produkt-Bundles ben&#xF6;tigt werden, empfehlen wir den Abschluss eines Rahmenvertrages. Kontaktieren Sie bitte dazu unser Sales Team. Bitte ber&#xFC;cksichtigen Sie in Ihrer Rollout-Planung eine Bearbeitungszeit von 1-2 Wochen bis zum Abschluss des Vertrages. Mit dessen Abschluss k&#xF6;nnen Sie die inkludierten Produkte zum vereinbarten Einkaufspreis &#xFC;ber den Shop im fiskaltrust.Portal erwerben.</p>
+<table>
+<thead>
+<tr>
+<th>Vertiefende Information</th>
+<th>Zielgruppe</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="02-pre-sales/01-purchase-agreement.md">Abschluss eines Rahmenvertrages</a></td>
+<td>Shareholder, Owner</td>
+</tr>
+</tbody>
+</table>
+<h2 class="mume-header" id="8-rollout-szenarien-und-automatisierungsoptionen-analysieren-und-technische-vorbereitungen-treffen">8. Rollout Szenarien und Automatisierungsoptionen analysieren und technische Vorbereitungen treffen</h2>
+
+<p>Diese technisch gepr&#xE4;gten Schritte erfolgen parallel zu den wirtschaftlich motivierten Schritten 7, 9, 10, 11 und 12.</p>
+<p>Je nach den Gegebenheiten am Standort des Betreibers wie:</p>
+<ul>
+<li>Intensit&#xE4;t der Nutzung</li>
+<li>Vorgaben durch das Kassensystem (z.B. kann nur mit Cloud-TSE betrieben werden)</li>
+</ul>
+<p>k&#xF6;nnen unterschiedliche Rollout-Szenarien notwendig sein. Diese sollten Sie als KassenH&#xE4;ndler zusammen mit dem KassenHersteller besprechen, um effiziente L&#xF6;sungen zu planen. Zur Inspiration und als Entscheidungshilfe stellen wir Ihnen in unserem Dokument <a href="02-pre-sales/rollout-scenarios.md">&quot;Rollout Szenarien Planung, Tipps &amp; Tricks&quot;</a> diverse Szenarien mit detaillierten Informationen bereit.</p>
+<p>Der Rollout lasst sich je nach Szenario bis zu einem hohen Grad automatisieren, dabei nutzen Sie die Optionen Shop im fiskaltrust.Portal und API`s in unterschiedlichen Ausbaustufen. Konfigurationen werden von Ihnen:</p>
+<ul>
+<li>manuell einzeln angelegt</li>
+<li>automatisiert &#xFC;ber Vorlagen (Templates) vorbereitet</li>
+<li>durch das automatisierte Ausf&#xFC;hren von Templates &#xFC;ber eine API generiert.</li>
+</ul>
+<p>Auch die Auslieferung und Installation der fiskaltrust.Middleware l&#xE4;sst sich automatisieren.</p>
+<h3 class="mume-header" id="optionen-f%C3%BCr-die-erstellung-von-cashboxen-konfigurations-container">Optionen f&#xFC;r die Erstellung von Cashboxen (&quot;Konfigurations-Container&quot;)</h3>
+
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Beschreibung</th>
+<th>Verwendungs- empfehlung</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>manuelle Konfiguration</strong></td>
+<td>Einfach umsetzbare, manuelle Anlage von einzelnen Cashboxen.</td>
+<td>Empfohlen f&#xFC;r weniger als 25 gleich zu konfigurierender Cashboxen.</td>
+</tr>
+<tr>
+<td><strong>manuelle Ausf&#xFC;hrung von Templates</strong></td>
+<td>Erstellung und Speicherung von Konfigurationsvorlagen zum Anlegen von Checkboxen. Vorbereitung &amp; Planung empfohlen, erfordert je nach Szenario Abstimmung zwischen KassenHersteller und KassenBetreiber.</td>
+<td>Empfohlen ab ca. 25 gleich zu konfigurierende Cashboxen.</td>
+</tr>
+<tr>
+<td><strong>automatisierte Ausf&#xFC;hrung von Templates</strong></td>
+<td>Automatisierte Generierung von Cashboxen auf Basis von Konfigurationsvorlagen &#xFC;ber unsere HTTP-API.</td>
+<td>Empfohlen ab ca. 50-100  Cashboxen</td>
+</tr>
+</tbody>
+</table>
+<p>Der Launcher wird gemeinsam mit der dazugeh&#xF6;rigen Konfiguration aus dem Portal heruntergeladen und zum Starten der Middleware lokal ausgef&#xFC;hrt. Das Konfigurationsfile (fiskaltrust.exe.config) k&#xF6;nnen Sie vor dem Ausrollen des Launcher auf die Kasse des Betreibers entsprechend anpassen.</p>
+<p>Diese und weitere Automatisierungsoptionen finden Sie in der dazugeh&#xF6;rigen, weiterf&#xFC;hrenden Dokumentation. Siehe Tabelle:</p>
+<table>
+<thead>
+<tr>
+<th>Vertiefende Information</th>
+<th>Zielgruppe</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="02-pre-sales/automated-rollout.md">Rollout Szenarien Planung, Tipps &amp; Tricks</a></td>
+<td>Technicians on site<br>Account-manager/Sales<br>Support</td>
+</tr>
+<tr>
+<td><a href="02-pre-sales/automated-rollout.md">Rollout Automatisierung</a></td>
+<td>Technicians on site<br>Support</td>
+</tr>
+</tbody>
+</table>
+<p>Wir empfehlen f&#xFC;r die Vorbereitung von m&#xF6;glichen Rollout-Szenarien und deren Automatisierungsgrad fr&#xFC;hzeitig zu beginnen. Nutzen Sie dazu unsere <a href="https://portal-sandbox.fiskaltrust.de/">Testumgebung</a>.</p>
+<h2 class="mume-header" id="9-erwerb-von-h%C3%A4ndlereinkaufsprodukten">9. Erwerb von H&#xE4;ndlereinkaufsprodukten</h2>
+
+<p>H&#xE4;ndlereinkaufsprodukte f&#xFC;r den Weiterverkauf an KassenBetreiber k&#xF6;nnen direkt &#xFC;ber den Shop im fiskaltrust.Portal erworben werden.</p>
+<p>Nach dem Einkauf der H&#xE4;ndlereinkaufsprodukte stehen Ihnen diese Produkte in Form von &quot;Entitlements&quot; (&quot;Anspr&#xFC;chen&quot; oder &quot;Gutscheine&quot;) im Portal zur Verf&#xFC;gung.</p>
+<p>Mit dem Erwerb der Entitlements ist die Pre-Sales bzw. Einkaufsphase abgeschlossen.</p>
+<table>
+<thead>
+<tr>
+<th>Vertiefende Information</th>
+<th>Zielgruppe</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="02-pre-sales/02-purchase.md">Erwerb von H&#xE4;ndlereinkaufsprodukten</a></td>
+<td>Shareholder, Owner<br>Account-manager/Sales<br>Technicians on site</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 class="mume-header" id="10-weiterverkauf-von-fiskaltrust-produkten">10. Weiterverkauf von fiskaltrust Produkten</h2>
+
+<p>Der Weiterverkauf der Produkte von fiskaltrust geschieht au&#xDF;erhalb des fiskaltrust.Portals. KassenH&#xE4;ndler k&#xF6;nnen die Produkte von fiskaltrust in ihr eigenes Produkt- und Serviceportfolio beliebig integrieren und anbieten.</p>
+<p>Wir empfehlen, den Weiterverkauf au&#xDF;erhalb des fiskaltrust.Portals mit einem erweiterten Service- und Verwaltungsangebot zu kombinieren. Damit bieten Sie KassenBetreibern bestm&#xF6;glichen Kundenservice und halten den Koordinationsaufwand so gering als m&#xF6;glich.</p>
+<blockquote>
+<p>Hinweis: Nutzen Sie zur Verkn&#xFC;pfung und Einladung von KassenBetreibern die Option &quot;KassenH&#xE4;ndler Auto-Invitation&quot; , so empfiehlt es sich f&#xFC;r den Weiterverkauf der fiskaltrust Produkte die daf&#xFC;r erforderlichen Berechtigungen f&#xFC;r Lesen/Schreiben sowie Vertragsabschluss beim KassenBetreiber einzuholen<br>
+(Men&#xFC; PosOperator &#x2192; &#xDC;bersicht  &#x2192;  Schaltfl&#xE4;che bei Berechtigungen).</p>
+</blockquote>
+<h2 class="mume-header" id="11-verkn%C3%BCpfung-und-konfiguration-von-kassenbetreibern">11. Verkn&#xFC;pfung und Konfiguration von KassenBetreibern</h2>
+
+<p>Damit ein KassenH&#xE4;ndler fiskaltrust Produkte verkaufen kann, sollte vorher der KassenBetreiber im fiskaltrust.Portal angelegt und dessen Stammdaten eingepflegt werden. Eine Nutzungsvereinbarung muss vom KassenBetreiber selbst oder vom KassenH&#xE4;ndler in dessen Namen digital unterschrieben werden. Danach k&#xF6;nnen Anspr&#xFC;che auf den KassenBetreiber &#xFC;bertragen und die erworbenen Produkte aktiviert werden.</p>
+<p>Dabei stehen folgende Optionen zur Verf&#xFC;gung:</p>
+<table>
+<thead>
+<tr>
+<th><strong>Option</strong></th>
+<th>Beschreibung</th>
+<th>Empfohlene Berechtigung f&#xFC;r die Verbindung</th>
+<th><strong>Vorteile</strong></th>
+<th><strong>Nachteile</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>manuelle Erstellung</strong></td>
+<td>Die Daten werden manuell im Portal unter <code>POS Operator</code> / <code>Invitation</code> / <code>Add PosOperator</code> eingetragen.<br>Die Empf&#xE4;nger der Primary Contact E-Mail Adressen werden aufgefordert, sich im Portal zu registrieren.</td>
+<td>schreiben/lesen<br><br>Die erforderlichen Berechtigungen werden seitens des KassenBetreibers durch Akzeptieren der Einladung best&#xE4;tigt.</td>
+<td>Geringer Aufwand f&#xFC;r KassenH&#xE4;ndler bei einer kleinen Anzahl von Betreibern</td>
+<td>Der KassenH&#xE4;ndler kann den Rollout Prozess nicht durchf&#xFC;hren, wenn vom KassenBetreiber die Berechtigungen durch das Akzeptieren der Einladung nicht best&#xE4;tigt wurden.</td>
+</tr>
+<tr>
+<td><strong>CSV Import</strong></td>
+<td>Die Daten werden via CSV Datei importiert, , ein Muster finden Sie <a href="https://portal-sandbox.fiskaltrust.de/PosOperator/DownloadInvitationsCsv?type=PosDealerSentAndReceived">hier</a>. <br>Die Empf&#xE4;nger der darin enthaltenen Primary Contact E-Mail Adressen werden aufgefordert sich im Portal zu registrieren.</td>
+<td>schreiben/lesen<br><br>Die erforderlichen Berechtigungen werden seitens des KassenBetreibers durch Akzeptieren der Einladung best&#xE4;tigt.</td>
+<td>Eine gr&#xF6;&#xDF;ere Anzahl an KassenBetreibern wird in einem Schritt erstellt und ins Portal eingeladen.</td>
+<td>Der KassenH&#xE4;ndler kann den Rollout Prozess nicht durchf&#xFC;hren, wenn vom KassenBetreiber die Berechtigungen durch das Akzeptieren der Einladung nicht best&#xE4;tigt wurden.</td>
+</tr>
+<tr>
+<td><strong>zus&#xE4;tzliche Rolle: KassenH&#xE4;ndler Auto-Invitation</strong></td>
+<td>In einem ersten Schritt holt sich der KassenH&#xE4;ndler bei den Betreibern das Einverst&#xE4;ndnis ein, in dessen Namen im fiskaltrust.Portal t&#xE4;tig sein zu d&#xFC;rfen.<br>Die Daten werden via CSV Datei importiert.<br>Die Empf&#xE4;nger der darin enthaltenen Primary Contact E-Mail Adressen werden &#xFC;ber den erfolgreichen Abschluss des Prozesses informiert, und die Vertragsunterlagen werden zur Dokumentation &#xFC;bermittelt.</td>
+<td>schreiben/lesen inkl. Vertragsabschluss<br><br>Die erforderlichen Berechtigungen m&#xFC;ssen vom KassenH&#xE4;ndler vorab und au&#xDF;erhalb des fiskaltrust.Portals eingeholt werden.</td>
+<td>Eine gr&#xF6;&#xDF;ere Anzahl an KassenBetreibern wird in einem Schritt erstellt und ins Portal eingeladen.<br>Der Registrierungsprozess f&#xFC;r KassenBetreiber entf&#xE4;llt und stellt kein Hindernis f&#xFC;r einen Rollout dar.<br></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Weiter m&#xFC;ssen die Outlets (&quot;Standorte&quot; oder &quot;Niederlassungen&quot;) des Betreibers im Portal angelegt werden. Diese werden im Zuge des Rollout zur &#xDC;bertragung der Entitlements und Herstellung der Produkte, und je nach gew&#xE4;hlter Option zur Konfiguration der Cashboxen (siehe <a href="#8-rollout-szenarien-und-automatisierungsoptionen-analysieren-und-technische-vorbereitungen-treffen">Schritt 8</a> &quot;Rollout Automatisierung&quot;) ben&#xF6;tigt:</p>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Beschreibung</th>
+<th>Empfehlung</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>manuelle Anlage</strong></td>
+<td>Standorte des KassenBetreibers werden vom KassenH&#xE4;ndler manuell im fiskaltrust.Portal im Account des KassenBetreibers angelegt.</td>
+<td>Empfohlen f&#xFC;r weniger als 25 Standorte eines Betreibers</td>
+</tr>
+<tr>
+<td><strong>CSV Import</strong></td>
+<td>Import von Standorten mit Hilfe einer csv. Datei, ein Muster finden Sie <a href="https://portal-sandbox.fiskaltrust.de/AccountOutlet/DownloadCsvAsync">hier</a>.</td>
+<td>Empfohlen f&#xFC;r mehr als 25 Standorte eines Betreibers</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Vertiefende Information</th>
+<th>Zielgruppe</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="03-sales/04c-masterdata-creation.md">Bereitstellung von Stammdaten eines KassenBetreibers</a></td>
+<td>Shareholder, Owner<br>Account-manager/Sales<br>Technicians on site<br>Support</td>
+</tr>
+<tr>
+<td>Optionen zur Zusammenarbeit von KassenH&#xE4;ndler, KassenBetreiber und Consultants unter Ber&#xFC;cksichtigung komplexer Unternehmensnetzwerke (in Bearbeitung)</td>
+<td>Shareholder, Owner<br>Account-manager/Sales<br>Technicians on site<br>Support</td>
+</tr>
+</tbody>
+</table>
+<h2 class="mume-header" id="12-herstellung-und-konfiguration-der-produkte-im-account-des-kassenbetreibers">12. Herstellung und Konfiguration der Produkte im Account des KassenBetreibers</h2>
+
+<p>Hat ein KassenBetreiber vom KassenH&#xE4;ndler einen Anspruch auf die Nutzung von Produkten von fiskaltrust erworben, m&#xFC;ssen die Entitlements auf die Standorte bzw. Kassen des Betreibers &#xFC;bertragen und die Produkte f&#xFC;r den KassenBetreiber aktiviert werden. Dies geschieht wie folgt:</p>
+<ol>
+<li>die Anspr&#xFC;che f&#xFC;r Produkte auf den KassenBetreiber &#xFC;bertragen,</li>
+<li>mit Hilfe dieser Anspr&#xFC;che die Produkte aktivieren</li>
+</ol>
+<p>Voraussetzung f&#xFC;r diesen Vorgang sind die im Schritt 11 beschriebene, hergestellte Verbindung des KassenH&#xE4;ndlers mit dem KassenBetreiber im fiskaltrust.Portal inklusive der notwendigen Berechtigungen. Damit kann der KassenH&#xE4;ndler in den Account des KassenBetreibers wechseln und Entitlements &#xFC;bertragen und die Aktivierung der Produkte vornehmen.<br>
+Des Weiteren kann mit Hilfe der dazugeh&#xF6;rigen Berechtigung die Erstellung der ben&#xF6;tigen Konfigurationen (Cashboxen) f&#xFC;r den KassenBetreiber erfolgen.</p>
+<table>
+<thead>
+<tr>
+<th>Vertiefende Information</th>
+<th>Zielgruppe</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="03-sales/05-configuration-activation.md">Herstellung und Konfiguration der Produkte im Account des KassenBetreibers</a></td>
+<td>Account-manager/Sales<br>Technicians on site<br>Support</td>
+</tr>
+</tbody>
+</table>
+<h2 class="mume-header" id="13-auslieferung-inbetriebnahme">13. Auslieferung &amp; Inbetriebnahme</h2>
+
+<p>Im letzten Schritt wird der Launcher mit der dazugeh&#xF6;rigen Konfiguration (Cashbox) beim KassenBetreiber ausgeliefert und mit seiner Hilfe die fiskaltrust.Middleware in Betrieb genommen. Die Optionen f&#xFC;r die Auslieferung der Middleware wurden bereits im <a href="#8-rollout-szenarien-und-automatisierungsoptionen-analysieren-und-technische-vorbereitungen-treffen">Schritt 8</a> beschrieben und werden je nach gew&#xE4;hlter Option ausgef&#xFC;hrt.</p>
+<p>Wurde der Launcher heruntergeladen bzw. ausgeliefert, wird dieser entpackt und die Middleware als Service gestartet. Die Verf&#xFC;gbarkeit der Middleware kann &#xFC;ber das Kassensystem &#xFC;berpr&#xFC;ft werden (Echo Methode).</p>
+<p>Bitte stellen Sie f&#xFC;r den n&#xE4;chsten Schritt sicher, dass die TSE f&#xFC;r die Middleware erreichbar ist (z.B. &#xFC;ber USB verbunden ist).</p>
+<p>Durch Absetzen des <a href="https://github.com/fiskaltrust/interface-doc/blob/master/doc/appendix-de-kassensichv/cash-register-integration/cash-register-integration.md#start-receipt-initial-receipt">Initial Operation Receipts</a> wird die Queue bei der TSE registriert und wenn n&#xF6;tig, die TSE initialisiert.</p>
+<p>Mit dem erfolgreichen Absetzen des Initial Operation Receipts ist die Inbetriebnahme, sowie allgemein die Weiterverkaufs- und Rollout Phase abgeschlossen. Das System kann jetzt im Echtbetrieb verwendet werden.</p>
+<table>
+<thead>
+<tr>
+<th>Vertiefende Information</th>
+<th>Zielgruppe</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="02-pre-sales/automated-rollout.md">Rollout Automatisierung</a></td>
+<td>Technicians on site<br>Support</td>
+</tr>
+<tr>
+<td><a href="https://github.com/fiskaltrust/interface-doc/blob/master/doc/general/installation/installation.md">Installation der Middleware</a></td>
+<td>Technicians on site<br>Support</td>
+</tr>
+<tr>
+<td><a href="https://github.com/fiskaltrust/interface-doc/blob/master/doc/appendix-de-kassensichv/cash-register-integration/cash-register-integration.md#start-receipt-initial-receipt">Initial Operation Receipt</a></td>
+<td>Technicians on site<br>Support</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 class="mume-header" id="14-after-sales-support">14. After-sales Support</h2>
+
+<h3 class="mume-header" id="schritte-nach-erfolgreicher-inbetriebnahme">Schritte nach erfolgreicher Inbetriebnahme</h3>
+
+<h4 class="mume-header" id="meldung-der-tse-kasse-an-das-finanzamt">Meldung der TSE-Kasse an das Finanzamt</h4>
+
+<p>Die TSE-Kasse muss dem zust&#xE4;ndigen Finanzamt gemeldet werden. Derzeit steht jedoch seitens der Finanz&#xE4;mter noch keine M&#xF6;glichkeit der Meldung zur Verf&#xFC;gung. Sollte diese zur Verf&#xFC;gung stehen, wird f&#xFC;r Nutzer des fiskaltrust.Sorglos-Bundles die Meldung an das Finanzamt automatisch eingereicht. Die bis dahin f&#xE4;lligen Meldungen k&#xF6;nnen automatisch nachgereicht werden.</p>
+<p>KassenBetreiber ohne fiskaltrust.Sorglos-Bundle m&#xFC;ssen die Meldungen selbst&#xE4;ndig beim zust&#xE4;ndigen Finanzamt abgeben. Die daf&#xFC;r ben&#xF6;tigten Informationen, wie z.B. Kassenseriennummer, TSE-Seriennummer usw. sind im Portal verf&#xFC;gbar und k&#xF6;nnen bei Bedarf vom KassenH&#xE4;ndler zur Verf&#xFC;gung gestellt werden.</p>
+<h4 class="mume-header" id="%C3%BCbernahme-der-historischen-kassendaten-in-das-audicon-kassenarchiv-online">&#xDC;bernahme der historischen Kassendaten in das Audicon Kassenarchiv Online</h4>
+
+<p>Kunden des AKO (auch enthalten im fiskaltrust.Sorglos Bundle) k&#xF6;nnen jene Daten, welche zum Nachweis einer ordnungsgem&#xE4;&#xDF;en Kassenf&#xFC;hrung ben&#xF6;tigt werden, revisionssicher im AKO zentral archivieren - unabh&#xE4;ngig ob die Kasse die fiskaltrust.Middleware integriert hat oder nicht. Ab Inbetriebnahme der fiskaltrust.Middleware werden die an das POS Archiv gesendeten Daten als Tagesabschl&#xFC;sse im DSFinV-K Format und TSE TAR Files automatisch an das AKO &#xFC;bermittelt.</p>
+<p><strong>Es empfiehlt sich, auch eventuell vorhandene relevante historische Daten des KassenBetreibers manuell in das AKO hochzuladen, um mit dem AKO als zentrales, revisionssicheres Kassenarchiv l&#xFC;ckenlose Compliance zu erreichen.</strong></p>
+<h3 class="mume-header" id="support-f%C3%BCr-kassenh%C3%A4ndler">Support f&#xFC;r KassenH&#xE4;ndler</h3>
+
+<p>fiskaltrust stellt KassenH&#xE4;ndlern folgende Mittel zur Unterst&#xFC;tzung ihrer T&#xE4;tigkeit zu Verf&#xFC;gung:</p>
+<table>
+<thead>
+<tr>
+<th>Supportmittel</th>
+<th>Inhalte</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><a href="https://docs.fiskaltrust.cloud/doc/faq/qna/market-de.html#german-language">FAQ</a></strong></td>
+<td>Antworten zu Fragen, die im Support h&#xE4;ufig anfallen. Die Inhalte k&#xF6;nnen einer permanenten Ver&#xE4;nderung unterliegen und haben daher einen eher kurzen Lebenszyklus  (z.B. regionale &#xC4;nderungen hinsichtlich der Nichtbeanstandungsregelung; Bedienungsprobleme mit einem Tool, welches basierend auf diesen R&#xFC;ckmeldungen verbessert wird u.&#xE4;.)</td>
+</tr>
+<tr>
+<td><strong><a href="https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/for-posdealers/README.html">Produkt-Dokumentation f&#xFC;r KassenH&#xE4;ndler</a></strong></td>
+<td>Der Dokumentationsbereich speziell f&#xFC;r KassenH&#xE4;ndler bietet alle Inhalte und Guidelines um Produkte von fiskaltrust einkaufen, weiter zu verkaufen und ausrollen bzw. vor Ort installieren zu k&#xF6;nnen, sowie Hilfestellungen zur nachgelagerten Kundenbetreuung.</td>
+</tr>
+<tr>
+<td><strong><a href="https://github.com/fiskaltrust/release-notes">Release Notes</a></strong></td>
+<td>Zentraler Ort zur Information hinsichtlich Aktualisierungen und Neuerungen im Produkt- sowie Dokumentationsbereich von fiskaltrust</td>
+</tr>
+<tr>
+<td><strong><a href="support.md">Kundensupport f&#xFC;r KassenH&#xE4;ndler</a></strong></td>
+<td>Zentrale Anlaufstelle f&#xFC;r alle Fragen, Anregungen und F&#xE4;lle, die mit Hilfe der oben beschriebenen Mittel nicht beantwortet oder gel&#xF6;st werden konnten. Der Kundensupport unterliegt einem SLA.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Vertiefende Information</th>
+<th>Zielgruppe</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="support.md">Kundensupport f&#xFC;r KassenH&#xE4;ndler</a></td>
+<td>Account-manager/Sales<br>Support</td>
+</tr>
+<tr>
+<td><a href="04-after-sales/README.md">&#xDC;bersicht After-Sales Support- und Troubleshooting Guidelines</a></td>
+<td>Account-manager/Sales<br>Support</td>
+</tr>
+</tbody>
+</table>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
