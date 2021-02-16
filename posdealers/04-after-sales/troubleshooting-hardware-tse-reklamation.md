@@ -1,9 +1,9 @@
 ---
-slug: /posdealers/get-started/after-sales/hardware-tse-reklamation
+slug: /posdealers/get-started/after-sales/troubleshooting-hardware-tse-complaint
 title: 'Troubleshooting: Hardware TSE Reklamation'
 ---
 
-# Vorgang bei Hardware TSE und Kartenleser Reklamationen
+# Vorgang bei Hardware-TSE- und Kartenleser-Reklamationen
 
 
 
@@ -13,7 +13,7 @@ title: 'Troubleshooting: Hardware TSE Reklamation'
 
 - Wird im Betriebssystem ein Laufwerksbuchstabe angezeigt für die TSE? (siehe Beispiel) 
 
-![laufwerksbuchstabe](C:\Users\MichelleLuksch\OneDrive - fiskaltrust consulting gmbh\Dokumente\GitHub\getting-started\posdealers\images\laufwerksbuchstabe.png)
+![laufwerksbuchstabe](../images/laufwerksbuchstabe.png)
 
 - Haben Sie die Hardware TSE schon an einem anderen SD-Kartenleser/USB Port ausprobiert bzw. einen anderen Kartenleser probiert?
 - Wird die Hardware TSE in einem anderen Computer einwandfrei erkannt?
