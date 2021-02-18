@@ -44,7 +44,8 @@ Port 443 https ausgehend für
 Port 443 https ausgehend für
 
 - fiskal.cloud 
-
+- link.fiskaltrust.cloud (und je nach Firewall-Konfiguration ggf. fta102downloads.blob.core.windows.net) (zum Download des FCC)
+ 
 ## Zertifikate
 
 Die verwendeten Zertifikate stehen im fiskaltrust Portal unter "Werkzeuge -> Download" zum Download bereit.
