@@ -7,7 +7,7 @@ title: fiskaltrust.Sorglos mit TSE
 
 ## Produktbeschreibung
 
-Das Produkt-Bundle "fiskaltrust.Sorglos mit TSE" beinhaltet unser Basis-Produkt "fiskaltrust.Middleware", die unten aufgeführten Zusatzprodukte (Addon-Produkte der fiskaltrust.Middleware und Einzelprodukte), sowie eine TSE-as-a-Service. Dieses Produkt-Bundle wird pro Standort verkauft und ist für den gesamten Standort einsetzbar. D.h. es kann von allen Kassen (Queues) der Filiale bzw. des Standorts genutzt werden.
+Das Produkt-Bundle "fiskaltrust.Sorglos mit TSE" beinhaltet unser Basis-Produkt "fiskaltrust.Middleware", die unten aufgeführten Zusatzprodukte (Addon-Produkte zur fiskaltrust.Middleware und Einzelprodukte), sowie eine TSE-as-a-Service. Dieses Produkt-Bundle wird pro Standort verkauft und ist für den gesamten Standort einsetzbar. D.h. es kann von allen Kassen (Queues) der Filiale bzw. des Standorts genutzt werden.
 
 ### Basis-Produkt
 
@@ -32,7 +32,7 @@ Bitte beachten Sie auch unsere [Fair Use Policy](https://github.com/fiskaltrust/
 
 ## How-to-Guide: Einkauf & Weiterverkauf
 
-Im folgendem Guide sind jene Schritte beschrieben, die notwendig sind, um den Einkauf und Weiterverkauf des "fiskaltrust.Sorglos mit TSE" Produkt-Bundles zu planen und durchzuführen. In jedem der Schritte wird auf weiterführende Dokumente mit vertiefenden Information verwiesen.
+Im How-to-Guide sind jene Schritte beschrieben, die notwendig sind, um den Einkauf und Weiterverkauf des "fiskaltrust.Sorglos mit TSE" Produkt-Bundles zu planen und durchzuführen. In jedem der Schritte wird auf weiterführende Dokumente mit vertiefenden Information verwiesen.
 
 ### 1. Einkauf & Pre-Sales
 
@@ -90,12 +90,12 @@ Nach dem Erwerb können die wie oben gelisteten Entitlements zu einem späteren 
 
 Die Entscheidung ob eine Hardware- und Cloud TSE eingesetzt werden soll, kann also relativ spät im Prozess getroffen werden. Dies ermöglicht für Sie als Kassenhändler ein hohes Maß an Flexibilität Rahmen des Rollouts.
 
-#### 3.a Templates
+#### 2.b Templates
 
 Vorkonfigurierte Templates, Verweis auf Bulk-Rollout Optionen (in Bearbeitung)
 
-### 4. After-sales support
+### 3. After-sales support
 
-Verfügbare Troubleshooting-Guidleines für das "fiskaltrust.Sorglos mit TSE" Produkt-Bundle:
+Verfügbare Troubleshooting-Guidelines für das "fiskaltrust.Sorglos mit TSE-as-a-service" Produkt-Bundle:
 
  [troubleshooting-tse-as-a-service.md](../04-after-sales/troubleshooting-tse-as-a-service.md) 
