@@ -117,12 +117,13 @@ Nachfolgend wird beschreiben, welche Rolle bezüglich der Verwaltung der Stammda
 
 ## Aktualisierung und Wirksamkeit der Stammdaten
 
-Eine Aktualisierung der oben beschriebenen Daten wird erst wirksam, wenn die betroffenen Cashboxen des KassenBetreibers neu gebuildet ("rebuild configuration") und die Launcher an den Kassen neu gestartet wurden, damit diese die neuen Cashbox-Konfigurationen laden und anwenden können. Zudem ist ein Wechsel der Stammdaten nur jeweils zum Kassenabschluss möglich, d.h. die neuen Daten werden erst zu diesem Zeipunkt gültig.
+Eine Aktualisierung der oben beschriebenen Daten wird erst wirksam, wenn die betroffenen CashBoxen des KassenBetreibers aktualisiert (Klick auf den [Button] (https://portal-sandbox.fiskaltrust.de/CashBox) "rebuild configuration") und die ft.MW (Launcher) an den Kassen neu gestartet wurden. Dadurch wird diese neue Cashbox-Konfiguration geladen und angewandt. 
+Wurden Stammdaten (z.B. [Firmen-Stammdaten] (https://portal-sandbox.fiskaltrust.de/AccountProfile/Edit), [Outlet] (https://portal-sandbox.fiskaltrust.de/AccountOutlet) oder [Agenturen] (https://portal-sandbox.fiskaltrust.de/AccountAgency), [POS-Systeme beim KassenHersteller] (https://portal-sandbox.fiskaltrust.de/POSSystem), etc.) verändert, werden die neuen Stammdaten in der ft.MW immer nur nach einem Kassenabschluss aktualisiert und z.B. immer erst nach diesem Zeitpunkt in einem Export verwendet.
 
-Zusammengefasst bedeutet das, das folgende Schritte durchgeführt werden müssen:
-1. Die nötigen Änderungen der Stammdaten (z.B. Agenturdaten, POS-Systeme, etc.) werden im Portal durchgeführt.
+Zusammengefasst bedeutet das, dass folgende Schritte durchgeführt werden müssen:
+1. Die gewünschten Änderungen der Stammdaten (z.B. [Firmen-Stammdaten] (https://portal-sandbox.fiskaltrust.de/AccountProfile/Edit), [Outlet] (https://portal-sandbox.fiskaltrust.de/AccountOutlet) oder [Agenturen] (https://portal-sandbox.fiskaltrust.de/AccountAgency), [POS-Systeme beim KassenHersteller] (https://portal-sandbox.fiskaltrust.de/POSSystem), etc.) werden im Portal durchgeführt.
 2. Die Cashbox wird rebuildet und die Middleware danach neu gestartet, damit die lokale Konfiguration aktualisiert werden kann. **Danach werden die neuen Stammdaten nicht sofort gültig, sondern werden bis zum nächsten Daily-Closing-Beleg mit dem entsprechenden Flag ignoriert.**
-3. Ein Daily-Closing-Beleg mit dem _ftReceiptCaseFlag_ `0x0000000008000000` wird gesendet. Bis zu diesem Zeitpunkt wird die alte Konfiguration verwendet, d.h. die Aktualisierung der Stammdaten scheint im DSFinV-K-Exports dieses zum Zeitpunkt der Änderung noch laufenden Kassenabschlusses nicht auf. Erst im Export des darauffolgenden Abschlusses sind die neuen Daten gültig.
+3. Ein daily-, monthly- oder yearly-closing mit dem ftReceiptCaseFlag `0x0000000008000000` wird gesendet. Bis zu diesem Zeitpunkt wird die alte Konfiguration verwendet und die aktualisierten Stammdaten scheinen z.B. im DSFinV-K-Export in diesem Kassenabschluss noch nicht auf. Erst im Export des darauffolgenden Kassenabschluss werden die neuen Daten verwendet.
 
 ### Vertiefende Informationen
 
