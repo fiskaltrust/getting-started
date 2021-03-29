@@ -117,8 +117,13 @@ Nachfolgend wird beschreiben, welche Rolle bezüglich der Verwaltung der Stammda
 
 ## Aktualisierung und Wirksamkeit der Stammdaten
 
-Eine Aktualisierung der oben beschriebenen Daten wird erst wirksam, wenn die betroffenen Cashboxen des KassenBetreibers neu gebuildet ("rebuild configuration") und die launcher an den Kassen neu gestartet wurden, damit diese die neuen Cashbox-Konfigurationen laden und anwenden können.
+Eine Aktualisierung der oben beschriebenen Daten wird erst wirksam, wenn die betroffenen Cashboxen des KassenBetreibers neu gebuildet ("rebuild configuration") und die Launcher an den Kassen neu gestartet wurden, damit diese die neuen Cashbox-Konfigurationen laden und anwenden können. Zudem ist ein Wechsel der Stammdaten nur jeweils zum Kassenabschluss möglich, d.h. die neuen Daten werden erst zu diesem Zeipunkt gültig.
 
-### vertiefende Informationen
+Zusammengefasst bedeutet das, das folgende Schritte durchgeführt werden müssen:
+1. Die nötigen Änderungen der Stammdaten (z.B. Agenturdaten, POS-Systeme, etc.) werden im Portal durchgeführt.
+2. Die Cashbox wird rebuildet und die Middleware danach neu gestartet, damit die lokale Konfiguration aktualisiert werden kann. **Danach werden die neuen Stammdaten nicht sofort gültig, sondern werden bis zum nächsten Daily-Closing-Beleg mit dem entsprechenden Flag ignoriert.**
+3. Ein Daily-Closing-Beleg mit dem _ftReceiptCaseFlag_ `0x0000000008000000` wird gesendet. Bis zu diesem Zeitpunkt wird die alte Konfiguration verwendet, d.h. die Aktualisierung der Stammdaten scheint im DSFinV-K-Exports dieses zum Zeitpunkt der Änderung noch laufenden Kassenabschlusses nicht auf. Erst im Export des darauffolgenden Abschlusses sind die neuen Daten gültig.
+
+### Vertiefende Informationen
 
  [Massenupdate von Cashboxen](../04-after-sales/how-to-mass-update-configuration.md) 
