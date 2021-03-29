@@ -122,7 +122,7 @@ Wurden Stammdaten (z.B. [Firmen-Stammdaten] (https://portal-sandbox.fiskaltrust.
 
 Zusammengefasst bedeutet das, dass folgende Schritte durchgeführt werden müssen:
 1. Die gewünschten Änderungen der Stammdaten (z.B. [Firmen-Stammdaten] (https://portal-sandbox.fiskaltrust.de/AccountProfile/Edit), [Outlet] (https://portal-sandbox.fiskaltrust.de/AccountOutlet) oder [Agenturen] (https://portal-sandbox.fiskaltrust.de/AccountAgency), [POS-Systeme beim KassenHersteller] (https://portal-sandbox.fiskaltrust.de/POSSystem), etc.) werden im Portal durchgeführt.
-2. Die Cashbox wird rebuildet und die Middleware danach neu gestartet, damit die lokale Konfiguration aktualisiert werden kann. **Danach werden die neuen Stammdaten nicht sofort gültig, sondern werden bis zum nächsten Daily-Closing-Beleg mit dem entsprechenden Flag ignoriert.**
+2. Die Cashbox wird aktualisiert (Klick auf den [Button] (https://portal-sandbox.fiskaltrust.de/CashBox) "rebuild configuration") und die ft.MW danach neu gestartet. Damit wird die lokale Konfiguration durch den Launcher aktualisiert. **Danach werden die neuen Stammdaten nicht sofort gültig, sondern werden bis zum nächsten daily-, monthly- oder yearly-closing ignoriert.**
 3. Ein daily-, monthly- oder yearly-closing mit dem ftReceiptCaseFlag `0x0000000008000000` wird gesendet. Bis zu diesem Zeitpunkt wird die alte Konfiguration verwendet und die aktualisierten Stammdaten scheinen z.B. im DSFinV-K-Export in diesem Kassenabschluss noch nicht auf. Erst im Export des darauffolgenden Kassenabschluss werden die neuen Daten verwendet.
 
 ### Vertiefende Informationen
