@@ -28,7 +28,7 @@ Das Produkt-Bundle "fiskaltrust.Sorglos mit TSE" beinhaltet unser Basis-Produkt 
 
 >Hinweis:  
 Die Auswahl der TSE obliegt der fiskaltrust GmbH.  
-Bitte beachten Sie auch unsere [Fair Use Policy](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/for-posoperators/market-de-fair-use-policy.md).
+Bitte beachten Sie auch unsere [Fair Use Policy](https://docs.fiskaltrust.cloud/docs/product-description/germany/products-and-services/fair-use-policy).
 
 ## How-to-Guide: Einkauf & Weiterverkauf
 
@@ -40,7 +40,7 @@ Im folgendem Guide sind jene Schritte beschrieben, die notwendig sind, um den Ei
 
 Das "fiskaltrust.Sorglos mit TSE" Produkt-Bundle gilt für alle Kassen (Queues) an einem Standort und hat bereits eine TSE (wahlweise Hardware TSE oder Cloud TSE) inkludiert. Um Sie bei der Bedarfsananlyse und Rollout-Planung zu unterstützen haben wir die Dokumentation möglicher [Rollout-Szenarien](../02-pre-sales/rollout-scenarios.md) vorgenommen. In dieser Dokumentation können sie zum Beispiel erfahren, welche Optionen Ihnen zur Verfügung stehen um mehrere Queues mit einer TSE zu betreiben.
 
-Sollten Sie aus Performancegründen oder zur Einhaltung unserer [Fair Use Policy](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/for-posoperators/market-de-fair-use-policy.md) mehrere TSEs benötigen, so können Sie diese für den betreffenden Standort zusätzlich im [fiskaltrust.Webshop](https://portal.fiskaltrust.de/) erwerben.
+Sollten Sie aus Performancegründen oder zur Einhaltung unserer [Fair Use Policy](https://docs.fiskaltrust.cloud/docs/product-description/germany/products-and-services/fair-use-policy) mehrere TSEs benötigen, so können Sie diese für den betreffenden Standort zusätzlich im [fiskaltrust.Webshop](https://portal.fiskaltrust.de/) erwerben.
 
 #### 1.b Marketing-Materialien
 
