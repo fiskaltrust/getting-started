@@ -26,27 +26,8 @@ Unter Linux kann kein net.pipe verwendet werden, weiters benötigt jeder Teil (S
 
 ### Dafür werden folgende Freigaben benötigt
 
-Port 443 https ausgehend für
+Eine aktuelle Liste finden Sie in unserer [Rollout Dokumentation](https://docs.fiskaltrust.cloud/de/docs/posdealers/rollout-doc/middleware#firewall-troubleshooting).
 
-- helipad.fiskaltrust.cloud (neu)
-- packages.fiskaltrust.cloud (neu)
-
-> Achtung: Bei Tests in der Sandbox sind hier die Host-Namen mit dem `-sandbox`-Postfix zu ergänzen, d.h. `helipad-sandbox.fiskaltrust.cloud` und `packages-sandbox.fiskaltrust.cloud`.
-
-### bei Verwendung der fiskaly TSE
-
-Port 443 https ausgehend für
-
-- kassensichv.io 
-
-### bei Verwendung der Deutschen Fiskal TSE / der Swissbit Cloud TSE
-
-Port 443 https ausgehend für
-
-- fiskal.cloud
-- link.fiskaltrust.cloud 
-- downloads.fiskaltrust.cloud (je nach Firewall-Konfiguration; _link.fiskaltrust.cloud_ redirected zum Download des FCC auf diese URL)
- 
 ## Zertifikate
 
 Die verwendeten Zertifikate stehen im fiskaltrust Portal unter "Werkzeuge -> Download" zum Download bereit.

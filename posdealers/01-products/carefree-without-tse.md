@@ -13,19 +13,23 @@ Das Produkt-Bundle "fiskaltrust.Sorglos ohne TSE" beinhaltet unser Basis-Produkt
 
 ## Basis-Produkt
 
-[Lokal installierte Middleware](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/compliance-as-a-service/products/middleware.md) 
+[Lokal installierte Middleware](https://docs.fiskaltrust.cloud/de/docs/product-description/germany/products-and-services/caas/products/middleware) 
 
 ### Addon-Produkte der fiskaltrust.Middleware
 
--  [POS Archiv](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/revisionsafe-data-as-a-service/products/pos-archive.md) 
--  [Finanzamtmeldung](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/compliance-as-a-service/products/tax-authority-notification.md) 
+-  [POS Archiv](https://docs.fiskaltrust.cloud/de/docs/product-description/germany/products-and-services/rdaas/products/pos-archive) 
+-  [Finanzamtmeldung](https://docs.fiskaltrust.cloud/de/docs/product-description/germany/products-and-services/caas/products/tax-authority-notifications) 
 
 **Hinweis:** Im "fiskaltrust.Sorglos ohne TSE" Bundle ist **keine** Hardware- oder Cloud TSE-As-A-Service enthalten.
 
 ### Einzelprodukte
 
-[Audicon Kassenarchiv Online](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/revisionsafe-data-as-a-service/products/ako.md) 
+[Audicon Kassenarchiv Online](https://docs.fiskaltrust.cloud/de/docs/product-description/germany/products-and-services/rdaas/products/ako) 
 
 ## Verkaufseinheit
 
-Verkauf pro Filiale/Standort pro Jahr
+Verkauf pro Filiale/Standort (Outlet) pro Jahr
+
+## Fair Use Policy
+
+Es handelt sich hierbei um ein standortbezogenes Produkt. Beachten Sie deshalb bitte unsere [Fair Use Policy](https://docs.fiskaltrust.cloud/de/docs/product-description/germany/products-and-services/fair-use-policy)
