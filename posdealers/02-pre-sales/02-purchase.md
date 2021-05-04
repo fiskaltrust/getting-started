@@ -19,6 +19,8 @@ siehe [Allgemeine Voraussetzungen für den Einkauf von Produkten](purchase-requi
 
 - Kontrollieren Sie  vor der Bestellung im fiskaltrust.Portal Ihre Stammdaten wie Adresse und USt-IdNr. Diese sind für die korrekte Rechnungslegung erforderlich. 
 
+## Kurzanleitung
+
 ### Schritt 1: Wahl der Händlereinkaufs-Produkte
 
 - Wählen Sie im Portal im Menüpunkt "Shop &rarr; Products" Ihre gewünschten Händlereinkaufs-Produkte, und legen Sie diese in den Warenkorb, oder
@@ -37,4 +39,6 @@ siehe [Allgemeine Voraussetzungen für den Einkauf von Produkten](purchase-requi
 Im Shop werden unter dem Menüpunkt "Entitlements" Ihre Entitlements ("Ansprüche") dargestellt. Diese Ansprüche auf Produkte können auf Betreiber übertragen, und in der Folge kostenfrei für Produkte eingelöst werden.
 
 
+## Detailierte Anleitung
 
+Eine detailierte Anleitung zum Erwerb und Weiterverkauf von fiskaltrust Produkten finden Sie in unserer [Rolloutdokumentation](https://docs.fiskaltrust.cloud/de/docs/posdealers/rollout-doc/shop).

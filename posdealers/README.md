@@ -66,9 +66,9 @@ Diese Produkte werden von KassenHerstellern und KassenHändlern als Teil Ihrer e
 
 | Vertiefende Information                                      | Zielgruppe                                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [Rechtliche Grundlagen](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/legal-basis-germany.md) | Shareholder, Owner<br/>Account-manager/Sales |
-| [Wie erreicht fiskaltrust Compliance as a Service](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/README.md) | Shareholder, Owner<br/>Account-manager/Sales |
-| [Geschäftsmodell von fiskaltrust](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/business-model-germany.md) | Shareholder, Owner<br/>Account-manager/Sales |
+| [Rechtliche Grundlagen](https://docs.fiskaltrust.cloud/docs/product-description/germany/products-and-services/legal-basis) | Shareholder, Owner<br/>Account-manager/Sales |
+| [Wie erreicht fiskaltrust Compliance as a Service](https://docs.fiskaltrust.cloud/docs/product-description/germany/products-and-services) | Shareholder, Owner<br/>Account-manager/Sales |
+| [Geschäftsmodell von fiskaltrust](https://docs.fiskaltrust.cloud/docs/product-description/germany/products-and-services/business-model) | Shareholder, Owner<br/>Account-manager/Sales |
 
 ## 2. Vorteile für KassenHändler
 
@@ -93,20 +93,19 @@ Der KassenHändler erwirbt die Produkte über den Webshop im fiskaltrust.Portal 
 | Vertiefende Information                                      | Zielgruppe                                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [Vertriebsmodell](distribution-model.md)                        | Shareholder, Owner<br/>Account-manager/Sales |
-| [Begriffsdefinition KassenHersteller](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/glossar/README.md#kassenhersteller-poscreator) | Shareholder, Owner<br/>Account-manager/Sales |
-| [Begriffsdefinition KassenHändler](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/glossar/README.md#kassenhändler-posdealer) | Shareholder, Owner<br/>Account-manager/Sales |
-| [Begriffsdefinition KassenBetreiber](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/glossar/README.md#kassenbetreiber-posdoperator) | Shareholder, Owner<br/>Account-manager/Sales |
+| [Begriffsdefinition KassenHersteller](https://docs.fiskaltrust.cloud/docs/product-description/germany/glossar#kassenhersteller-poscreator) | Shareholder, Owner<br/>Account-manager/Sales |
+| [Begriffsdefinition KassenHändler](https://docs.fiskaltrust.cloud/docs/product-description/germany/glossar#kassenh%C3%A4ndler-posdealer) | Shareholder, Owner<br/>Account-manager/Sales |
+| [Begriffsdefinition KassenBetreiber](https://docs.fiskaltrust.cloud/docs/product-description/germany/glossar#kassenbetreiber-posoperator) | Shareholder, Owner<br/>Account-manager/Sales |
 
 ## 4. Das Produktangebot von fiskaltrust
 
-Das Basis-Produkt von fiskaltrust ist die fiskaltrust.Middleware, eine kostenlose Software welche die gesetzlichen Grund-Anforderungen der Fiskalisierung erfüllt. Die fiskaltrust.Middleware wird vom KassenHersteller in die Kassensoftware integriert. Aufgrund der gesetzlichen Anforderungen muss die fiskaltrust.Middleware im sogenannten "Operational Environment" des KassenBetreiber betrieben werden, also meistens lokal vor Ort am Standort. Über die Middleware können lokal an der Kasse ein Tagesabschluss im DSFinV-K Format, sowie die TAR-Files der Technischen Sicherheitseinrichtungen (TSE) exportiert werden.
+Das Basis-Produkt von fiskaltrust ist die fiskaltrust.Middleware, eine lizenzkostenfreie Software welche die gesetzlichen Grundanforderungen der Fiskalisierung erfüllt. Die fiskaltrust.Middleware wird vom KassenHersteller in seine Kassensoftware integriert. Aufgrund der gesetzlichen Anforderungen muss die fiskaltrust.Middleware im sogenannten "Operational Environment" des KassenBetreibers betrieben werden, also meistens lokal vor Ort am Standort. Über die Middleware können lokal an der Kasse ein Tagesabschluss im DSFinV-K Format, sowie die TAR-Files der Technischen Sicherheitseinrichtungen (TSE) exportiert werden.
 
-Basierend auf der fiskaltrust.Middleware bietet fiskaltrust kostenpflichtige Addon-Produkte an, wie z.B. das POS-Archiv für die gesetzlich geforderte revisionssichere Aufbewahrung der Kassenbelege, oder z.B. eine Lösung für automatisierte Finanzamtsmeldungen.
-Zusätzlich vertreibt fiskaltrust Technische Sicherheitseinrichtungen (TSE). 
+Basierend auf der fiskaltrust.Middleware bietet fiskaltrust kostenpflichtige Addon-Produkte an, wie z.B. das POS-Archiv für die gesetzlich geforderte revisionssichere Aufbewahrung der Kassenbelege, oder z.B. eine Lösung für automatisierte Finanzamtsmeldungen. Zusätzlich vertreibt fiskaltrust Technische Sicherheitseinrichtungen (TSE). 
 
-Unabhängig davon, ob die Kassensoftware die fiskaltrust.Middleware integriert hat, bietet fiskaltrust zudem das Kassenarchiv Online (AKO) als gesondertes Einzelprodukt an. Diese Archivierungslösung bietet die revisionssichere Speicherung von exportierten Kassendaten (Tagesabschlüsse) im DSFinV-K Format. Weiter leistet das AKO die Archivierung weiterer, für eine mögliche Finanzamtsprüfung wichtigen Dokumente, wie z.B. alle Versionen der Verfahrensdokumentationen und aller relevanten sonstigen Dokumente (z.B. Speisekarten) in beliebigen Formaten.
+Unabhängig davon, ob die Kassensoftware die fiskaltrust.Middleware integriert hat, bietet fiskaltrust zudem das Kassenarchiv Online (AKO) als gesondertes Einzelprodukt an. Diese Archivierungslösung bietet die revisionssichere Speicherung von exportierten Kassendaten (Tagesabschlüsse) im DSFinV-K Format. Außerdem ermöglicht das AKO die Archivierung weiterer, für eine mögliche Finanzamtsprüfung wichtigen Dokumente, wie z.B. alle Versionen der Verfahrensdokumentationen und aller relevanten sonstigen Dokumente (z.B. Speisekarten) in beliebigen Formaten.
 
-Des Weiteren bietet fiskaltrust Produkt-Bundles, sogenannte Sorglos-Bundles für den gesamten Standort an. Sie enthalten die oben beschriebenen Addon- und Einzelprodukte zu einem jährlichen, pauschalen Mietpreis. Auf Wunsch kann das Soglos-Bundle auch eine Hardware- oder Cloud TSE als Mietmodell (TSE-as-a-Service) enthalten. 
+Des Weiteren bietet fiskaltrust standortbasierte Produkt-Bundles, sogenannte Sorglos-Bundles für den gesamten Standort (Outlet) an. Sie enthalten die oben beschriebenen Addon- und Einzelprodukte zu einem jährlichen, pauschalen Mietpreis. Auf Wunsch kann das Soglos-Bundle auch eine Hardware- oder Cloud TSE als Mietmodell (TSE-as-a-Service) enthalten. 
 
 | Vertiefende Information                                 | Zielgruppe                                                   |
 | ------------------------------------------------------- | ------------------------------------------------------------ |
@@ -116,9 +115,9 @@ Des Weiteren bietet fiskaltrust Produkt-Bundles, sogenannte Sorglos-Bundles für
 
 Um als KassenHändler Produkte von fiskaltrust vertreiben zu können, müssen Sie eine Kooperationspartnerschaft mit fiskaltrust eingehen.
 
-Dazu registrieren Sie sich im Portal von fiskaltrust. Im Anschluss müssen Sie die Rolle als KassenHändler auswählen und digital den Kooperationsvertrag unterzeichnen.
+Dazu registrieren Sie sich mit Hilfe der Einladung, die Sie von Ihrem KassenHersteller erhalten haben, im Portal von fiskaltrust. Im Anschluss müssen Sie die Rolle als KassenHändler auswählen und digital den dabei angezeigten Kooperationsvertrag unterzeichnen.
 
-Damit erhalten Sie die notwendigen Rollenrechte, um im Webshop des Portals Produkte von fiskaltrust einzukaufen, Ihre Kunden einzuladen und deren Daten und Produkte zu verwalten. Sö können Sie Ihren Kunden im fiskaltrust.Portal die entsprechenden Produkte zuweisen, die Middleware konfigurieren und ausrollen.
+Damit erhalten Sie die notwendigen Rollenrechte, um im Webshop des fisklaltrust.Portals Produkte von fiskaltrust einzukaufen, Ihre Kunden einzuladen und deren Daten und Produkte zu verwalten. Sö können Sie Ihren Kunden im fiskaltrust.Portal die entsprechenden Produkte zuweisen, die Middleware konfigurieren und ausrollen.
 
 Ihre gewöhnliche Geschäftstätigkeit muss keineswegs einer einzelnen Rolle unserer Beschreibung entsprechen ([vgl. oben](#vertriebsmodell-und-rollen)). Sollten Sie zum Beispiel sowohl als KassenHersteller als auch KassenHändler und vielleicht sogar auch als KassenBetreiber auftreten, stellen Sie bitte nur sicher, dass Sie im Portal all diese Rollen aktiviert und die entsprechenden Verträge unterzeichnet haben.
 
@@ -131,12 +130,12 @@ Ihre gewöhnliche Geschäftstätigkeit muss keineswegs einer einzelnen Rolle uns
 Zur Vorbereitung eines Rahmenvertrages mit möglichen Mengenrabatten kalkulieren Sie, welche Produkte Ihre Kunden (KassenBetreiber) in welcher Menge benötigen werden. Der Bedarf kann je nach eingesetztem Kassensystem, der Systemarchitektur am Standort des Betreibers und bereits etwaigen vorhandenen Produkten stark variieren. Abhängig vom ermittelten Bedarf empfehlen wir den Abschluss eines Rahmenvertrags, damit Sie sich bessere Einkaufskonditionen sichern.
 
 - Informieren und beraten Sie Ihre Kunden bezüglich der Produkte von fiskaltrust
-- Planen Sie den Bedarf jeweils nach Kassensystem und den Standortbedingungen
+- Planen Sie den Bedarf jeweils nach Kassensystem und den Standortbedingungen sowie möglicher Rolloutszenarien
 
 | Vertiefende Information                                      | Zielgruppe                                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | Informationsmaterial über fiskaltrust-Produkte für KassenBetreiber (in Bearbeitung) | Shareholder, Owner<br/>Account-manager/Sales |
-| [Rollout-Szenarien zur Bedarfsanalyse und Einkaufsplanung](02-pre-sales/rollout-scenarios.md) | Shareholder, Owner<br/>Account-manager/Sales<br />Technicians on site<br/>Support |
+| [Rollout-Szenarien zur Bedarfsanalyse und Einkaufsplanung](https://docs.fiskaltrust.cloud/de/docs/posdealers/rollout-doc/middleware#rollout-szenarien) | Shareholder, Owner<br/>Account-manager/Sales<br />Technicians on site<br/>Support |
 | [Entitlements - "Gutscheinsystem" zum Einlösen von Produkten mit Mengenrabatten](02-pre-sales/entitlements.md) | Shareholder, Owner<br/>Account-manager/Sales |
 
 ## 7. Optional: Abschluss eines Rahmenvertrages
@@ -155,14 +154,16 @@ Je nach den Gegebenheiten am Standort des Betreibers wie:
 - Intensität der Nutzung
 - Vorgaben durch das Kassensystem (z.B. kann nur mit Cloud-TSE betrieben werden) 
 
-können unterschiedliche Rollout-Szenarien notwendig sein. Diese sollten Sie als KassenHändler zusammen mit dem KassenHersteller besprechen, um effiziente Lösungen zu planen. Zur Inspiration und als Entscheidungshilfe stellen wir Ihnen in unserem Dokument ["Rollout Szenarien Planung, Tipps & Tricks"](02-pre-sales/rollout-scenarios.md) diverse Szenarien mit detaillierten Informationen bereit.
+können unterschiedliche Rollout-Szenarien notwendig sein. Diese sollten Sie als KassenHändler zusammen mit dem KassenHersteller besprechen, um effiziente Lösungen zu planen. Zur Inspiration und als Entscheidungshilfe stellen wir Ihnen in unserer  ["Rollout dokumentation"](https://docs.fiskaltrust.cloud/de/docs/posdealers/rollout-doc/middleware#rollout-szenarien) diverse Szenarien mit detaillierten Informationen bereit.
 
-Der Rollout lasst sich je nach Szenario bis zu einem hohen Grad automatisieren, dabei nutzen Sie die Optionen Shop im fiskaltrust.Portal und API`s in unterschiedlichen Ausbaustufen. Konfigurationen werden von Ihnen:
-- manuell einzeln angelegt 
-- automatisiert über Vorlagen (Templates) vorbereitet
+Der Rollout lasst sich je nach Szenario bis zu einem hohen Grad automatisieren, dabei nutzen Sie die Optionen Shop im fiskaltrust.Portal und API`s in unterschiedlichen Ausbaustufen. Wir stellen Ihnen folgende Moglichkeiten zur Verfügung um die Konfiguration der fiskaltrust.Middelware vorzunehmen:
+- manuell einzeln im Portal angelegt 
+- automatisiert über Vorlagen (Templates) im Portal vorbereitet
 - durch das automatisierte Ausführen von Templates über eine API generiert. 
 
 Auch die Auslieferung und Installation der fiskaltrust.Middleware lässt sich automatisieren. 
+
+Eine Ausführliche Anleitung zum Anlegen von Konfigurationen und zum automatisieren des Rolloutprozesses finden Sie in unserer [Rolloutdokumentation](https://docs.fiskaltrust.cloud/de/docs/posdealers/rollout-doc/middleware#rollout-der-fiskaltrustmiddleware)
 
 ### Optionen für die Erstellung von Cashboxen ("Konfigurations-Container")
 
@@ -172,14 +173,14 @@ Auch die Auslieferung und Installation der fiskaltrust.Middleware lässt sich au
 | **manuelle Ausführung von Templates**       | Erstellung und Speicherung von Konfigurationsvorlagen zum Anlegen von Checkboxen. Vorbereitung & Planung empfohlen, erfordert je nach Szenario Abstimmung zwischen KassenHersteller und KassenBetreiber. | Empfohlen ab ca. 25 gleich zu konfigurierende Cashboxen.     |
 | **automatisierte Ausführung von Templates** | Automatisierte Generierung von Cashboxen auf Basis von Konfigurationsvorlagen über unsere HTTP-API. | Empfohlen ab ca. 50-100  Cashboxen |
 
-Der Launcher wird gemeinsam mit der dazugehörigen Konfiguration aus dem Portal heruntergeladen und zum Starten der Middleware lokal ausgeführt. Das Konfigurationsfile (fiskaltrust.exe.config) können Sie vor dem Ausrollen des Launcher auf die Kasse des Betreibers entsprechend anpassen. 
+Der Launcher wird gemeinsam mit der dazugehörigen Konfiguration aus dem Portal heruntergeladen und zum Starten der Middleware lokal ausgeführt. Falls Sie eine automatisierte Auslieferung auf zahlreiche Kassen wünschen, können Sie das im Launcher enthaltene Konfigurationsfile (fiskaltrust.exe.config) vor dem Ausrollen des Launcher auf die Kasse des Betreibers entsprechend anpassen, so dass die zu startende Instanz richtig zugeordnet wird. Siehe dazu auch: [Automatisierter Rollout der fiskaltrust.Middleware](https://docs.fiskaltrust.cloud/de/docs/posdealers/rollout-doc/middleware#automatisierter-rollout-der-fiskaltrustmiddleware)
 
 Diese und weitere Automatisierungsoptionen finden Sie in der dazugehörigen, weiterführenden Dokumentation. Siehe Tabelle:
 
 | Vertiefende Information                                      | Zielgruppe                                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [Rollout Szenarien Planung, Tipps & Tricks](02-pre-sales/automated-rollout.md) | Technicians on site<br/>Account-manager/Sales<br/>Support |
-| [Rollout Automatisierung](02-pre-sales/automated-rollout.md) | Technicians on site<br/>Support |
+| [Rollout Szenarien](https://docs.fiskaltrust.cloud/de/docs/posdealers/rollout-doc/middleware#rollout-szenarien) | Technicians on site<br/>Account-manager/Sales<br/>Support |
+| [Rollout Automatisierung](https://docs.fiskaltrust.cloud/de/docs/posdealers/rollout-doc/middleware#automatisierung-des-rollout) | Technicians on site<br/>Support |
 
 Wir empfehlen für die Vorbereitung von möglichen Rollout-Szenarien und deren Automatisierungsgrad frühzeitig zu beginnen. Nutzen Sie dazu unsere [Testumgebung](https://portal-sandbox.fiskaltrust.de/). 
 
@@ -208,7 +209,7 @@ Wir empfehlen, den Weiterverkauf außerhalb des fiskaltrust.Portals mit einem er
 
 ## 11. Verknüpfung und Konfiguration von KassenBetreibern<a id="11."></a> 
 
-Damit ein KassenHändler fiskaltrust Produkte verkaufen kann, sollte vorher der KassenBetreiber im fiskaltrust.Portal angelegt und dessen Stammdaten eingepflegt werden. Eine Nutzungsvereinbarung muss vom KassenBetreiber selbst oder vom KassenHändler in dessen Namen digital unterschrieben werden. Danach können Ansprüche auf den KassenBetreiber übertragen und die erworbenen Produkte aktiviert werden. 
+Damit ein KassenHändler fiskaltrust Produkte verkaufen kann, sollte vorher der KassenBetreiber im fiskaltrust.Portal angelegt und dessen Stammdaten eingepflegt werden. Die fiskaltrust Nutzungsvereinbarung muss vom KassenBetreiber selbst oder vom KassenHändler in dessen Namen digital unterschrieben werden. Danach können Ansprüche auf den KassenBetreiber übertragen und die erworbenen Produkte aktiviert/erzeugt werden. 
 
 Dabei stehen folgende Optionen zur Verfügung:
 
@@ -230,21 +231,24 @@ Weiter müssen die Outlets ("Standorte" oder "Niederlassungen") des Betreibers i
 | Vertiefende Information                                      | Zielgruppe                                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [Bereitstellung von Stammdaten eines KassenBetreibers](03-sales/04c-masterdata-creation.md) | Shareholder, Owner<br/>Account-manager/Sales<br />Technicians on site<br/>Support |
-| Optionen zur Zusammenarbeit von KassenHändler, KassenBetreiber und Consultants unter Berücksichtigung komplexer Unternehmensnetzwerke (in Bearbeitung) | Shareholder, Owner<br/>Account-manager/Sales<br />Technicians on site<br/>Support |
+| [Einladungsmanagement über das Portal](https://docs.fiskaltrust.cloud/de/docs/posdealers/rollout-doc/invitation-management)| Shareholder, Owner<br/>Account-manager/Sales<br />Technicians on site<br/>Support |
 
 ## 12. Herstellung und Konfiguration der Produkte im Account des KassenBetreibers
 
 Hat ein KassenBetreiber vom KassenHändler einen Anspruch auf die Nutzung von Produkten von fiskaltrust erworben, müssen die Entitlements auf die Standorte bzw. Kassen des Betreibers übertragen und die Produkte für den KassenBetreiber aktiviert werden. Dies geschieht wie folgt: 
 
 1. die Ansprüche im Shop im fiskaltrust.Portal auf den KassenBetreiber übertragen, 
-2. mit Hilfe dieser Ansprüche die Produkte aktivieren
+2. mit Hilfe dieser Ansprüche die Produkte aktivieren/erzeugen
 
 Voraussetzung für diesen Vorgang ist die im [Schritt 11](#11.) beschriebene Verbindung des KassenHändlers mit dem KassenBetreiber inklusive der notwendigen Berechtigungen. Damit kann der KassenHändler in den Account des KassenBetreibers wechseln und Entitlements übertragen und die Aktivierung der Produkte vornehmen. 
 Des Weiteren kann mit Hilfe der dazugehörigen Berechtigung die Erstellung der benötigen Konfigurationen (Cashboxen) für den KassenBetreiber erfolgen.
 
+Alternativ können auch sogenannte [Einkaufspläne](https://docs.fiskaltrust.cloud/de/docs/posdealers/rollout-doc/shop#einkaufspl%C3%A4ne) verwendet werden, die diesen Prozess stark simplifizieren.
+
 | Vertiefende Information                                      | Zielgruppe                                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [Herstellung und Konfiguration der Produkte im Account des KassenBetreibers](03-sales/05-configuration-activation.md) | Account-manager/Sales<br />Technicians on site<br/>Support |
+| [Roloutmanagement - Einkaufspläne](https://docs.fiskaltrust.cloud/de/docs/posdealers/rollout-doc/shop#einkaufspl%C3%A4ne) | Account-manager/Sales<br />Technicians on site<br/>Support |
 
 ## 13. Auslieferung & Inbetriebnahme
 
@@ -254,15 +258,15 @@ Wurde der Launcher heruntergeladen bzw. ausgeliefert, wird dieser entpackt und d
 
 Bitte stellen Sie für den nächsten Schritt sicher, dass die TSE für die Middleware erreichbar ist (z.B. über USB verbunden ist).
 
-Durch Absetzen des [Initial Operation Receipts](https://github.com/fiskaltrust/interface-doc/blob/master/doc/appendix-de-kassensichv/cash-register-integration/cash-register-integration.md#start-receipt-initial-receipt) wird die Queue bei der TSE registriert und ggf. die TSE initialisiert. 
+Zur Inbetriebnahme müssen Sie über das Kassensytem einen Inbetriebnahmebeleg (Initial Operation Receipt) an die fiskaltrust.Middleware senden. Dieser sorgt dafür, dass sich die fiskaltrust.Middleware initialisiert und mit der TSE verbindet. Falls nötig wird dabei die TSE ebenfalls initialisiert.
 
 Mit dem erfolgreichen Absetzen des Initial Operation Receipts ist die Inbetriebnahme, sowie allgemein die Weiterverkaufs- und Rollout Phase abgeschlossen. Das System kann jetzt im Echtbetrieb verwendet werden.
 
 | Vertiefende Information                                      | Zielgruppe                                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [Rollout Automatisierung](02-pre-sales/automated-rollout.md) | Technicians on site<br/>Support |
-| [Installation der Middleware](https://github.com/fiskaltrust/interface-doc/blob/master/doc/general/installation/installation.md) | Technicians on site<br/>Support |
-| [Initial Operation Receipt](https://github.com/fiskaltrust/interface-doc/blob/master/doc/appendix-de-kassensichv/cash-register-integration/cash-register-integration.md#start-receipt-initial-receipt) | Technicians on site<br/>Support |
+| [Installation der Middleware](https://docs.fiskaltrust.cloud/docs/poscreators/middleware-doc/general/installation) | Technicians on site<br/>Support |
+| [Initial Operation Receipt](https://docs.fiskaltrust.cloud/docs/poscreators/middleware-doc/germany/reference-tables/ftreceiptcase) | Technicians on site<br/>Support |
 
 ------
 
@@ -288,12 +292,34 @@ fiskaltrust stellt KassenHändlern folgende Tools zu Verfügung:
 
 | Supportmittel                                                | Inhalte                                                      |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **[Rollout Dokumentation](https://docs.fiskaltrust.cloud/de/docs/posdealers/rollout-doc)** | Detailierte Beschreibung des Rolloutprozess mit dazugehörigen Anleitungen und Troubleshooting.|
 | **[FAQ](https://docs.fiskaltrust.cloud/doc/faq/qna/market-de.html#german-language)** | Antworten zu Fragen, die im Support häufig anfallen. Die Inhalte können einer permanenten Veränderung unterliegen und haben daher einen eher kurzen Lebenszyklus   (z.B. regionale Änderungen hinsichtlich der Nichtbeanstandungsregelung; Bedienungsprobleme mit einem Tool, welches basierend auf diesen Rückmeldungen verbessert wird u.ä.) |
 | **[Produkt-Dokumentation für KassenHändler](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/for-posdealers/README.html)** | Der Dokumentationsbereich speziell für KassenHändler bietet alle Inhalte und Guidelines um Produkte von fiskaltrust einkaufen, weiter zu verkaufen und ausrollen bzw. vor Ort installieren zu können, sowie Hilfestellungen zur nachgelagerten Kundenbetreuung. |
-| **[Release Notes](https://github.com/fiskaltrust/release-notes)** | Zentraler Ort zur Information hinsichtlich Aktualisierungen und Neuerungen im Produkt- sowie Dokumentationsbereich von fiskaltrust |
+| **[Release Notes](https://docs.fiskaltrust.cloud/de/docs/release-notes)** | Zentraler Ort zur Information hinsichtlich Aktualisierungen und Neuerungen im Produkt- sowie Dokumentationsbereich von fiskaltrust |
 | **[Kundensupport für KassenHändler](support.md)**            | Zentrale Anlaufstelle für alle Fragen, Anregungen und Fälle, die mit Hilfe der oben beschriebenen Mittel nicht beantwortet oder gelöst werden konnten. Der Kundensupport unterliegt einem SLA. |
 
 | Vertiefende Information                                      | Zielgruppe                                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [Kundensupport für KassenHändler](support.md)                | Account-manager/Sales<br />Support |
 | [Übersicht After-Sales Support- und Troubleshooting Guidelines](04-after-sales/README.md) | Account-manager/Sales<br />Support |
+
+
+## High level Übersicht wichtiger Schritte für KassenHändler
+
+Hier finden Sie Links zu Anleitungen für wichtige Schritte, die Sie als Kassenhändler im Rolloutprozess beachten müssen. Diese Anleitungen sind Teil unserer [Rollout Dokumentation](https://docs.fiskaltrust.cloud/de/docs/posdealers/rollout-doc). Um die Zusammenhänge besser zu verstehen, empfehlen wir Ihnen unsere gesamte [Rollout Dokumentation](https://docs.fiskaltrust.cloud/de/docs/posdealers/rollout-doc) zu lesen.
+
+| Schritt                                                      | Beschreibung                                                 |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **[Kassenbetreiber einladen](https://docs.fiskaltrust.cloud/de/docs/posdealers/rollout-doc/invitation-management#kassenh%C3%A4ndler-laden-kassenbetreiber-ein)** | Anleitung zum Einladen der KassenBetreiber im fiskaltrust.Portal. |
+| **[In den Account des Kassenbetreiber wechseln (Surrogate Funktion)](https://docs.fiskaltrust.cloud/de/docs/posdealers/rollout-doc/invitation-management#kassenh%C3%A4ndler-laden-kassenbetreiber-ein)** | Als Teil der Anleitung zum Einladen der KassenBetreiber im fiskaltrust.Portal. |
+| **[Standorte für Kassenbetreiber anlegen](https://docs.fiskaltrust.cloud/de/docs/posdealers/rollout-doc/invitation-management#standorte-f%C3%BCr-kassenbetreiber-anlegen)** | Anleitung zum Anlegen der Standorte für den KassenBetreiber im fiskaltrust.Portal. |
+| **[Fiskaltrust Produkte kaufen und weiterverkaufen](https://docs.fiskaltrust.cloud/de/docs/posdealers/rollout-doc/shop)** | Detailierte Anleitung zum Kauf von fiskaltrust Produkten, Verkauf an den KassenBetreiber und Aktivierung der Produkte für den KassenBetreiber über das fiskaltrust.Portal. |
+| **[Konfiguration der fiskaltrust.Middleware](https://docs.fiskaltrust.cloud/de/docs/posdealers/rollout-doc/middleware#konfiguration-der-fiskaltrustmiddleware)** | Detailierte Anleitung zum manuellen Anlegen von Konfigurationscontainer (Cahsboxen) für die fiskaltrust.Middelware Instanzen die beim KassenBetreiber laufen. Die Konfiguration wird über das fiskaltrust.Portal vorgenommen. |
+| **[Templates zur Automatisierung der Anlage von Konfigurationscontainer](https://docs.fiskaltrust.cloud/de/docs/posdealers/rollout-doc/middleware#templating-zum-anlegen-von-cashboxen)** | Anleitung zur Verwendung von Templates. Templates werden verwendet wenn viele Konfigurationscontainer angelegt werden müssen. Templates reduzieren den Aufwand der durch das manuelle Anlegen der Cashboxen entstehen würde. |
+| **[Download und Installation der fiskaltrust.Middleware](https://docs.fiskaltrust.cloud/de/docs/posdealers/rollout-doc/middleware#service-starten-und-testen)** | Anleitung zum Herunterladen und Starten der fiskaltrust Middleware beim KassenBetreiber. |
+| **[Inbetriebnahme/Initialisierung der fiskaltrust.Middleware](https://docs.fiskaltrust.cloud/de/docs/posdealers/rollout-doc/middleware#initialisierung-der-fiskaltrustmiddleware-instanz-%C3%BCber-einen-initialisierungs-beleg)** | Anleitung zur Inbetriebnahme der fiskaltrust Middleware beim KassenBetreiber mit Hilfe eines Inbetriebnahmebelegs. |
+
+
+
+
+
