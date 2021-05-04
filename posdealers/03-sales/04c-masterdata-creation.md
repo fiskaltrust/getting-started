@@ -72,7 +72,7 @@ Stammdaten der einzelnen eingesetzten Kassen.
 
 #### Bereitstellung der Kassen-Daten
 
-Die Definition des PosSystems durch Hersteller erfolgt im Portal unter `PosSystems`, die Kasse referenziert auf ein PosSystem im sign-request mit Hilfe der [ftPosSystemId](https://docs.fiskaltrust.cloud/docs/poscreators/middleware-doc/general/data-structures#receipt-request). **Ohne eine Referenzierung auf das PosSystem fehlen die Informationen der Kasse in den (archivierten) Belegdaten und den darauf basierenden Exporten (z.B. DSFinV-K Export)**.
+Die Definition des PosSystems durch Hersteller erfolgt im Portal unter `PosSystems`, die Kasse referenziert auf ein PosSystem im sign-request mit Hilfe der [ftPosSystemId](https://docs.fiskaltrust.cloud/de/docs/poscreators/middleware-doc/general/data-structures#receipt-request). **Ohne eine Referenzierung auf das PosSystem fehlen die Informationen der Kasse in den (archivierten) Belegdaten und den darauf basierenden Exporten (z.B. DSFinV-K Export)**.
 
 Die Kassenseriennummer wird bei der Erstellung einer Queue durch den Händler über das Feld `CashBox Identification `definiert.
 
