@@ -117,7 +117,7 @@ Um als KassenHändler Produkte von fiskaltrust vertreiben zu können, müssen Si
 
 Dazu registrieren Sie sich mit Hilfe der Einladung, die Sie von Ihrem KassenHersteller erhalten haben, im Portal von fiskaltrust. Im Anschluss müssen Sie die Rolle als KassenHändler auswählen und digital den dabei angezeigten Kooperationsvertrag unterzeichnen.
 
-Damit erhalten Sie die notwendigen Rollenrechte, um im Webshop des Portals Produkte von fiskaltrust einzukaufen, Ihre Kunden einzuladen und deren Daten und Produkte zu verwalten. Sö können Sie Ihren Kunden im fiskaltrust.Portal die entsprechenden Produkte zuweisen, die Middleware konfigurieren und ausrollen.
+Damit erhalten Sie die notwendigen Rollenrechte, um im Webshop des fisklaltrust.Portals Produkte von fiskaltrust einzukaufen, Ihre Kunden einzuladen und deren Daten und Produkte zu verwalten. Sö können Sie Ihren Kunden im fiskaltrust.Portal die entsprechenden Produkte zuweisen, die Middleware konfigurieren und ausrollen.
 
 Ihre gewöhnliche Geschäftstätigkeit muss keineswegs einer einzelnen Rolle unserer Beschreibung entsprechen ([vgl. oben](#vertriebsmodell-und-rollen)). Sollten Sie zum Beispiel sowohl als KassenHersteller als auch KassenHändler und vielleicht sogar auch als KassenBetreiber auftreten, stellen Sie bitte nur sicher, dass Sie im Portal all diese Rollen aktiviert und die entsprechenden Verträge unterzeichnet haben.
 

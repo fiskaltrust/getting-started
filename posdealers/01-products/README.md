@@ -23,7 +23,7 @@ In Deutschland bieten wir folgende Produkte an:
 
 Folgende Produkte können in Deutschland sowohl für Kassen mit als auch ohne integrierte fiskaltrust.Middleware eingesetzt werden:
 
-[Audicon Kassenarchiv Online](https://docs.fiskaltrust.cloud/de/docs/product-description/germany/products-and-services/rdaas/products/ako) 
+[AKO](https://docs.fiskaltrust.cloud/de/docs/product-description/germany/products-and-services/rdaas/products/ako) 
 
 ### Sorglos Bundles
 
