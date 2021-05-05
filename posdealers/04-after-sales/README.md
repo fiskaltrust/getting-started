@@ -11,7 +11,7 @@ title: After-Sales Support- und Troubleshooting Guidelines
 
 - [How-To Massenupdate von Cashboxen](how-to-mass-update-configuration.md) 
 
-
+- [How-To SCU austauchen](how-to-switch-scu) 
 
 fiskaltrust stellt Kassenhändlern folgende Mittel zur Unterstützung ihrer Tätigkeit zu Verfügung:
 

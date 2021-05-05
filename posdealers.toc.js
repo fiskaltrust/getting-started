@@ -50,6 +50,7 @@ module.exports = {
                         'getting-started/posdealers/04-after-sales/troubleshooting-tse-as-a-service',
                         'getting-started/posdealers/04-after-sales/troubleshooting-hardware-tse-reklamation',                        
                         'getting-started/posdealers/04-after-sales/how-to-mass-update-configuration'
+                        'getting-started/posdealers/04-after-sales/how-to-switch-scu'
                     ]
                 }
             ]
