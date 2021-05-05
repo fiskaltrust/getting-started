@@ -1,5 +1,5 @@
 ---
-slug: /posdealers/get-started/after-sales/switch scu
+slug: /posdealers/get-started/after-sales/switch-scu
 title: 'How-To: SCU austauchen'
 ---
 
