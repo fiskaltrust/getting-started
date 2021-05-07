@@ -23,13 +23,13 @@ Im diesem Fall ist der Austauch unkompliziert und besteht aus folgenden Schritte
 1. Alte SCU aus der Cashbox entfernen
 2. Neue SCU in die Cashbox einfügen
 3. Queue mit neuer SCU verbinden
-4. Konfigurationsänderung publizieren (rebuild configuration)
+4. Konfigurationsänderung publizieren ("Rebuild configuration")
 5. fiskaltrust.Middleware neu starten
 
 ### SCU befindet sich in einer anderen Cashbox
 
 1. Queue mit neuer SCU verbinden
-4. Konfigurationsänderung publizieren (rebuild configuration)
+4. Konfigurationsänderung publizieren ("Rebuild configuration")
 5. fiskaltrust.Middleware neu starten
 
 ## Queue ist bereits aktiv
@@ -57,7 +57,7 @@ Die oben genannten Belegtypen müssen vom KassenHersteller im POSSystem implemen
 ### SCU befindet sich in einer anderen Cashbox
 
 1. Die Queue mit der neuen SCU verbinden
-2. Konfigurationsänderung publizieren ("Rebuild configuration)"
+2. Konfigurationsänderung publizieren ("Rebuild configuration")
 3. fiskaltrust.Middleware neu starten
 4. Tagesabschlußbeleg (daily-closing) an die Queue senden, um die Daten der alten SCU zu sichern
 5. Beleg zur Initialisierung des Tauschs (initiate-switch-receipt) an die Queue senden
