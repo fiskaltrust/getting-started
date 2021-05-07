@@ -42,7 +42,7 @@ Um den Austausch der SCU vorzunehmen, gehen Sie wie folgt vor:
 
 1. Neue SCU der Cashbox hinzufügen (alte SCU nicht aus der Cashbox entfernen)
 2. Die Queue mit der neuen SCU verbinden
-3. Konfigurationsänderung publizieren ("Rebuild configuration)"
+3. Konfigurationsänderung publizieren ("Rebuild configuration")
 4. fiskaltrust.Middleware neu starten
 5. Tagesabschlußbeleg (daily-closing) an die Queue senden, um die Daten der alten SCU zu sichern
 6. Beleg zur Initialisierung des Tauschs (initiate-switch-receipt) an die Queue senden
