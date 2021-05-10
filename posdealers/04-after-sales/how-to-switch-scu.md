@@ -3,6 +3,8 @@ slug: /posdealers/get-started/after-sales/switch-scu
 title: 'How-To: SCU austauschen'
 ---
 
+You can find the english version of the scu switch guide [here](https://docs.fiskaltrust.cloud/docs/posdealers/rollout-doc/how-to/switch-scu).
+
 # How-To: SCU austauschen
 
 Diese Anleitung beschreibt, wie Sie in einer Cashbox die Zuordnung einer Queue zur verwendeten SCU mit einer neuen SCU austauschen. Das hier beschriebene Feature ist hilfreich für den Fall, dass Sie eine TSE austauschen möchten.
