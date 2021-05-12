@@ -7,7 +7,7 @@ title: Lead-Präsentation
 
 Sie können unsere Lead-Präsentation für Kassenhersteller in folgenden Sprachen herunterladen:
 
-- [English](presentations/lead-presentation-creator-en.pptx)
-- [German](presentations/lead-presentation-creator-de.pptx)
+- [English](../../../poscreators/presentations/lead-presentation-creator-en.pptx)
+- [German](../../../poscreators/presentations/lead-presentation-creator-de.pptx)
 
 
