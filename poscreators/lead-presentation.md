@@ -1,13 +1,11 @@
 ---
 slug: /poscreators/get-started/lead-presentation
-title: Lead presentation
+title: Technical onboarding presentation
 ---
 
-# Lead presentation for POS Creators
+# Technical onboarding presentation for POS Creators
 
-You can download our PowerPoint lead presentation for POS Creators in the following languages:
+You can download our presentation used for technical onboarding during our bi-weekly webinars for POS Creators:
 
-- [English](presentations/lead-presentation-creator-en.pptx)
-- [German](presentations/lead-presentation-creator-de.pptx)
-
+- [Technical onboarding presentation for POS creators](presentations/technical-onboarding-creator-en.pptx)
 
