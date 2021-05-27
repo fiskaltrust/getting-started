@@ -30,8 +30,8 @@ Sollten Sie die Präsentationen noch nicht gesehen oder nicht mehr gegenwärtig 
 
 | Video                                                    | Unterlagen                                                   | Zielgruppe                                                   |
 | -----------------------------------------------------------| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [Vorbereitung Sales Rollout](https://youtu.be/jHTIfADClQ4)| [Präsentation im~.pdf-Format](presentations/sales/media/posdealer-sales-rollout.pdf)| Shareholder, Owner<br/>Account-manager/Sales |
-|[Vorbereitung technisches Rollout](https://youtu.be/9Lr7uxNORvc) | [Präsentation im~.pdf-Format](presentations/tech/media/posdealer-tech-rollout.pdf) | Technicians on site<br/>Support |
+| [Vorbereitung Sales Rollout](https://youtu.be/jHTIfADClQ4)| [PowerPoint Präsentation](presentations/sales/media/posdealer-sales-rollout.pptx)| Shareholder, Owner<br/>Account-manager/Sales |
+|[Vorbereitung technisches Rollout](https://youtu.be/9Lr7uxNORvc) | [PowerPoint Präsentation](presentations/tech/media/posdealer-tech-rollout.pptx) | Technicians on site<br/>Support |
 
 ## Kontakt
 
