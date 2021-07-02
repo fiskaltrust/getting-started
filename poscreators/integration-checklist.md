@@ -8,7 +8,7 @@ Integrating the Middleware involves several steps, from calling the API the righ
 
 | Country | Check | Description | Docs |
 | :----: | ----- | ----------- | --------- |
-| ![All markets](images/flag-eu.png) | **Sandbox Portal account created** | An account in the sandbox Portal was created to create test Middleware instances. | [Getting Started Guide](README.md) |
+| ![All markets](images/flag-eu.png) | **Sandbox Portal account created** | An account and a PosSystem (ftPosSystemId) in the sandbox Portal was created to create test Middleware instances. | [Getting Started Guide](README.md) |
 | ![All markets](images/flag-eu.png) | **Production Portal account created & partner contract signed** | An account in the production Portal was created to manage POS Systems, and the PosCreator partner contract was signed. | [Getting Started Guide](README.md) |
 | ![All markets](images/flag-eu.png) | **API methods are implemented** | The POS System can call the Middleware's API via the protocol of choice | [Function structures](https://docs.fiskaltrust.cloud/docs/poscreators/middleware-doc/general/function-structures) & <br /> [Communication protocols](https://docs.fiskaltrust.cloud/docs/poscreators/middleware-doc/general/communication) |
 | ![All markets](images/flag-eu.png) | **Business sequences are implemented** | The required business cases (i.e. the `ftReceiptCases`, `ftChargeItemCases` and `ftPayItemCases`) are implemented. Depending on the POS system, not all cases might be required (only those which make sense for your use case). | [Receipt cases](https://docs.fiskaltrust.cloud/docs/poscreators/middleware-doc/general/reference-tables) & relevant country-specific appendices |
