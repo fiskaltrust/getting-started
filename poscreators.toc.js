@@ -6,6 +6,7 @@ module.exports = {
             items: [
                 'getting-started/poscreators/README',
                 'getting-started/poscreators/middleware-integration',
+                'getting-started/poscreators/integration-checklist',
                 'getting-started/poscreators/lead-presentation',
             ]
         },
