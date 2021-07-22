@@ -6,7 +6,7 @@ title: Voraussetzungen für den Einkauf
 # Voraussetzungen für den Einkauf und Weiterverkauf von Produkten in Deutschland
 
 - Registrierung im [deutschen Produktiv-Portal](https://portal.fiskaltrust.de/)
-- Aktivierte Kassenhändler Rolle inkl. unterzeichnetem Kooperationsvertrag als Kassenhändler ("PosDealer") für den Weiterverkauf von fiskaltrust Produkten
+- Aktivierte KassenHändler Rolle inkl. unterzeichnetem Kooperationsvertrag als KassenHändler ("PosDealer") für den Weiterverkauf von fiskaltrust Produkten
 - Genehmigtes Kreditlimit für den geplanten Einkauf
 - Optional, aber empfohlen ab einem geplanten Einkauf und Weiterverkauf von mehr als 10 Sorglos Produkt-Bundles: Rahmenvertrag für Mengenrabatte
 

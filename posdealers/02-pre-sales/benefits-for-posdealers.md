@@ -1,13 +1,13 @@
 ---
 slug: /posdealers/get-started/pre-sales/benefits-for-posdealers
-title: Vorteile für Kassenhändler
+title: Vorteile für KassenHändler
 ---
 
-# Vorteile für Kassenhändler
+# Vorteile für KassenHändler
 
 ## Inhalt des Dokumentes
 
-Dieser Dokument enthält Informationen, wie fiskaltrust für Kassenhändler Wert erzeugt und wie der Kassenhändler von den Produkten von fiskaltrust profitieren kann.
+Dieser Dokument enthält Informationen, wie fiskaltrust für KassenHändler Wert erzeugt und wie der KassenHändler von den Produkten von fiskaltrust profitieren kann.
 
 ### Zielgruppen
 
@@ -16,13 +16,13 @@ Dieser Dokument enthält Informationen, wie fiskaltrust für Kassenhändler Wert
 
 ## Ziel dieses Dokumentes
 
-Der Inhalt dient neuen Kassenhändlern zur Orientierung bzw. hilft Kassenhändler bei der Entscheidung, Produkte von fiskaltrust an die eigenen Kunden weiterzuverkaufen.
+Der Inhalt dient neuen KassenHändlern zur Orientierung bzw. hilft KassenHändler bei der Entscheidung, Produkte von fiskaltrust an die eigenen Kunden weiterzuverkaufen.
 
 ## Produkte
 
 ### Gesetzeskonforme Fiskalisierung aus einer Hand
 
-fiskaltrust tritt als All-in-one-Fiskalisierungs-Lösungspartner auf. Das bedeutet, Kassenhändler haben einen zentralen Ansprechpartner bezüglich Fiskalisierung, als auch für den Bezug von Lösungen.
+fiskaltrust tritt als All-in-one-Fiskalisierungs-Lösungspartner auf. Das bedeutet, KassenHändler haben einen zentralen Ansprechpartner bezüglich Fiskalisierung, als auch für den Bezug von Lösungen.
 
 ### "As-a-Service"
 
@@ -40,25 +40,25 @@ Eine der größten Vorteile von fiskaltrust ist die Flexibilität. Die Lösungen
 
 ### Gewinnung neuer Kundensegmente
 
-Mit den Produkten zur gesetzeskonformen Fiskalisierung als Servicemodell können Kassenhändler ihr eigenes Produktangebot erweitern und neue Kundensegmente ansprechen und gewinnen.
+Mit den Produkten zur gesetzeskonformen Fiskalisierung als Servicemodell können KassenHändler ihr eigenes Produktangebot erweitern und neue Kundensegmente ansprechen und gewinnen.
 
 ### Integration in das eigene Produktportfolio
 
-Das Produktangebot von fiskaltrust ist so gestaltet, dass es einen Weiterverkauf der Produkte ausserhalb von fiskaltrust, sowie eine Konfiguration&Installation ohne Mitwirkung des Kassenbetreibers ermöglicht. Dadurch können Kassenhändler die Produkte von fiskaltrust vollständig in ihr eigenes Angebot bündeln und inkludieren. 
+Das Produktangebot von fiskaltrust ist so gestaltet, dass es einen Weiterverkauf der Produkte ausserhalb von fiskaltrust, sowie eine Konfiguration&Installation ohne Mitwirkung des KassenBetreibers ermöglicht. Dadurch können KassenHändler die Produkte von fiskaltrust vollständig in ihr eigenes Angebot bündeln und inkludieren. 
 
 ### Jährlich wiederkehrende Einnahmen
 
-Das fiskaltrust.Sorglos Produktbundle ist ein Abo-Modell. Das bedeutet, dass gegen einen Pauschalbetrag eine gesetzeskonforme Fiskalisierung erfolgt und die Kosten somit für den Endverbraucher jährlich kalkulierbar sind. Zusätzlich bedeutet dies auch für den Kassenhändler jährlich kalkulierbare, wiederkehrende Einnahmen.
+Das fiskaltrust.Sorglos Produktbundle ist ein Abo-Modell. Das bedeutet, dass gegen einen Pauschalbetrag eine gesetzeskonforme Fiskalisierung erfolgt und die Kosten somit für den Endverbraucher jährlich kalkulierbar sind. Zusätzlich bedeutet dies auch für den KassenHändler jährlich kalkulierbare, wiederkehrende Einnahmen.
 
 ### Attraktive Mengenrabatte
 
-Mit Hilfe von Rahmenverträgen sind bereits Mengenrabatte ab einer Abnahmemenge von 10 Produkt-Bundles möglich. Die großzügige Rabattstaffelung bei höheren Abnahmemengen ermöglicht Kassenhändler eine optimale Betreuung und Beratung der Kunden um größtmögliche Kundenzufriedenheit zu erzielen.
+Mit Hilfe von Rahmenverträgen sind bereits Mengenrabatte ab einer Abnahmemenge von 10 Produkt-Bundles möglich. Die großzügige Rabattstaffelung bei höheren Abnahmemengen ermöglicht KassenHändler eine optimale Betreuung und Beratung der Kunden um größtmögliche Kundenzufriedenheit zu erzielen.
 
 ## Portal
 
 ### Einkauf von Produkten
 
-Das Portal als zentrales Werkzeug für den Kassenhändler ermöglicht den Einkauf von digitalen als auch physischen Produkten, wie TSEs verschiedener Hersteller, an einem Ort.
+Das fiskaltrust.Portal als zentrales Werkzeug für den KassenHändler ermöglicht den Einkauf von digitalen als auch physischen Produkten, wie TSEs verschiedener Hersteller, an einem Ort.
 
 ### hoher Automatisierungsgrad
 

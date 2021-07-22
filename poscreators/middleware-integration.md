@@ -5,17 +5,17 @@ title: Middleware integration
 
 # Middleware Integration
 
-This document describes the steps required to configure and test the integration of the ft.Middleware with your POS system.
+This document describes the steps required to configure and test the integration of the ft.Middleware with your POS-System.
 
-[1. Cashbox Configuration](#1-cashbox-configuration)
+[1. CashBox Configuration](#1-cashbox-configuration)
 [2. Middleware Launcher](#2-middleware-launcher)
 [3. Middleware Communication](#3-middleware-communication)
 
-## 1 Cashbox Configuration
+## 1 CashBox Configuration
 
 ### 1.1 Overview
 
-As a POS creator, your first goal is to be able to send requests to our free ft.Middleware from your POS system, and to be able to test your integration. The following sections summarize the configuration of a Cashbox and its components, which are required to achieve this goal.  
+As a POS creator, your first goal is to be able to send requests to our free ft.Middleware from your POS-System, and to be able to test your integration. The following sections summarize the configuration of a CashBox and its components, which are required to achieve this goal.  
 
 **Note:** All steps which are described in this document are for testing purposes, and, unless specifically stated otherwise, should be carried out in the Sandbox instance of the fiskaltrust.Portal.
 
@@ -25,13 +25,13 @@ A so-called CashBox is a configuration container that connects (links) the confi
 
 ![cashbox](images/middleware.png)
 
-The steps for the creation and configuration of the Cashbox are covered in the [further part of this document](#25-cashbox-creation).
+The steps for the creation and configuration of the CashBox are covered in the [further part of this document](#25-cashbox-creation).
 
 ### 1.3 Configuration of the SCU
 
 The SCU (Signature Creation Unit) is a component of the ft.Middleware, which is responsible for the communication with the TSE. Depending on which TSE you plan to use, the SCU will have to be configured accordingly.
 
-To create an SCU configuration in the ft.Portal, select the menu item ``Configuration -> Signature creation unit`` and press the button "Create". Enter a short description (name) and select the package for your TSE at "Package Name". Then select the latest version under "Package Version" and press the button "Save".
+To create an SCU configuration in the fiskaltrust.Portal, select the menu item ``Configuration -> Signature creation unit`` and press the button "Create". Enter a short description (name) and select the package for your TSE at "Package Name". Then select the latest version under "Package Version" and press the button "Save".
 
 ![cashbox-config-scu-creation-01](images/cashbox-config-scu-creation-01.png)
 
@@ -47,7 +47,7 @@ In the upper section of this form you can specify how the SCU can reach the sele
 
 - **Epson** - Under revision.
 
-- **Fiskaly TSE** - Enter the TSS ID, API key and the "Secret" key. One can obtain them for testing purposes from the official fiskaly website and fiskaly dashboard. Alternatively, you can purchase a free trial Fiskaly TSE in our sandbox portal shop. This will automatically create a SCU with the corresponding data for you. Note: Select the outlet in the shop before you add the test Fiskaly TSE to your shopping cart (outlet drop-down in the upper area).
+- **fiskaly Cloud-TSE** - Enter the TSS ID, API key and the "Secret" key. One can obtain them for testing purposes from the official fiskaly website and fiskaly dashboard. Alternatively, you can purchase a free trial fiskaly Cloud-TSE in our sandbox fiskaltrust.Portal shop. This will automatically create a SCU with the corresponding data for you. Note: Select the outlet in the shop before you add the test fiskaly Cloud-TSE to your shopping cart (outlet drop-down in the upper area).
 
 To specify the communication endpoint for reaching the SCU, select, for example, the "gRPC" by pressing the corresponding button in the lower part of the form . The input field is filled in automatically and can be edited further if necessary. For the goal of this document, the automatically filled gRPC endpoint is sufficient.
 
@@ -57,9 +57,9 @@ Save the configuration of your SCU after entering the required data. In the next
 
 ### 1.4 Configuration of the Queue
 
-The Queue is a component of the fiskaltrust.Middleware which collects the received data from the POS System and is responsible for creating the request chain. It is the component of the fiskaltrust.Middleware with which your POS system communicates. You send your data to it and receive signatures (and other data) back.
+The Queue is a component of the fiskaltrust.Middleware which collects the received data from the POS-System and is responsible for creating the request chain. It is the component of the fiskaltrust.Middleware with which your POS-System communicates. You send your data to it and receive signatures (and other data) back.
 
-Under the menu item ``Configuration -> Queue`` you will find the button for creating a new Queue. Press this button to get to the input form. Enter a short description (name) and the CashboxIdentification. The CashboxIdentification will later be used by the SCU as clientID for the TSE. It is therefore important to enter a ["printable string"](https://en.wikipedia.org/wiki/PrintableString) with a maximum of 20 characters and that the **used value is unique**.
+Under the menu item ``Configuration -> Queue`` you will find the button for creating a new Queue. Press this button to get to the input form. Enter a short description (name) and the CashBoxIdentification. The CashBoxIdentification will later be used by the SCU as clientID for the TSE. It is therefore important to enter a ["printable string"](https://en.wikipedia.org/wiki/PrintableString) with a maximum of 20 characters and that the **used value is unique**.
 
 ![cashbox-config-queue-creation-01](images/cashbox-config-queue-creation-01.png)
 
@@ -81,7 +81,7 @@ Next, we want to put the configuration of the Queue and SCU into the created Cas
 
 ![icon-list-config](images/icon-list-config.png)
 
-Here you can now select the previously created Queue and SCU using the corresponding checkboxes and then save your selection. In the following we will connect the Queue with the SCU. To do this, expand the list entry of the new Cashbox in the overview of the CashBoxes. The detail area shows the contained configurations. Two buttons are assigned to the Queue configuration on the right. Press the first button (box and arrow symbol) to assign the new SCU to the Queue.
+Here you can now select the previously created Queue and SCU using the corresponding checkboxes and then save your selection. In the following we will connect the Queue with the SCU. To do this, expand the list entry of the new CashBox in the overview of the CashBoxes. The detail area shows the contained configurations. Two buttons are assigned to the Queue configuration on the right. Press the first button (box and arrow symbol) to assign the new SCU to the Queue.
 
 ![icon-box-and-arrow](images/icon-box-and-arrow.png)
 
@@ -91,7 +91,7 @@ A popup appears in which you can select the SCU. After assigning and saving we a
 
 ## 2. Middleware Launcher
 
-The ft.Middleware Launcher starts the required services on the local machine, and exposes the endpoint configured for the Queue to the communication with your POS System.
+The ft.Middleware Launcher starts the required services on the local machine, and exposes the endpoint configured for the Queue to the communication with your POS-System.
 
 ### 2.1 Downloading the launcher
 
@@ -115,7 +115,7 @@ The launcher must be started in the Administrator mode. You can start the launch
 
 - To prevent folder access issues during the start of the Launcher, it's best to extract the files to a "neutral" location, e.g. ``C:\Launcher\``. Starting the Launcher from one of the current user's folders may result in ``Access denied`` error.
 - To prevent system permission issues when starting the Launcher, it's best to start the command prompt as Administrator, navigate to the folder containing Launcher's files, and start it from there.
-- In case of a failed launch due to the port being used by another process, you may be required to change the port of the Queue's endpoint. In such case you'll have to rebuild the Cashbox, download the Launcher again, and then retry the start it. If that fails a system restart may help.
+- In case of a failed launch due to the port being used by another process, you may be required to change the port of the Queue's endpoint. In such case you'll have to rebuild the CashBox, download the Launcher again, and then retry the start it. If that fails a system restart may help.
 
 ## 3. Middleware Communication
 
@@ -127,9 +127,9 @@ After starting the launcher, the local middleware is available. Next, we will in
 
 Once the Postman collection loads, it must still be configured to send requests to the previously started local middleware. To do this, select the "fiskaltrust Middleware" collection, go to "Edit", and select the "Variables" tab. Here we find the two variables that are important for us: ``base_url`` and ``cashbox_id``. We need to modify those values as follows:
 
-- **base_url** - here we specify the URL of the previously created http(REST) endpoint of the Queue. The required value can be found in the portal under the menu item ``Configuration -> Queue`` . Expand the detail area of the list entry of our Queue and copy the URL from there. For example ``rest://localhost:1500/f84bf516-a17b-4432-afa6-8c1050e2854d`` . Now replace ``rest://`` with ``http://`` in the URL to get the value for the Postman ``base_url`` variable. Example ``http://localhost:1500/f84bf516-a17b-4432-afa6-8c1050e2854d``. Now enter this value in Postmman for the variable ``base_url`` as ``CURRENT_VALUE``.
+- **base_url** - here we specify the URL of the previously created http(REST) endpoint of the Queue. The required value can be found in the fiskaltrust.Portal under the menu item ``Configuration -> Queue`` . Expand the detail area of the list entry of our Queue and copy the URL from there. For example ``rest://localhost:1500/f84bf516-a17b-4432-afa6-8c1050e2854d`` . Now replace ``rest://`` with ``http://`` in the URL to get the value for the Postman ``base_url`` variable. Example ``http://localhost:1500/f84bf516-a17b-4432-afa6-8c1050e2854d``. Now enter this value in Postmman for the variable ``base_url`` as ``CURRENT_VALUE``.
 
-- **cashbox_id** - here we must specify the ID of our configuration container (not to be confused with the CashboxIdentification). We can find the value for the ``cashbox_id`` in the portal under the menu item ``Configuration -> CashBox``. To do so, expand the detail area of the list entry of our CashBox and copy the value of **CashBoxId**. For example ``90682627-f707-45ab-84df-f855118bba97``. Now enter this as the value of the variable ``cashbox_id`` under ``CURRENT_VALUE`` in the Postman collection.
+- **cashbox_id** - here we must specify the ID of our configuration container (not to be confused with the CashBoxIdentification). We can find the value for the ``cashbox_id`` in the fiskaltrust.Portal under the menu item ``Configuration -> CashBox``. To do so, expand the detail area of the list entry of our CashBox and copy the value of **CashBoxId**. For example ``90682627-f707-45ab-84df-f855118bba97``. Now enter this as the value of the variable ``cashbox_id`` under ``CURRENT_VALUE`` in the Postman collection.
 
 Press ``Update`` to save your changes.
 

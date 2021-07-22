@@ -5,7 +5,7 @@ title: Entitlements
 
 # Entitlements ("Ansprüche")
 
-Entitlements („Ansprüche“) sind Gutscheine für bestimmte Produkte und stellen für Kassenhändler die Möglichkeit dar, bestmögliche Mengenrabatte zu erzielen:
+Entitlements („Ansprüche“) sind Gutscheine für bestimmte Produkte und stellen für KassenHändler die Möglichkeit dar, bestmögliche Mengenrabatte zu erzielen:
 
 
 
@@ -13,9 +13,9 @@ Entitlements („Ansprüche“) sind Gutscheine für bestimmte Produkte und stel
 
 
 
-In der oben abgebildeten Grafik wird beschrieben, wie ein Kassenhändler in drei getrennten Schritten für jeweils drei seiner Kunden Produkte bei fiskaltrust einkaufen kann, um diese an seine Kunden (Kassenbetreiber) weiterzuverkaufen.
+In der oben abgebildeten Grafik wird beschrieben, wie ein KassenHändler in drei getrennten Schritten für jeweils drei seiner Kunden Produkte bei fiskaltrust einkaufen kann, um diese an seine Kunden (KassenBetreiber) weiterzuverkaufen.
 
-Im ersten Vorgang erhält der Händler einen Mengenrabatt von 25% für den Einkauf von 200 Produkt-Einheiten, die in Form von Ansprüchen seinem Kundenkonto im Portal gutgeschrieben werden. Durch den Weiterverkauf dieser Ansprüche an seinen Kunden "Betreiber A" im Rahmen des empfohlenen Verkaufspreises erwirtschaftet der Händler eine Marge von 19.900 €/Jahr.
+Im ersten Vorgang erhält der Händler einen Mengenrabatt von 25% für den Einkauf von 200 Produkt-Einheiten, die in Form von Ansprüchen seinem Kundenkonto im fiskaltrust.Portal gutgeschrieben werden. Durch den Weiterverkauf dieser Ansprüche an seinen Kunden "Betreiber A" im Rahmen des empfohlenen Verkaufspreises erwirtschaftet der Händler eine Marge von 19.900 €/Jahr.
 
 Der Händler kauft als nächstes für einen weiteren Kunden (Betreiber B) 500 Ansprüche ein und erhält darauf einen Mengenrabatt von 30%. Der Händler erwitschaftet durch den Weiterverkauf der 500 Ansprüche eine Marge von 59.700 €/Jahr.
 
@@ -25,7 +25,7 @@ Am Ende erwirtschaftet der Händler eine Marge von 119.400 €/Jahr als Summe de
 
 ## Bündelung von Ansprüchen für höheren Mengenrabatt
 
-Bündelt der Kassenhändler die Einkäufe im oben dargestellten Beispiel mit Hilfe eines Rahmenvertrags, erhält er bessere Einkaufskonditionen. Dies wird in der nächsten Abbildung dargestellt:
+Bündelt der KassenHändler die Einkäufe im oben dargestellten Beispiel mit Hilfe eines Rahmenvertrags, erhält er bessere Einkaufskonditionen. Dies wird in der nächsten Abbildung dargestellt:
 
 
 
@@ -41,6 +41,6 @@ Der Weiterverkauf der Produkte erfolgt analog zum ersten Beispiel. Die Marge bet
 
 ## Voraussetzungen für den Bezug von Mengenrabatten
 
-[Registrierung als Kassenhändler im Portal](purchase-requirements.md)
+[Registrierung als KassenHändler im Portal](purchase-requirements.md)
 
 [Abschluss von Rahmenverträgen](01-purchase-agreement.md)

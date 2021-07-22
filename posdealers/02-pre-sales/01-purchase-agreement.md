@@ -7,15 +7,15 @@ title: Abschluss eines Rahmenvertrags
 
 ## Ziel & Inhalt des Dokumentes
 
-Schritt für Schritt Anleitung für den Abschluss eines Rahmenvertrags von  Kassenhändlern mit fiskaltrust.
+Schritt für Schritt Anleitung für den Abschluss eines Rahmenvertrags von  KassenHändlern mit fiskaltrust.
 
 ## Allgemeine Information
 
-Einen fiskaltrust Rahmenvertrag für Kassenhändler empfehlen wir, wenn Sie als Kassenhändler planen, mehr als zehn Produkt-Bundles einzukaufen und weiterzuverkaufen.
+Einen fiskaltrust Rahmenvertrag für KassenHändler empfehlen wir, wenn Sie als KassenHändler planen, mehr als zehn Produkt-Bundles einzukaufen und weiterzuverkaufen.
 
 ## Voraussetzungen
 
-- [Unterzeichnete Kooperationsvereinbarung als Kassenhändler](purchase-requirements.md)
+- [Unterzeichnete Kooperationsvereinbarung als KassenHändler](purchase-requirements.md)
 - **Abgeschlossene Einkaufsplanung**
   - [Produkte und Produkt-Bundles](../01-products/README.md)
   - [Rollout-Planung](https://docs.fiskaltrust.cloud/de/docs/posdealers/rollout-doc/middleware#rollout-szenarien) 

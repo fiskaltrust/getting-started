@@ -7,7 +7,7 @@ title: Händlereinkaufsprodukte beziehen
 
 ## Überblick
 
-Einen Überblick über den gesamten Prozess, beginnend von der Registrierung im Portal als Kassenhändler, über den Kauf von Entitlements, bis hin zum Einladungsmanagement von Kassenbetreibern sowie dem abschließendem Rollout finden sie hier als pdf Download:
+Einen Überblick über den gesamten Prozess, beginnend von der Registrierung im fiskaltrust.Portal als KassenHändler, über den Kauf von Entitlements, bis hin zum Einladungsmanagement von KassenBetreibern sowie dem abschließendem Rollout finden sie hier als pdf Download:
 
 [Entitlement Flow (pdf)](media/entitlement-flow-overview.pdf)
 
@@ -23,8 +23,8 @@ siehe [Allgemeine Voraussetzungen für den Einkauf von Produkten](purchase-requi
 
 ### Schritt 1: Wahl der Händlereinkaufs-Produkte
 
-- Wählen Sie im Portal im Menüpunkt "Shop &rarr; Products" Ihre gewünschten Händlereinkaufs-Produkte, und legen Sie diese in den Warenkorb, oder
-- wählen Sie im Portal im Menüpunkt  "Shop &rarr; Quotes" ein für Sie erstelltes Angebot aus, und legen Sie diese in den Warenkorb
+- Wählen Sie im fiskaltrust.Portal im Menüpunkt "Shop &rarr; Products" Ihre gewünschten Händlereinkaufs-Produkte, und legen Sie diese in den Warenkorb, oder
+- wählen Sie im fiskaltrust.Portal im Menüpunkt  "Shop &rarr; Quotes" ein für Sie erstelltes Angebot aus, und legen Sie diese in den Warenkorb
 
 ### Schritt 2: Checkout
 

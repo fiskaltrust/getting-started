@@ -1,7 +1,7 @@
 <div align="center">
 <img alt="fiskaltrust" src="./images/fiskaltrust-icon.png" width="450" />
 <br/>
-<strong>Compliance-as-a-Service for POSSystems</strong>
+<strong>Compliance-as-a-Service for POS-Systems</strong>
 <br/>
 <strong>Compliance-as-a-Service für KassenSysteme</strong>
 <br/>
@@ -17,7 +17,7 @@
 
 ## English
 
-This repository is home to the **Getting started documentation** of fiskaltrust. It supports POSCreators (cash register manufacturers) and POSDealers (cash register dealers) in getting to know and using the fiskaltrust products. 
+This repository is home to the **Getting started documentation** of fiskaltrust. It supports PosCreators (cash register manufacturers) and PosDealers (cash register dealers) in getting to know and using the fiskaltrust products. 
 
 * [to the contents in English](introduction.md)
 
