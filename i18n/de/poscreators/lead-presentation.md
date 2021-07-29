@@ -7,5 +7,5 @@ title: Technische Onboarding-Präsentation
 
 Sie können unsere Technische Onboarding-Präsentation, welche in unserem Webinar für Kassenhersteller verwendet wird, in englischer Sprache herunterladen:
 
-- [Technical onboarding presentation for POS creators](../../../poscreators/presentations/technical-onboarding-creator-en.pptx)
+- [Technical onboarding presentation for POS creators](presentations/technical-onboarding-creator-en.pptx)
 
