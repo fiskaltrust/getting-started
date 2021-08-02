@@ -108,7 +108,7 @@ In der oben gennanten Postman Collection befinden sich viele weitere Beispiele f
 
 - Deutsche fiskaltrust Website: [https://fiskaltrust.de](https://fiskaltrust.de/)
 - fiskaltrust.Docs: [https://docs.fiskaltrust.cloud](https://docs.fiskaltrust.cloud/)
-- FAQ: [ fiskaltrust.Docs - faq](https://docs.fiskaltrust.cloud/doc/faq/qna/market-de.html) und [Github faq repo](https://github.com/fiskaltrust/faq) zum Anlegen von Issues (Fragen).
+- FAQ: [fiskaltrust.Docs - faq](https://docs.fiskaltrust.cloud/de/docs/faq/germany) und [Github faq repo](https://github.com/fiskaltrust/faq) zum Anlegen von Issues (Fragen).
 - fiskaltrust Gihub repos: [https://github.com/fiskaltrust](https://github.com/fiskaltrust)
 - fiskaltrust Videos: [Youtube Channel](https://www.youtube.com/channel/UCmMlqO4L3AzkEhh6WYA8BJg)
 
