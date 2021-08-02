@@ -213,7 +213,7 @@ Nachfolgend wird beschrieben, welche Rolle bezüglich der Verwaltung der Stammda
 
 ## Aktualisierung von Stammdaten
 
-Geänderte Stamm- oder Benutzerdaten stehen nach dem Speichern im fiskaltrust.Portal sofort zur Verfügung. Für die weitere Verarbeitung geänderter Werte bis hin zu Exporten sind weiter Rebuild, Neustart und Kassenabschluss notwendig. Auch Änderungen der [<kbd>POS-Systeme</kbd>](https://portal.fiskaltrust.de/POS-System) beim KassenHersteller erfordern einen Kassenabschluss.
+Geänderte Stamm- oder Benutzerdaten stehen nach dem Speichern im fiskaltrust.Portal sofort zur Verfügung. Für die weitere Verarbeitung geänderter Werte bis hin zu Exporten sind weiter Rebuild, Neustart und Kassenabschluss notwendig. Auch Änderungen der [<kbd>POS-Systeme</kbd>](https://portal.fiskaltrust.de/POSSystem) beim KassenHersteller erfordern einen Kassenabschluss.
 
 ### Aktualisierungen bereit stellen
 
