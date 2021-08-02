@@ -97,7 +97,7 @@ You should help the POS Dealer to automate the rollout process as much as possib
 
 ## 4. Complex Business Case Analysis
 
-Each industry may have several specific and complex business cases which require a special handling in terms of requests sent to the fiskaltrust.Middleware. If you require assistance establishing the proper handling of such complex business cases in the implementation of your POS-System, please write us an email to our PosCreatorsupport mailbox at <a href="mailto:support@fiskaltrust.de">support@fiskaltrust.de</a>, and one of our experts will be happy to assist you.
+Each industry may have several specific and complex business cases which require a special handling in terms of requests sent to the fiskaltrust.Middleware. If you require assistance establishing the proper handling of such complex business cases in the implementation of your POS-System, please write us an email to our PosCreator support mailbox at <a href="mailto:support@fiskaltrust.de">support@fiskaltrust.de</a>, and one of our experts will be happy to assist you.
 
 ## 5. Pilot Installation
 
