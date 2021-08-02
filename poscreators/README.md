@@ -56,7 +56,7 @@ The registration steps on both, the sandbox and the live portal, are identical. 
 
 ### 1.3 Company data and cooperation agreement
 
-As soon as you have registered in the portal, a form for selecting your role will be displayed. Select the option " PosCreator " and sign our cooperation agreement by entering your name in the input field. If you are also a POS dealer, please select that role as well.
+As soon as you have registered in the portal, a form for selecting your role will be displayed. Select the option " PosCreator " and sign our cooperation agreement by entering your name in the input field. If you are also a PosDealer, please select that role as well.
 
 By registering in the live fiskaltrust.Portal and digitally signing our cooperation agreement, you are now entitled to access our free support for setup questions and onboarding. You can reach our Support Team at <a href="mailto:support@fiskaltrust.de">support@fiskaltrust.de</a>.
 
@@ -64,20 +64,20 @@ By registering in the live fiskaltrust.Portal and digitally signing our cooperat
 
 There are several steps which must be followed to successfully integrate your solution with fiskaltrust.Middleware. Those steps include the CashBox Configuration, using the Middleware Launcher, and testing of the communication. Please check our [fiskaltrust.Middleware document](middleware-integration.md) for detailed information about this process.
 
-## 3. POS Dealer Onboarding
+## 3. PosDealer Onboarding
 
-Once you were able to test the integration and successfully establish a communication with the fiskaltrust.Middleware by sending simple requests and receiving correct expected responses, you are now ready to start engaging your POS Dealers into discussion about the details of the specific implementation of your POS-System, and agree on the suitable rollout scenarios.
+Once you were able to test the integration and successfully establish a communication with the fiskaltrust.Middleware by sending simple requests and receiving correct expected responses, you are now ready to start engaging your PosDealers into discussion about the details of the specific implementation of your POS-System, and agree on the suitable rollout scenarios.
 
-It is important to involve you POS Dealers as early as possible, because they have to perform the following steps, among others, before they can roullout the fiskaltrust.Middleware to the PosOperators:
+It is important to involve your PosDealers as early as possible, because they have to perform the following steps, among others, before they can roullout the fiskaltrust.Middleware to the PosOperators:
 1. Register in the fiskalttrust.Portal and there digitally sign a cooperation agreement with fiskaltrust.
 2. Depending on the circumstances, request and sign framework agreements for the purchase of products with fiskaltrust.
 3. Invite the PosOperators to the fiskaltrust.Portal so that they can sign the usage agreement for the fiskaltrust.Middleware.
-4. Request access rights to the PosOperator's fiskaltrust.Account so that the POS Dealer can redeem and activate the product entitlements purchased from fiskaltrust
-5. Request access rights to the PosOperator's fiskaltrust.Account so that the POS Dealer can configure the fiskaltrust.Middleware instance to be installed on behalf of the operator.
-6. For the correct DSFInV-K export the information of the POS-System needs to be connected by the POS Dealer with the master data of the PosOperator.
+4. Request access rights to the PosOperator's fiskaltrust.Account so that the PosDealer can redeem and activate the product entitlements purchased from fiskaltrust
+5. Request access rights to the PosOperator's fiskaltrust.Account so that the PosDealer can configure the fiskaltrust.Middleware instance to be installed on behalf of the operator.
+6. For the correct DSFInV-K export the information of the POS-System needs to be connected by the PosDealer with the master data of the PosOperator.
 7. Technical planning and preparation for rollout together with the POS Creator.
 
-These steps can be very time consuming. Therefore, we strongly recommend that you **inform your POS Dealers as early as possible and especially invite them to register in the fiskaltrust.Portal**.
+These steps can be very time consuming. Therefore, we strongly recommend that you **inform your PosDealers as early as possible and especially invite them to register in the fiskaltrust.Portal**.
 
 ### 3.1 POS Dealer fiskaltrust.Portal Invitation Process
 
@@ -101,19 +101,19 @@ Each industry may have several specific and complex business cases which require
 
 ## 5. Pilot Installation
 
-Once the rollout strategy has been selected and the approach to automation of the rollout (e.g. templating) has been agreed, it's time for you and the POS Dealer to test it with selected PosOperator(s). Such pilot installation(s) should provide you with sufficient feedback, to allow early identification of problems and their possible resolutions, before handing over to the POS Dealer for mass rollout to multiple PosOperators.
+Once the rollout strategy has been selected and the approach to automation of the rollout (e.g. templating) has been agreed, it's time for you and the PosDealer to test it with selected PosOperator(s). Such pilot installation(s) should provide you with sufficient feedback, to allow early identification of problems and their possible resolutions, before handing over to the PosDealer for mass rollout to multiple PosOperators.
 
 ## 6. Handover for Rollout
 
-Once all previous stages have been completed, all preparations are done, the communication with fiskaltrust.Middleware works, the rollout strategy has been agreed, and the pilot installation(s) have been successfully executed, you are now ready to handover for rollout to your POS Dealers.
-The goal of this stage is about reaching an agreement with the POS Dealers that they are ready to start the rollout to the PosOperators.
+Once all previous stages have been completed, all preparations are done, the communication with fiskaltrust.Middleware works, the rollout strategy has been agreed, and the pilot installation(s) have been successfully executed, you are now ready to handover for rollout to your PosDealers.
+The goal of this stage is about reaching an agreement with the PosDealers that they are ready to start the rollout to the PosOperators.
 
 ## Further sources of information
 
 - German fiskaltrust website: [https://fiskaltrust.de](https://fiskaltrust.de/)
--  fiskaltrust.DocumentationPortal: [https://docs.fiskaltrust.cloud](https://docs.fiskaltrust.cloud/)
-- FAQ: [ fiskaltrust.DocumentationPortal  - faq](https://docs.fiskaltrust.cloud/doc/faq/qna/market-de.html) and [Github faq repo](https://github.com/fiskaltrust/faq) for creating issues (questions).
-- fiskaltrust gihub repos: [https://github.com/fiskaltrust](https://github.com/fiskaltrust)
+- fiskaltrust.Docs: [https://docs.fiskaltrust.cloud](https://docs.fiskaltrust.cloud/)
+- FAQ: [fiskaltrust.Docs - faq](https://docs.fiskaltrust.cloud/doc/faq/qna/market-de.html) and [Github faq repo](https://github.com/fiskaltrust/faq) for creating issues (questions).
+- fiskaltrust Github repositories: [https://github.com/fiskaltrust](https://github.com/fiskaltrust)
 - fiskaltrust videos: [Youtube Channel](https://www.youtube.com/channel/UCmMlqO4L3AzkEhh6WYA8BJg)
-- [POS Creator technical onboarding presentation](presentations/technical-onboarding-creator-en.pptx)
+- [PosCreator technical onboarding presentation](presentations/technical-onboarding-creator-en.pptx)
 - PosCreator fiskaltrust.Middleware Webinar Recording on [fiskaltrust YouTube Channel](https://www.youtube.com/watch?v=mq1hHL8ezOg)
