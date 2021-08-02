@@ -6,7 +6,7 @@ The fiskaltrust.Middleware takes care of the communication with the TSE and prep
 
 The fiskaltrust.Middleware runs as an independent service on the cash register of the PosOperator and must therefore be rolled out there by the PosDealer.
 
-Furthermore, fiskaltrust offers add-on products (based on the fiskaltrust.Middleware) as well as individual products (independent of the fiskaltrust.Middleware) for PosOperators. These products are sold and rolled out to PosOperators exclusively through our PosDealer partners. These products include archiving products, automated reports to the tax office, technical security equipment (TSE) from various manufacturers as well as fiskaltrust.CarefreeBundle s with and without a TSE-As-A-Service. 
+Furthermore, fiskaltrust offers add-on products (based on the fiskaltrust.Middleware) as well as individual products (independent of the fiskaltrust.Middleware) for PosOperators. These products are sold and rolled out to PosOperators exclusively through our PosDealer partners. These products include archiving products, automated reports to the tax office, technical security equipment (TSE) from various manufacturers as well as fiskaltrust.CarefreeBundles with and without a TSE-as-a-Service.
 
 ### The different roles of the fiskaltrust partners
 
