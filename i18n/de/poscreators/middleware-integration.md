@@ -55,7 +55,7 @@ Speichern Sie die Konfiguration Ihrer SCU nach Eingabe der benötigten Daten. Im
 
 Die Queue ist eine Komponente der fiskaltrust.Middleware, sammelt die Belege und ist für das Erzeugen der Belegkette verantwortlich. Des Weiteren ist die Queue die Komponente der fiskaltrust.Middleware mit der das Kassensystem kommuniziert. An die Queue senden Sie Ihre Belegdaten und erhalten Signaturen und andere Daten zurück.
 
-Unter dem Menüpunkt  ``Konfiguration -> Queue``  befindet sich der Button zum Anlegen einer neuen Queue. Durücken Sie den Button, um zur Eingabemaske zu gelangen. Geben Sie hier eine kurze Beschreibung (Bezeichnung) und die CashBoxIdentification ein. Die CashBoxIdentifikation wird später von der SCU als ClientId für die TSE verwendet. Deshalb ist es wichtig hierbei einen "printable string" mit maximal 20 Zeichen einzugeben, und dass der **verwendete Wert eindeutig ist**. Nach dem Speichern erscheint eine Maske in der Sie den Kommunikationsendpunkt angeben können. Über diesen werden wir später die Queue erreichen. Für unser Beispiel nehmen wir http(REST) indem wir den dazugehörigen Button drücken. Nach dem Speichern sind wir mit der Konfiguration der Queue fertig und können im nächsten Schritt die CashBox, also unseren Konfigurationscontainer anlegen.
+Unter dem Menüpunkt  ``Konfiguration -> Queue``  befindet sich der Button zum Anlegen einer neuen Queue. Durücken Sie den Button, um zur Eingabemaske zu gelangen. Geben Sie hier eine kurze Beschreibung (Bezeichnung) und die CashBoxIdentification ein. Die CashBoxIdentification wird später von der SCU als ClientId für die TSE verwendet. Deshalb ist es wichtig hierbei einen "printable string" mit maximal 20 Zeichen einzugeben, und dass der **verwendete Wert eindeutig ist**. Nach dem Speichern erscheint eine Maske in der Sie den Kommunikationsendpunkt angeben können. Über diesen werden wir später die Queue erreichen. Für unser Beispiel nehmen wir http(REST) indem wir den dazugehörigen Button drücken. Nach dem Speichern sind wir mit der Konfiguration der Queue fertig und können im nächsten Schritt die CashBox, also unseren Konfigurationscontainer anlegen.
 
 ### CashBox anlegen, Queue und SCU verbinden
 
@@ -107,7 +107,7 @@ In der oben gennanten Postman Collection befinden sich viele weitere Beispiele f
 ## Weiterführende Informationsquellen
 
 - Deutsche fiskaltrust Website: [https://fiskaltrust.de](https://fiskaltrust.de/)
-- fiskaltrust Dokumentations-Plattform: [https://docs.fiskaltrust.cloud](https://docs.fiskaltrust.cloud/)
+- fiskaltrust.Docs: [https://docs.fiskaltrust.cloud](https://docs.fiskaltrust.cloud/)
 - FAQ: [ fiskaltrust.DocumentationPortal  - faq](https://docs.fiskaltrust.cloud/doc/faq/qna/market-de.html) und [Github faq repo](https://github.com/fiskaltrust/faq) zum Anlegen von Issues (Fragen).
 - fiskaltrust Gihub repos: [https://github.com/fiskaltrust](https://github.com/fiskaltrust)
 - fiskaltrust Videos: [Youtube Channel](https://www.youtube.com/channel/UCmMlqO4L3AzkEhh6WYA8BJg)
