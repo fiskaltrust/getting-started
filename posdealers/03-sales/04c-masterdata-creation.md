@@ -72,7 +72,7 @@ Stammdaten der einzelnen eingesetzten Kassen.
 
 #### Bereitstellung der Kassen-Daten
 
-Die Definition des PosSystems durch Hersteller erfolgt im Portal unter `PosSystems`, die Kasse referenziert auf ein PosSystem im sign-request mit Hilfe der [ftPosSystemId](https://docs.fiskaltrust.cloud/api/fiskaltrust.ifPOS.v1.ReceiptRequest.html#fiskaltrust_ifPOS_v1_ReceiptRequest_ftPosSystemId). **Ohne eine Referenzierung auf das PosSystem fehlen die Informationen der Kasse in den (archivierten) Belegdaten und den darauf basierenden Exporten (z.B. DSFinV-K Export)**.
+Die Definition des PosSystems durch Hersteller erfolgt im Portal unter `PosSystems`, die Kasse referenziert auf ein PosSystem im sign-request mit Hilfe der [ftPosSystemId](https://docs.fiskaltrust.cloud/de/docs/poscreators/middleware-doc/general/data-structures#receipt-request). **Ohne eine Referenzierung auf das PosSystem fehlen die Informationen der Kasse in den (archivierten) Belegdaten und den darauf basierenden Exporten (z.B. DSFinV-K Export)**.
 
 Die Kassenseriennummer wird bei der Erstellung einer Queue durch den Händler über das Feld `CashBox Identification `definiert.
 
@@ -117,8 +117,14 @@ Nachfolgend wird beschreiben, welche Rolle bezüglich der Verwaltung der Stammda
 
 ## Aktualisierung und Wirksamkeit der Stammdaten
 
-Eine Aktualisierung der oben beschriebenen Daten wird erst wirksam, wenn die betroffenen Cashboxen des KassenBetreibers neu gebuildet ("rebuild configuration") und die launcher an den Kassen neu gestartet wurden, damit diese die neuen Cashbox-Konfigurationen laden und anwenden können.
+Eine Aktualisierung der oben beschriebenen Daten wird erst wirksam, wenn die betroffenen CashBoxen des KassenBetreibers aktualisiert (Klick auf den [Button] (https://portal-sandbox.fiskaltrust.de/CashBox) "rebuild configuration") und die ft.Middleware (Launcher) an den Kassen neu gestartet wurden. Dadurch wird diese neue Cashbox-Konfiguration geladen und angewandt. 
+Wurden Stammdaten (z.B. [Firmen-Stammdaten] (https://portal-sandbox.fiskaltrust.de/AccountProfile/Edit), [Outlet] (https://portal-sandbox.fiskaltrust.de/AccountOutlet) oder [Agenturen] (https://portal-sandbox.fiskaltrust.de/AccountAgency), [POS-Systeme beim KassenHersteller] (https://portal-sandbox.fiskaltrust.de/POSSystem), etc.) verändert, werden die neuen Stammdaten in der ft.MW immer nur nach einem Kassenabschluss aktualisiert und z.B. immer erst nach diesem Zeitpunkt in einem Export verwendet.
 
-### vertiefende Informationen
+Zusammengefasst bedeutet das, dass folgende Schritte durchgeführt werden müssen:
+1. Die gewünschten Änderungen der Stammdaten (z.B. [Firmen-Stammdaten] (https://portal-sandbox.fiskaltrust.de/AccountProfile/Edit), [Outlet] (https://portal-sandbox.fiskaltrust.de/AccountOutlet) oder [Agenturen] (https://portal-sandbox.fiskaltrust.de/AccountAgency), [POS-Systeme beim KassenHersteller] (https://portal-sandbox.fiskaltrust.de/POSSystem), etc.) werden im Portal durchgeführt.
+2. Die Cashbox wird aktualisiert (Klick auf den [Button] (https://portal-sandbox.fiskaltrust.de/CashBox) "rebuild configuration") und die ft.Middleware danach neu gestartet. Damit wird die lokale Konfiguration durch den Launcher aktualisiert. **Danach werden die neuen Stammdaten nicht sofort gültig, sondern werden bis zum nächsten daily-, monthly- oder yearly-closing ignoriert.**
+3.  Ein Kassenabschlussbeleg, Monatsbeleg oder ein Jahresbeleg mit Stammdatenupdate wird von der Kasse an die fiskaltrust.Middleware gesendet. Ihr Kassenhersteller sollte diese Funktion über einen sogenannten Daily, Monthly oder Yearly-Closing-Beleg mit dem _ftReceiptCaseFlag_ [`0x0000000008000000`](https://docs.fiskaltrust.cloud/docs/poscreators/middleware-doc/germany/reference-tables/ftreceiptcase#ftreceiptcaseflag) ins Kassensystem integrieren. Die Aktualisierung der Stammdaten wird erst nach diesem Beleg aktiviert und die neuen Daten erscheinen damit erst im DSFinV-K-Export des nächsten, darauffolgenden Abschlusses.
+
+### Vertiefende Informationen
 
  [Massenupdate von Cashboxen](../04-after-sales/how-to-mass-update-configuration.md) 

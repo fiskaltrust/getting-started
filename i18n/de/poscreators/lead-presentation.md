@@ -1,13 +1,11 @@
 ---
 slug: /poscreators/get-started/lead-presentation
-title: Lead-Präsentation
+title: Technische Onboarding-Präsentation
 ---
 
-# Lead-Präsentation für Kassenhersteller
+# Technische Onboarding-Präsentation für Kassenhersteller
 
-Sie können unsere Lead-Präsentation für Kassenhersteller in folgenden Sprachen herunterladen:
+Sie können unsere Technische Onboarding-Präsentation, welche in unserem Webinar für Kassenhersteller verwendet wird, in englischer Sprache herunterladen:
 
-- [English](presentations/lead-presentation-creator-en.pptx)
-- [German](presentations/lead-presentation-creator-de.pptx)
-
+- [Technical onboarding presentation for POS creators](presentations/technical-onboarding-creator-en.pptx)
 
