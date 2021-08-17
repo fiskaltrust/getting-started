@@ -7,5 +7,5 @@ title: 'Troubleshooting: Middleware'
 
 ## Verfügbarkeit 
 
-Für Middleware welche beim Kassenbetreiber bzw. im Verfügungsbereich des Kassenbetreibers oder bei Drittparteien betrieben wird, kann fiskaltrust keine Verfügbarkeitsgarantien abgeben. 
+Für Middleware welche beim KassenBetreiber bzw. im Verfügungsbereich des KassenBetreibers oder bei Drittparteien betrieben wird, kann fiskaltrust keine Verfügbarkeitsgarantien abgeben. 
 

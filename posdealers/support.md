@@ -3,7 +3,7 @@ slug: /posdealers/get-started/support
 title: Kundensupport
 ---
 
-# Kundensupport für Kassenhändler
+# Kundensupport für KassenHändler
 
 ## Entgegennahme der Anfragen in elektronischer Form 
 Bei Fragen, Anregungen oder Supportfällen steht Ihnen das Support Team von fiskaltrust gerne zur Verfügung:
@@ -22,9 +22,9 @@ Reguläre Supportzeiten sind Mo-Do 9:00 – 16:00.
 
 Anfragen und Störungen werden in drei verschiedene Klassen eingeteilt. 
 
-- Die höchste Klasse (1) betrifft üblicherweise direkte Ablaufstörungen mit Auswirkung auf die Belegerstellung und den direkten Geschäftsbetrieb beim Kassenbetreiber bzw. Nutzungsvertragspartners. 
-- Die nächsthöhere Klasse (2) betrifft üblicherweise Ablaufstörungen ohne direkte Auswirkungen auf die Belegerstellung bzw. den Geschäftsbetrieb beim Kassenbetreiber bzw. Nutzungsvertragspartner. 
-- Die niedrigste Klasse (3) betrifft alle Anfragen die unkritisch sind in Relation zur Belegerstellung und bezüglich des Geschäftsbetriebs beim Kassenbetreiber bzw. Nutzungsvertragspartners. 
+- Die höchste Klasse (1) betrifft üblicherweise direkte Ablaufstörungen mit Auswirkung auf die Belegerstellung und den direkten Geschäftsbetrieb beim KassenBetreiber bzw. Nutzungsvertragspartners. 
+- Die nächsthöhere Klasse (2) betrifft üblicherweise Ablaufstörungen ohne direkte Auswirkungen auf die Belegerstellung bzw. den Geschäftsbetrieb beim KassenBetreiber bzw. Nutzungsvertragspartner. 
+- Die niedrigste Klasse (3) betrifft alle Anfragen die unkritisch sind in Relation zur Belegerstellung und bezüglich des Geschäftsbetriebs beim KassenBetreiber bzw. Nutzungsvertragspartners. 
 
 Entsprechend der Einstufung nach Klasse wird von fiskaltrust eine Reaktionszeit und ein Zeitrahmen für ein Statusupdate eingeräumt. Die angegebenen Zeiten laufen nur während der regulären Supportzeiten. 
 
@@ -33,18 +33,18 @@ fiskaltrust leitet komplexe Anfragen an Support-Einheiten weiter, welche in verb
 
 Es werden drei verschiedene nachgelagerte Support-Einheiten betrieben. 
 
-- Der spezialisierte Support für Kassenhersteller bearbeitet beispielsweise Anfragen im Bereich von Middleware Anbindung und Implementierungsunterstützung von verschiedenen Geschäftsfällen.
-- Der spezialisierte Support für Kassenhändler bearbeitet beispielsweise Anfragen im Bereich von Middleware Roll-Out und Kassenbetreiber Onboarding. 
+- Der spezialisierte Support für KassenHersteller bearbeitet beispielsweise Anfragen im Bereich von Middleware Anbindung und Implementierungsunterstützung von verschiedenen Geschäftsfällen.
+- Der spezialisierte Support für KassenHändler bearbeitet beispielsweise Anfragen im Bereich von Middleware Roll-Out und KassenBetreiber Onboarding. 
 - Der Support durch das Site Reliability Engineering bearbeitet beispielsweise Anfragen im Bereich des Plattformbetriebs. 
 
 ## Weiterführende Informationen
 
-fiskaltrust stellt Kassenhändlern folgende weitere Mittel zur Unterstützung ihrer Tätigkeit zu Verfügung:
+fiskaltrust stellt KassenHändlern folgende weitere Mittel zur Unterstützung ihrer Tätigkeit zu Verfügung:
 
-| Supportmittel                                                | Inhalte                                                      |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **[Rollout Dokumentation](https://docs.fiskaltrust.cloud/de/docs/posdealers/rollout-doc)** | Detailierte Beschreibung des Rolloutprozess mit dazugehörigen Anleitungen und Troubleshooting.|
-| **[FAQ](https://docs.fiskaltrust.cloud/doc/faq/qna/market-de.html#german-language)** | Antworten zu häufigen Fragen, die aktuell im Support anfallen. Die Inhalte unterliegen können einer permanenten Veränderung unterliegen und haben oft einen eher kurzen Lebenszyklus (z.B. regionale Änderungen hinsichtlich der Nichtbeanstandungsregelung; Bedienungsprobleme mit einem Tool, welches basierend auf diesen Rückmeldungen verbessert wird u.ä.) |
-| **[Produkt-Dokumentation für Kassenhändler](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/for-posdealers/README.html)** | Der Dokumentationsbereich speziell für Kassenhändler bietet alle Inhalte und Guidelines um Produkte von fiskaltrust einkaufen, weiter zu verkaufen und ausrollen bzw. vor Ort installieren zu können, sowie Hilfestellungen zur nachgelagerten Kundenbetreuung. |
-| **[Release Notes](https://docs.fiskaltrust.cloud/de/docs/release-notes)** | Zentraler Ort zur Information hinsichtlich Aktualisierungen und Neuerungen im Produkt- sowie Dokumentationsbereich von fiskaltrust |
+| Supportmittel                                                                                                                          | Inhalte                                                                                                                                                                                                                                                                                                                                                          |
+|----------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **[Rollout Dokumentation](https://docs.fiskaltrust.cloud/de/docs/posdealers/rollout-doc)**                                             | Detailierte Beschreibung des Rolloutprozess mit dazugehörigen Anleitungen und Troubleshooting.                                                                                                                                                                                                                                                                   |
+| **[FAQ](https://docs.fiskaltrust.cloud/doc/faq/qna/market-de.html#german-language)**                                                   | Antworten zu häufigen Fragen, die aktuell im Support anfallen. Die Inhalte unterliegen können einer permanenten Veränderung unterliegen und haben oft einen eher kurzen Lebenszyklus (z.B. regionale Änderungen hinsichtlich der Nichtbeanstandungsregelung; Bedienungsprobleme mit einem Tool, welches basierend auf diesen Rückmeldungen verbessert wird u.ä.) |
+| **[Produkt-Dokumentation für KassenHändler](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/for-posdealers/README.html)** | Der Dokumentationsbereich speziell für KassenHändler bietet alle Inhalte und Guidelines um Produkte von fiskaltrust einkaufen, weiter zu verkaufen und ausrollen bzw. vor Ort installieren zu können, sowie Hilfestellungen zur nachgelagerten Kundenbetreuung.                                                                                                  |
+| **[Release Notes](https://docs.fiskaltrust.cloud/de/docs/release-notes)**                                                              | Zentraler Ort zur Information hinsichtlich Aktualisierungen und Neuerungen im Produkt- sowie Dokumentationsbereich von fiskaltrust                                                                                                                                                                                                                               |
 

@@ -5,7 +5,7 @@ title: 'Troubleshooting: Hardware TSE Reklamation'
 
 # Vorgang bei Hardware-TSE- und Kartenleser-Reklamationen
 
-**Wenn ein Endkunde dem Kassenhändler mögliche Probleme mit einer Hardware-TSE oder einem Kartenleser meldet, sollten zuerst zur genauen Abklärung folgende Tests durchgeführt werden:**
+**Wenn ein Endkunde dem KassenHändler mögliche Probleme mit einer Hardware-TSE oder einem Kartenleser meldet, sollten zuerst zur genauen Abklärung folgende Tests durchgeführt werden:**
 
 - Wird im Betriebssystem ein Laufwerksbuchstabe für die TSE angezeigt? (siehe Beispiel) 
 
@@ -20,6 +20,6 @@ title: 'Troubleshooting: Hardware TSE Reklamation'
 
 **Bitte prüfen Sie all diese wesentlichen Punkte sorgfältig, um kostenpflichtige Rückweisungen zu vermeiden.**
 
-Falls keiner dieser Punkte das Problem behebt, ist vom Kassenhändler in Zusammenarbeit mit den Endkunden folgendes Formular auszufüllen und abzuschicken: 
+Falls keiner dieser Punkte das Problem behebt, ist vom KassenHändler in Zusammenarbeit mit den Endkunden folgendes Formular auszufüllen und abzuschicken: 
 
 https://link.fiskaltrust.cloud/tse-rma-request-de

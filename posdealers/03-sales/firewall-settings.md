@@ -20,7 +20,7 @@ Unter Linux kann kein net.pipe verwendet werden, weiters benötigt jeder Teil (S
 ### Die fiskaltrust.Sicherheitseinrichtung kommuniziert in folgenden Fällen mit dem Internet
 
 - Zum Ansprechen des Dienstes (SignatureCloud)
-- Zum Signieren (A-Trust Online, fiskaltrust.HSM, fiskaly TSE)
+- Zum Signieren (A-Trust Online, fiskaltrust.HSM, fiskaly Cloud-TSE)
 - Zur Prüfung der Konfiguration und zum Download der Pakete beim Online Launcher
 - Zum Upload der Daten in die fiskaltrust.Cloud
 
@@ -30,7 +30,7 @@ Eine aktuelle Liste finden Sie in unserer [Rollout Dokumentation](https://docs.f
 
 ## Zertifikate
 
-Die verwendeten Zertifikate stehen im fiskaltrust Portal unter "Werkzeuge -> Download" zum Download bereit.
+Die verwendeten Zertifikate stehen im fiskaltrust fiskaltrust.Portal unter "Werkzeuge -> Download" zum Download bereit.
 
 ## Troubleshooting
 
