@@ -152,11 +152,12 @@ Agenturen können im Account des KassenBetreibers unter [Firma] &rarr; [<kbd>Age
  | **Postleitzahl<sup>*</sup>** | Pflicht             |                                   |                    |                                                                                                     |
  | **Stadt<sup>*</sup>**        | Pflicht             |                                   |                    |                                                                                                     |
  | **Land**                     |                     |                                   |                    | Wählen Sie ein Land aus der Auswahlleiste, falls der bereits eingestellte Wert nicht passen sollte. |
- | **USt-IdNr<sup>**</sup>**    |                     |                                   |                    | Mindestens eines der Felder,<br /> **USt-IdNr** oder St-IdNr **muss** ausgefüllt werden.              |
+ | **USt-IdNr**<sup>**</sup>    |                     |                                   |                    | Mindestens eines der Felder,<br /> **USt-IdNr** oder St-IdNr **muss** ausgefüllt werden.              |
  | **St-IdNr<sup>**</sup>**     |                     |                                   |                    | Mindestens eines der Felder,<br /> USt-IdNr oder **St-IdNr** **muss** ausgefüllt werden.              |
 
 
 <sup>1</sup> = DSFinV-K/DFKA- Export - Taxonomie Version 2.1
+
 <sup>2</sup> = Finanzamtmeldung (vom Gesetzgeber noch nicht final definiert)
 
 
