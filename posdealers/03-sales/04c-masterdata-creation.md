@@ -226,7 +226,7 @@ Die Aktualisierung von Stamm- oder Benutzerdaten wird erst wirksam, nachdem weit
 
 ### Aktualisierung im Überblick
 
-1. KassenHändler oder Kassenbetreiber ändern im fiskaltrust.Portal Werte wie [<kbd>Stammdaten</kbd>](https://portal.fiskaltrust.de/AccountProfile/Edit), [<kbd>Standorte</kbd>](https://portal.fiskaltrust.de/AccountOutlet) oder [<kbd>Agenturen</kbd>](https://portal.fiskaltrust.de/AccountAgency).
+1. KassenHändler oder KassenBetreiber ändern im fiskaltrust.Portal Werte wie [<kbd>Stammdaten</kbd>](https://portal.fiskaltrust.de/AccountProfile/Edit), [<kbd>Standorte</kbd>](https://portal.fiskaltrust.de/AccountOutlet) oder [<kbd>Agenturen</kbd>](https://portal.fiskaltrust.de/AccountAgency).
 2. Die CashBox wird im fiskaltrust.Portal mit [<kbd>rebuild configuration</kbd>](https://portal.fiskaltrust.de/CashBox) aktualisiert.
 3. Die fiskaltrust.Middleware wird beim KassenSystem neu gestartet. Der Launcher aktualisiert die lokale Konfiguration. <br />Damit gelten die neuen Stammdaten, werden für Exporte aber **ignoriert bis zum nächsten Kassenabschluss.**
 4. Ein Tages-, Monats- oder Jahres-Abschluss-Beleg mit Stammdatenupdate wird von der Kasse an die fiskaltrust.Middleware gesendet. 
