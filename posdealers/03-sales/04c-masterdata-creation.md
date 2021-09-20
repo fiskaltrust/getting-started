@@ -5,7 +5,7 @@ title: Stammdaten eines KassenBetreibers
 
 # Stammdaten eines KassenBetreibers
 
-Dieses Dokument beschreibt Anforderungen an die Stammdaten eines KassenBetreibers wie Daten des Unternehmens (im weiteren Firma genannt) oder Benutzerdaten. Diese Daten müssen im fiskaltrust.Portal mindestens eingegeben, kontrolliert und gepflegt werden. Nur so sind Produkte und Features von fiskaltrust zu nutzen. Weiter gelingen nur mit korrekt eingegebenen Daten auch Exporte.<br />
+Dieses Dokument beschreibt Anforderungen an die Stammdaten eines KassenBetreibers wie Daten des Unternehmens (im weiteren Firmendaten genannt) oder Benutzerdaten. Diese Daten müssen im fiskaltrust.Portal eingegeben, kontrolliert und gepflegt werden. Nur so sind Produkte zu verwenden, Features von fiskaltrust zu nutzen und werden korrekte Unterlagen von KassenHändlern für KassenBetreiber erstellt. Weiter gelingen Dienstleistungen wie der Versand von Hardware an Outlets der KassenBetreiber nur mit korrekt eingegebenen Daten.<br />
 Daten, welche in diesem Dokument nicht aufgelistet sind:
 
 * werden von fiskaltrust entweder im Hintergrund automatisiert erzeugt 
@@ -13,28 +13,24 @@ Daten, welche in diesem Dokument nicht aufgelistet sind:
 * sind gesetzlich nicht gefordert, oder
 * sind optional und somit für die ordnungsgemäße Funktion nicht zwingend erforderlich. 
 
-Das Bereitstellen durch Anlegen oder Import wird beschrieben. Weiter, wer bzw. welche Rolle (KassenHersteller, KassenHändler, KassenBetreiber, Steuerberater) für die Erzeugung und Wartung dieser Daten verantwortlich ist. Ebenso wird die Aktualisierung von Daten erläutert.
+Das Bereitstellen von Firmendaten durch Anlegen oder Import wird beschrieben. Weiter, wer bzw. welche Rolle (KassenHersteller, KassenHändler, KassenBetreiber, Steuerberater) für die Erzeugung und Wartung dieser Daten verantwortlich ist. Ebenso wird die Prüfung und Aktualisierung von Firmendaten erläutert.
 
-## Firmendaten
+## Firmendaten im Überblick
 
-- [ ] KassenHändler laden KassenBetreiber im Rahmen des [Einladungsmanagements](https://docs.fiskaltrust.cloud/de/docs/posdealers/rollout-doc/invitation-management#einladungsmanagement) zur Anmeldung und Nutzung des fiskaltrust.Portals ein.
-- [ ] Nach dem [Anlegen oder dem Import der Daten der KassenBetreiber](#Firmendaten-bereit-stellen) können KassenHändler unter [<kbd>PosOperator</kbd>](https://portal.fiskaltrust.de/PosOperator/PosOperators) &rarr; <kbd>Einladungen</kbd> &rarr; <kbd>Bearbeiten</kbd> die Stammdaten der KassenBetreiber kontrollieren und ergänzen. Die KassenBetreiber können die Stammdaten unter [Firma]&rarr; [<kbd>Stammdaten</kbd>](https://portal.fiskaltrust.de/AccountProfile/Edit) nach der Erstanmeldung im fiskaltrust.Portal auch selbst ergänzen.
-- [ ] Spätestens **vor** dem ersten Einkauf durch KassenBetreiber oder KassenHändler **müssen** die Stammdaten korrekt und vollständig eingetragen sein. 
+* KassenHändler laden KassenBetreiber im Rahmen des Einladungsmanagements(https://docs.fiskaltrust.cloud/de/docs/posdealers/rollout-doc/invitation-management#einladungsmanagement) zur Anmeldung und Nutzung des fiskaltrust.Portals ein.
+* Nach dem Anlegen oder dem Import der Daten der KassenBetreiber(#Firmendaten-bereit-stellen) können KassenHändler unter `[PosOperator]` &rarr; `[Einladungen]` &rarr; `[Bearbeiten]` (https://portal.fiskaltrust.de/PosOperator/PosOperators) die Stammdaten der KassenBetreiber kontrollieren und ergänzen. Die KassenBetreiber können die Stammdaten unter `[Firma]` &rarr; `[Stammdaten]` (https://portal.fiskaltrust.de/AccountProfile/Edit) nach der Erstanmeldung im fiskaltrust.Portal auch selbst ergänzen.
+* Spätestens **vor** dem ersten Einkauf durch KassenBetreiber oder KassenHändler **müssen** die Stammdaten korrekt und vollständig eingetragen sein. 
 
- ![Stammdaten](media/fiskaltrustStammdaten.png "Stammdaten")
 
-- [ ] Beachten Sie im Account des KassenBetreibers (unter [Firma]&rarr; [
-    <kbd>Stammdaten</kbd>](https://portal.fiskaltrust.de/AccountProfile/Edit)) die [Datenprüfung](#Datenpruefung). Diese kann helfen, den Eintrag von (Firmen-)Name und Umsatzsteuer- Identifikationsnummer (USt-IdNr) bzw. Steuer-Identifikationsnummer (St-IdNr) zu prüfen.  
-
-### Daten der Firmen bereit stellen
+### Firmendaten bereit stellen
 
 | **Option**                                           | Beschreibung                                                                                                                                                                                                                                                                                                                                                                                                            | Rechtemanagement                                                                                                                                                                                    | **Vorteile**                                                                                                                                                                                                        | **Nachteile**                                                                                                                      |
 |------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
-| **manuelle Erstellung**                              | Die Daten werden manuell im fiskaltrust.Portal unter <kbd>PosOperator</kbd>  &rarr; <kbd>Einladung</kbd> &rarr;  <kbd>Hinzufügen</kbd> eingetragen.<br />Die Empfänger der E-Mail werden eingeladen, sich im fiskaltrust.Portal zu registrieren.                                                                                                                                                                        | <kbd>Schreiben/Lesen</kbd><br /><br />Die erforderlichen Berechtigungen werden durch den KassenBetreiber beim Akzeptieren der Einladung bestätigt.                                                  | Geringer Aufwand für KassenHändler bei einer kleinen Anzahl von KassenBetreibern                                                                                                                                    | Der KassenHändler kann den Rollout Prozess nicht weiterführen, solange die Einladungen vom KassenBetreiber nicht bestätigt wurden. |
-| **Import per CSV-Datei**                             | Die Daten werden mit einer CSV Datei importiert. Dazu steht unter <kbd>PosOperator</kbd> &rarr; <kbd>Einladungen</kbd> eine **Demo CSV-Datei** für die Masseneinladung von KassenBetreibern zur Verfügung. <br />Die Empfänger der E-Mail werden eingeladen, sich im fiskaltrust.Portal zu registrieren.                                                                                                                | <kbd>Schreiben/Lesen</kbd><br /><br />Die erforderlichen Berechtigungen werden durch den KassenBetreiber beim Akzeptieren der Einladung bestätigt.                                                  | Eine größere Anzahl an Betreiber wird in einem Schritt erstellt und ins fiskaltrust.Portal eingeladen.                                                                                                              | Der KassenHändler kann den Rollout Prozess nicht durchführen, wenn vom KassenBetreiber die Einladung nicht bestätigt wurden.       |
-| **zusätzliche Rolle: KassenHändler Auto-Invitation** | Im ersten Schritt holt sich der KassenHändler bei seinen KassenBetreibern das Einverständnis ein, in deren Namen im fiskaltrust.Portal tätig sein zu dürfen.<br />Die Daten werden mit einer CSV Datei importiert.<br />Die Empfänger der darin enthaltenen E-Mailadressen werden per E-Mail über den erfolgreichen Abschluss des Prozesses informiert und die Vertragsunterlagen werden zur Dokumentation übermittelt. | <kbd>Schreiben/Lesen</kbd> <br /> inkl. Vertragsabschluss<br /><br />Die erforderlichen Berechtigungen müssen vom KassenHändler **vorab** und **außerhalb** des fiskaltrust.Portals eingeholt werden. | Eine größere Anzahl an Betreiber wird in einem Schritt erstellt und ins fiskaltrust.Portal eingeladen.<br />Der Registrierungsprozess für Betreiber entfällt und stellt kein Hindernis für einen Rollout dar.<br /> |                                                                                                                                    |
+| **manuelle Erstellung**                              | Die Daten werden manuell im fiskaltrust.Portal unter `[PosOperator]`  &rarr; `[Einladung]` &rarr;  `[Hinzufügen]` eingetragen.<br />Die Empfänger der E-Mail werden eingeladen, sich im fiskaltrust.Portal zu registrieren.                                                                                                                                                                        | `[Schreiben/Lesen]`<br /><br />Die erforderlichen Berechtigungen werden durch den KassenBetreiber beim Akzeptieren der Einladung bestätigt.                                                  | Geringer Aufwand für KassenHändler bei einer kleinen Anzahl von KassenBetreibern                                                                                                                                    | Der KassenHändler kann den Rollout Prozess nicht weiterführen, solange die Einladungen vom KassenBetreiber nicht bestätigt wurden. |
+| **Import per CSV-Datei**                             | Die Daten werden mit einer CSV Datei importiert. Dazu steht unter `[PosOperator]` &rarr; `[Einladungen]` eine **Demo CSV-Datei** für die Masseneinladung von KassenBetreibern zur Verfügung. <br />Die Empfänger der E-Mail werden eingeladen, sich im fiskaltrust.Portal zu registrieren.                                                                                                                | `[Schreiben/Lesen]`<br /><br />Die erforderlichen Berechtigungen werden durch den KassenBetreiber beim Akzeptieren der Einladung bestätigt.                                                  | Eine größere Anzahl an Betreiber wird in einem Schritt erstellt und ins fiskaltrust.Portal eingeladen.                                                                                                              | Der KassenHändler kann den Rollout Prozess nicht durchführen, wenn vom KassenBetreiber die Einladung nicht bestätigt wurden.       |
+| **zusätzliche Rolle: KassenHändler Auto-Invitation** | Im ersten Schritt holt sich der KassenHändler bei seinen KassenBetreibern das Einverständnis ein, in deren Namen im fiskaltrust.Portal tätig sein zu dürfen.<br />Die Daten werden mit einer CSV Datei importiert.<br />Die Empfänger der darin enthaltenen E-Mailadressen werden per E-Mail über den erfolgreichen Abschluss des Prozesses informiert und die Vertragsunterlagen werden zur Dokumentation übermittelt. | `[Schreiben/Lesen]` <br /> inkl. Vertragsabschluss<br /><br />Die erforderlichen Berechtigungen müssen vom KassenHändler **vorab** und **außerhalb** des fiskaltrust.Portals eingeholt werden. | Eine größere Anzahl an Betreiber wird in einem Schritt erstellt und ins fiskaltrust.Portal eingeladen.<br />Der Registrierungsprozess für Betreiber entfällt und stellt kein Hindernis für einen Rollout dar.<br /> |                                                                                                                                    |
 
-### Firmendaten im Überblick
+### Firmendaten im Detail
 
 | Daten                        | Exporte<sup>1</sup>                                                                           | Finanzamt-<br />meldung<sup>2</sup> | fiskaltrust.Portal | Anmerkung                                                                                                                                                                                                                                                                                                        |
 |------------------------------|-----------------------------------------------------------------------------------------------|-----------------------------------|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -45,7 +41,7 @@ Das Bereitstellen durch Anlegen oder Import wird beschrieben. Weiter, wer bzw. w
 | **Postleitzahl<sup>*</sup>** | Pflicht                                                                                       |                                   | Pflicht            | Postleitzahl für Rechnungsanschrift                                                                                                                                                                                                                                                                              |
 | **Stadt<sup>*</sup>**        | Pflicht                                                                                       |                                   | Pflicht            | Ortsangabe für Rechnungsanschrift                                                                                                                                                                                                                                                                                |
 | **Land**                     | Pflicht                                                                                       |                                   | Pflicht            | Wählen Sie ein Land aus der Auswahlleiste, falls der bereits eingestellte Wert nicht passen sollte.                                                                                                                                                                                                              |
-| **E-Mail**                   |                                                                                               |                                   | Pflicht            | Die E-Mailadresse dient als Benutzername. Dieser kann nur bei [Benutzername] &rarr; <kbd>Benutzername ändern</kbd> geändert werden.<br /> Die E-Mailadresse wird weiter zum Versand von Auftragsbestätigungen und Rechnungen verwendet.<br /> Der Versand an unterschiedliche E-Mailadressen wird nicht unterstützt. |
+| **E-Mail**                   |                                                                                               |                                   | Pflicht            | Die E-Mailadresse dient als Benutzername. Dieser kann nur bei Benutzername &rarr; `[Benutzername ändern]` geändert werden.<br /> Die E-Mailadresse wird weiter zum Versand von Auftragsbestätigungen und Rechnungen verwendet.<br /> Der Versand an unterschiedliche E-Mailadressen wird nicht unterstützt. |
 | **Webseite**                 |                                                                                               |                                   |                    | Hier können Informationen zur Webseite des Accountinhabers eingegeben werden.                                                                                                                                                                                                                                    |
 | **Fax**                      |                                                                                               |                                   |                    | Hier kann der Faxanschluss des Accountinhabers eingegeben werden..                                                                                                                                                                                                                                               |
 | **Telefon**                  |                                                                                               |                                   |                    | Hier kann die Telefonnummer des Accountinhabers eingegeben werden..                                                                                                                                                                                                                                              |
@@ -55,16 +51,23 @@ Das Bereitstellen durch Anlegen oder Import wird beschrieben. Weiter, wer bzw. w
 <sup>1</sup> = DSFinV-K/DFKA- Export - Taxonomie Version 2.1
 <sup>2</sup> = Finanzamtmeldung (vom Gesetzgeber noch nicht final definiert)
 
-### Datenprüfung
-Für die Anmeldung Ihrer Kassen- und Aufzeichnungssysteme und zur korrekten Datenweitergabe sollte eine **Datenprüfung** erfolgreich durchgeführt werden. Diese prüft ab, ob der  bei **Name<sup>*</sup>** eingegebene Name der Firma exakt übereinstimmt mit dem Firmenwortlaut im Unternehmensregister (Deutschland) / Firmenbuch (Österreich) / SIREN (Frankreich). 
+### Firmendaten prüfen
+
+ ![Stammdaten](media/fiskaltrustStammdatenCheck.png "Stammdaten")
+Sie finden im Account des KassenBetreibers unter `[Firma]` &rarr; 
+    `[Stammdaten]` (https://portal.fiskaltrust.de/AccountProfile/Edit) zwei Prüfungsoptionen für die eingetragenen Daten.
+
+![Number 1](../../images/Numbers/1.png) Nach dem Import oder dem manuellen Eingeben und Speichern von Firmendaten werden die Angaben bei Adresse*, ggf. auch Adresse sowie Postleitzahl* und Stadt* geprüft. Sind diese eindeutig zuzuordnen, wird der Standort in der Karte rechts mit einem rotweißen Marker angezeigt. Wird nur Nordeuropa ohne einen Marker angezeigt, ändern Sie die Adressangaben, indem Sie zum Beispiel die Hausnummer in die zweite Zeile eintragen und die Daten erneut speichern. Sollte die Adresse sich nicht erfolgreich lokalisieren lassen, prüfen Sie die Angaben zum Standort.
+
+![Number 2](../../images/Numbers/2.png) Für die Anmeldung Ihrer Kassen- und Aufzeichnungssysteme und zur korrekten Datenweitergabe sollte eine **Datenprüfung** erfolgreich durchgeführt werden. Diese prüft ab, ob der  bei **Name<sup>*</sup>** eingegebene Name der Firma exakt übereinstimmt mit dem Firmenwortlaut im Unternehmensregister (Deutschland) / Firmenbuch (Österreich) / SIREN (Frankreich). 
 > Weiter wird entweder die **St.-ldNr.** oder die **USt-ldNr.** abgeglichen, weswegen auch eine von diesen beiden korrekt angegeben werden muss. Dabei erzeugen Leerstellen wie bei DE 123 456 789 Fehler bei der Prüfung. Richtig ist DE123456789.
 >  Bei Kapitalgesellschaften aus Deutschland scheitert die **Datenprüfung**. Bei diesen wird zwar die Identifikationsnummer (USt-Idnr.) geprüft und als korrekt zurück gemeldet. Aber beim Firmennamen wird kein Firmenname, sondern nur "---" zurückgemeldet. Als Workaround können Sie den Firmennamen vor der Prüfung durch drei Minus "---" ersetzen. Danach prüfen Sie die Umsatzsteuer-Identifikationsnummer (USt-Idnr.) erneut. Bei positiver Bestätigung den komplette Firmennamen wieder einsetzen und auf eine erneute Datenprüfung verzichten.
 
 ## Benutzerangaben
 
 
-- [ ] Nachdem [Anlegen oder dem Import der Daten der KassenBetreiber](#Firmendaten-bereit-stellen) können diese durch den KassenHändler unter [<kbd>PosOperator</kbd>](https://portal.fiskaltrust.de/PosOperator/PosOperators) &rarr; <kbd>Einladungen</kbd> &rarr; <kbd>Bearbeiten</kbd> kontrolliert und ergänzt werden. 
-- [ ] Die KassenBetreiber können nach der Erstanmeldung im fiskaltrust.Portal die Benutzerangaben unter [Benutzername]&rarr; [<kbd>Daten</kbd>](https://portal.fiskaltrust.de/ContactProfile/EditProfile) auch selbst bearbeiten. Die Pflichtangaben sind zur Nutzung des fiskaltrust.Portals notwendig, alle anderen Angaben optional. 
+* Nachdem Anlegen oder dem Import der Daten der KassenBetreiber(#Firmendaten-bereit-stellen) können diese durch den KassenHändler unter `[PosOperator]` &rarr; `[Einladungen]` &rarr; `[Bearbeiten]` (https://portal.fiskaltrust.de/PosOperator/PosOperators) kontrolliert und ergänzt werden. 
+* Die KassenBetreiber können nach der Erstanmeldung im fiskaltrust.Portal die Benutzerangaben unter `[Benutzername]` &rarr; `[Daten]` (https://portal.fiskaltrust.de/ContactProfile/EditProfile) auch selbst bearbeiten. Die Pflichtangaben sind zur Nutzung des fiskaltrust.Portals notwendig, alle anderen Angaben optional. 
 
 ### Daten der Benutzer bereit stellen
 
@@ -78,10 +81,10 @@ Mit dem [Anlegen oder dem Import der Daten der KassenBetreiber](#Firmendaten-ber
 | **Nachname<sup>*</sup>** |                     |                                   | Pflicht            |                                                                                                                                                                                                                                |
 | **Suffix**               |                     |                                   |                    |                                                                                                                                                                                                                                |
 | **Adresse...**           |                     |                                   | optional           |                                                                                                                                                                                                                                |
-| **E-Mail<sup>*</sup>**   |                     |                                   | Pflicht            | Die E-Mailadresse dient als Benutzername. <br />Dieser kann nur bei [Benutzername] &rarr; <kbd>Benutzername ändern</kbd> geändert werden.                                                                                        |
+| **E-Mail<sup>*</sup>**   |                     |                                   | Pflicht            | Die E-Mailadresse dient als Benutzername. <br />Dieser kann nur bei `[Benutzername]` &rarr; `[Benutzername ändern]` geändert werden.                                                                                        |
 | **Kontaktangaben...**    |                     |                                   | optional           |                                                                                                                                                                                                                                |
-| **Sprache**              |                     |                                   |                    | Die im fiskaltrust.Portal verwendete Sprache wird mit <kbd>Automatisch erkennen</kbd> aus den Systemeinstellungen übernommen. Die Sprache kann hier geändert werden, Änderungen werden nach dem <kbd>Speichern</kbd> wirksam.. |
-| **Zeitzone**             |                     |                                   |                    | Die im fiskaltrust.Portal verwendete Zeitzone wird mit <kbd>Detect</kbd> aus den Systemeinstellungen übernommen. Die Zeitzone kann hier geändert werden, Änderungen werden nach dem <kbd>Speichern</kbd> wirksam.              |
+| **Sprache**              |                     |                                   |                    | Die im fiskaltrust.Portal verwendete Sprache wird mit `[Automatisch erkennen]` aus den Systemeinstellungen übernommen. Die Sprache kann hier geändert werden, Änderungen werden nach dem `[Speichern]` wirksam.. |
+| **Zeitzone**             |                     |                                   |                    | Die im fiskaltrust.Portal verwendete Zeitzone wird mit `[Detect]` aus den Systemeinstellungen übernommen. Die Zeitzone kann hier geändert werden, Änderungen werden nach dem `[Speichern]` wirksam.              |
 
 
 <sup>1</sup> = DSFinV-K/DFKA- Export - Taxonomie Version 2.1
@@ -90,16 +93,16 @@ Mit dem [Anlegen oder dem Import der Daten der KassenBetreiber](#Firmendaten-ber
 
 ## Standort (Outlet)
 
-- [ ] KassenHändler oder KassenBetreiber legen im Account des KassenBetreibers Standorte an.
-- [ ] Die Angaben zu einzelnen Standorten sind im Account des KassenBetreibers unter [Firma] &rarr; [<kbd>Standorte</kbd>](https://portal.fiskaltrust.de/AccountOutlet) zu finden.
+* KassenHändler oder KassenBetreiber legen im Account des KassenBetreibers Standorte an.
+* Die Angaben zu einzelnen Standorten sind im Account des KassenBetreibers unter `[Firma]` &rarr; `[Standorte]` (https://portal.fiskaltrust.de/AccountOutlet) zu finden.
 
 ![Standorte](media/fiskaltrustStandorte.png "Standorte")
 
-- [ ] Spätestens **vor** dem ersten Einkauf durch KassenBetreiber oder KassenHändler mit Versand von Hardware an einen Standort  **müssen** die Angaben zum Standort korrekt und vollständig eingetragen sein. 
+* Spätestens **vor** dem ersten Einkauf durch KassenBetreiber oder KassenHändler mit Versand von Hardware an einen Standort  **müssen** die Angaben zum Standort korrekt und vollständig eingetragen sein. 
 
 ### Daten der Standorte bereit stellen
 
-Die Angaben zu einzelnen Standorten können im Account des KassenBetreibers unter [Firma] &rarr; [<kbd>Standorte</kbd>](https://portal.fiskaltrust.de/AccountOutlet) manuell angelegt werden. Für den Import mehrerer Standorte steht eine **Demo CSV-Datei** zur Verfügung.
+Die Angaben zu einzelnen Standorten können im Account des KassenBetreibers unter `[Firma]` &rarr; `[Standorte]` (https://portal.fiskaltrust.de/AccountOutlet) manuell angelegt werden. Für den Import mehrerer Standorte steht eine **Demo CSV-Datei** zur Verfügung.
 
 | Option              | Beschreibung                                                                                                                                                                                                                                       | Empfehlung                                              |
 |---------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
@@ -132,8 +135,8 @@ Die Angaben zu einzelnen Standorten können im Account des KassenBetreibers unte
 
 ## Agenturen 
 
-- [ ] Vertreiben KassenBetreiber Produkte "im Auftrag von" anderen Unternehmen, werden diese als **Agenturen** festgelegt.
-- [ ] Die Angaben zu Agenturen sind im Account des KassenBetreibers unter [Firma] &rarr; [<kbd>Agentur</kbd>](https://portal.fiskaltrust.de/AccountAgency) zu finden. 
+* Vertreiben KassenBetreiber Produkte "im Auftrag von" anderen Unternehmen, werden diese als **Agenturen** festgelegt.
+* Die Angaben zu Agenturen sind im Account des KassenBetreibers unter `[Firma]` &rarr; `[Agentur]` (https://portal.fiskaltrust.de/AccountAgency) zu finden. 
 
 ![Stammdaten](media/fiskaltrustAgencies.png "Agenturen")
 
@@ -141,7 +144,7 @@ Die Angaben zu einzelnen Standorten können im Account des KassenBetreibers unte
 
 ### Agentur-Daten bereit stellen
 
-Agenturen können im Account des KassenBetreibers unter [Firma] &rarr; [<kbd>Agenturen</kbd>](https://portal.fiskaltrust.de/AccountAgency) manuell angelegt werden.  <br />Mit der Schaltfläche <kbd>Bearbeiten</kbd> können diese auch nachträglich geändert werden.
+Agenturen können im Account des KassenBetreibers unter `[Firma]` &rarr; `[Agenturen]` (https://portal.fiskaltrust.de/AccountAgency) manuell angelegt werden.  <br />Mit der Schaltfläche `[Bearbeiten]` können diese auch nachträglich geändert werden.
 
 ### Agentur-Daten im Überblick
  | Daten                        | Exporte<sup>1</sup> | Finanzamt-<br />meldung<sup>2</sup> | fiskaltrust.Portal | Anmerkung                                                                                           |
@@ -163,11 +166,11 @@ Agenturen können im Account des KassenBetreibers unter [Firma] &rarr; [<kbd>Age
 
 ## KassenSysteme (POS-System)
 
-- [ ] KassenHersteller erstellen KassenSysteme im fiskaltrust.Portal unter [<kbd>KassenSysteme</kbd>](https://portal.fiskaltrust.de/POSSystem).
-- [ ] Jeder Beleg eines KassenSystem wird eindeutig signiert. Diese Signatur enthält unter anderem Typ und Softwareversion des KassenSystems.
-- [ ] Typ und Softwareversion des KassenSystems werden mit Hilfe der [ftPosSystemId](https://docs.fiskaltrust.cloud/de/docs/poscreators/middleware-doc/general/data-structures#receipt-request) im sign-request erfasst.
-- [ ] Die Kassenseriennummer wird bei der Erstellung einer Queue durch den KassenHändler über das Feld <kbd>CashBox Identification </kbd>definiert.
-- [ ] **Ohne diese Angaben zum KassenSystem sind die (archivierten) Belegdaten und die darauf basierenden Exporten (z.B. DSFinV-K Export)** unvollständig.
+* KassenHersteller erstellen KassenSysteme im fiskaltrust.Portal unter `[KassenSysteme]` (https://portal.fiskaltrust.de/POSSystem).
+* Jeder Beleg eines KassenSystem wird eindeutig signiert. Diese Signatur enthält unter anderem Typ und Softwareversion des KassenSystems.
+* Typ und Softwareversion des KassenSystems werden mit Hilfe der [ftPosSystemId](https://docs.fiskaltrust.cloud/de/docs/poscreators/middleware-doc/general/data-structures#receipt-request) im sign-request erfasst.
+* Die Kassenseriennummer wird bei der Erstellung einer Queue durch den KassenHändler über das Feld `[CashBox Identification ]`definiert.
+* **Ohne diese Angaben zum KassenSystem sind die (archivierten) Belegdaten und die darauf basierenden Exporten (z.B. DSFinV-K Export)** unvollständig.
 
 ![POSSystem](media/fiskaltrustPOS-System.png "Ansicht POSSystem für KasenHersteller")
 
@@ -177,9 +180,9 @@ Agenturen können im Account des KassenBetreibers unter [Firma] &rarr; [<kbd>Age
  | **Bezeichnung<sup>*</sup>**   |                     |                                   | Pflicht            |                                                                                                                                                                                |
  | **Marke<sup>*</sup>**         | Pflicht             |                                   |                    |                                                                                                                                                                                |
  | **Kassentyp<sup></sup>**      |                     |                                   |                    |                                                                                                                                                                                |
- | **Kassen-Seriennummer**       | Pflicht             |                                   |                    | Die <kbd>CashBox Identification</kbd>, welche bei der Erstellung einer Queue definiert wird, wird auch für die Kassenseriennummer verwendet und **muss daher eindeutig sein**. |
+ | **Kassen-Seriennummer**       | Pflicht             |                                   |                    | Die `CashBox Identification`, welche bei der Erstellung einer Queue definiert wird, wird auch für die Kassenseriennummer verwendet und **muss daher eindeutig sein**. |
  | **Terminal-ID**               | Pflicht             |                                   |                    | sign-request vom Hersteller                                                                                                                                                    |
- | **Terminal-Software Version** | Pflicht             |                                   |                    | Als <kbd>Major Software Version </kbd> wird die führende Ziffer der fiskaltrust.Middlewareversion verwendet, die der Erstellung des POS-Systems verwendet wurde.               |
+ | **Terminal-Software Version** | Pflicht             |                                   |                    | Als `Major Software Version` wird die führende Ziffer der fiskaltrust.Middlewareversion verwendet, die der Erstellung des POS-Systems verwendet wurde.               |
 
 <sup>1</sup> = DSFinV-K/DFKA- Export - Taxonomie Version 2.1
 <sup>2</sup> = Finanzamtmeldung (vom Gesetzgeber noch nicht final definiert)
@@ -208,29 +211,29 @@ Nachfolgend wird beschrieben, welche Rolle bezüglich der Verwaltung der Stammda
 | **Kasse**    | R + A            | R + A*        |                 | S** + C     | I             |
 | **Agentur**  |                  | S             | R + A           | C           | I             |
 
-*Gilt nur für die Kassenseriennummer - Die <kbd>CashBox Identification</kbd>, welche bei der Erstellung einer Queue durch den KassenHändler definiert wird (R + A), wird auch für die Kassenseriennummer verwendet.
+*Gilt nur für die Kassenseriennummer - Die `CashBox Identification`, welche bei der Erstellung einer Queue durch den KassenHändler definiert wird (R + A), wird auch für die Kassenseriennummer verwendet.
 
 **Weitere für den DSFINV-K benötigte Daten werden durch fiskaltrust automatisiert erzeugt und zur Verfügung gestellt.
 
 ## Aktualisierung von Stammdaten
 
-Geänderte Stamm- oder Benutzerdaten stehen nach dem Speichern im fiskaltrust.Portal sofort zur Verfügung. Für die weitere Verarbeitung geänderter Werte bis hin zu Exporten sind weiter Rebuild, Neustart und Kassenabschluss notwendig. Auch Änderungen der [<kbd>POS-Systeme</kbd>](https://portal.fiskaltrust.de/POSSystem) beim KassenHersteller erfordern einen Kassenabschluss.
+Geänderte Stamm- oder Benutzerdaten stehen nach dem Speichern im fiskaltrust.Portal sofort zur Verfügung. Für die weitere Verarbeitung geänderter Werte bis hin zu Exporten sind weiter Rebuild, Neustart und Kassenabschluss notwendig. Auch Änderungen der `POS-Systeme` (https://portal.fiskaltrust.de/POSSystem) beim KassenHersteller erfordern einen Kassenabschluss.
 
 ### Aktualisierungen bereit stellen
 
 Die Aktualisierung von Stamm- oder Benutzerdaten wird erst wirksam, nachdem weitere Bearbeitungsschritte durchgeführt wurden:
-- [ ] Stamm- oder Benutzerdaten im fiskaltrust.Portal ändern
-- [ ] Rebuild mit den betroffenen CashBoxen des KassenBetreibers
-- [ ] Neustart des Launchers für die fiskaltrust.Middleware
-- [ ] Kassenabschluss zur Aktualisierung der fiskaltrust.Middleware.
+* Stamm- oder Benutzerdaten im fiskaltrust.Portal ändern
+* Rebuild mit den betroffenen CashBoxen des KassenBetreibers
+* Neustart des Launchers für die fiskaltrust.Middleware
+* Kassenabschluss zur Aktualisierung der fiskaltrust.Middleware.
 
 ### Aktualisierung im Überblick
 
-1. KassenHändler oder KassenBetreiber ändern im fiskaltrust.Portal Werte wie [<kbd>Stammdaten</kbd>](https://portal.fiskaltrust.de/AccountProfile/Edit), [<kbd>Standorte</kbd>](https://portal.fiskaltrust.de/AccountOutlet) oder [<kbd>Agenturen</kbd>](https://portal.fiskaltrust.de/AccountAgency).
-2. Die CashBox wird im fiskaltrust.Portal mit [<kbd>rebuild configuration</kbd>](https://portal.fiskaltrust.de/CashBox) aktualisiert.
+1. KassenHändler oder KassenBetreiber ändern im fiskaltrust.Portal Werte wie `[Stammdaten]` (https://portal.fiskaltrust.de/AccountProfile/Edit), `[Standorte]` (https://portal.fiskaltrust.de/AccountOutlet) oder `[Agenturen]` (https://portal.fiskaltrust.de/AccountAgency).
+2. Die CashBox wird im fiskaltrust.Portal mit `[rebuild configuration]` (https://portal.fiskaltrust.de/CashBox) aktualisiert.
 3. Die fiskaltrust.Middleware wird beim KassenSystem neu gestartet. Der Launcher aktualisiert die lokale Konfiguration. <br />Damit gelten die neuen Stammdaten, werden für Exporte aber **ignoriert bis zum nächsten Kassenabschluss.**
 4. Ein Tages-, Monats- oder Jahres-Abschluss-Beleg mit Stammdatenupdate wird von der Kasse an die fiskaltrust.Middleware gesendet. 
->  Ihr KassenHersteller sollte diese Funktion über einen sogenannten Tages-, Monats- oder Jahres-Abschluss-Beleg mit dem _ftReceiptCaseFlag_ [<kbd>0x0000000008000000</kbd>](https://docs.fiskaltrust.cloud/docs/poscreators/middleware-doc/germany/reference-tables/ftreceiptcase#ftreceiptcaseflag) ins Kassensystem integrieren.
+>  Ihr KassenHersteller sollte diese Funktion über einen sogenannten Tages-, Monats- oder Jahres-Abschluss-Beleg mit dem _ftReceiptCaseFlag_ `[0x0000000008000000]` (https://docs.fiskaltrust.cloud/docs/poscreators/middleware-doc/germany/reference-tables/ftreceiptcase#ftreceiptcaseflag) ins Kassensystem integrieren.
  
 Die Aktualisierung der Stammdaten wird erst nach einem Kassenabschluss mit diesem Beleg übernommen. Die neuen Daten erscheinen im DSFinV-K-Export des nächsten, darauf folgenden Abschlusses.
 
