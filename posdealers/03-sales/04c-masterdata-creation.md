@@ -138,7 +138,7 @@ Die Angaben zu einzelnen Standorten können im Account des KassenBetreibers unte
 * Vertreiben KassenBetreiber Produkte "im Auftrag von" anderen Unternehmen, werden diese als **Agenturen** festgelegt.
 * Die Angaben zu Agenturen sind im Account des KassenBetreibers unter `[Firma]` &rarr; `[Agentur]` (https://portal.fiskaltrust.de/AccountAgency) zu finden. 
 
-!Stammdaten(media/fiskaltrustAgencies.png "Agenturen")
+![Stammdaten](media/fiskaltrustAgencies.png "Agenturen")
 
 
 
