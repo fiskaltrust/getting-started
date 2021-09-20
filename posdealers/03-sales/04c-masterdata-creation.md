@@ -96,7 +96,7 @@ Mit dem [Anlegen oder dem Import der Daten der KassenBetreiber](#Firmendaten-ber
 * KassenHändler oder KassenBetreiber legen im Account des KassenBetreibers Standorte an.
 * Die Angaben zu einzelnen Standorten sind im Account des KassenBetreibers unter `[Firma]` &rarr; `[Standorte]` (https://portal.fiskaltrust.de/AccountOutlet) zu finden.
 
-!Standorte(media/fiskaltrustStandorte.png "Standorte")
+![Standorte](media/fiskaltrustStandorte.png "Standorte")
 
 * Spätestens **vor** dem ersten Einkauf durch KassenBetreiber oder KassenHändler mit Versand von Hardware an einen Standort  **müssen** die Angaben zum Standort korrekt und vollständig eingetragen sein. 
 
