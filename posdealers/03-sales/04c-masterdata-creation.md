@@ -71,7 +71,7 @@ Sie finden im Account des KassenBetreibers unter `[Firma]` &rarr;
 
 ### Daten der Benutzer bereit stellen
 
-Mit dem Anlegen oder dem Import der Daten der KassenBetreiber(#Firmendaten-bereit-stellen) werden die Benutzerdaten festgelegt. Bei der Erstanmeldung der Benutzer dient die E-Mailadresse als Benutzername, ein Passwort wird vom KassenBetreiber selbst vergeben.
+Mit dem [Anlegen oder dem Import der Daten der KassenBetreiber](#Firmendaten-bereit-stellen) werden die Benutzerdaten festgelegt. Bei der Erstanmeldung der Benutzer dient die E-Mailadresse als Benutzername, ein Passwort wird vom KassenBetreiber selbst vergeben.
 ### Benutzerangaben im Überblick
 | Daten                    | Exporte<sup>1</sup> | Finanzamt-<br />meldung<sup>2</sup> | fiskaltrust.Portal | Anmerkung                                                                                                                                                                                                                      |
 |--------------------------|---------------------|-----------------------------------|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
