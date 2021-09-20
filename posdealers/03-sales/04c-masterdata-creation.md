@@ -172,7 +172,7 @@ Agenturen können im Account des KassenBetreibers unter `[Firma]` &rarr; `[Agent
 * Die Kassenseriennummer wird bei der Erstellung einer Queue durch den KassenHändler über das Feld `[CashBox Identification ]`definiert.
 * **Ohne diese Angaben zum KassenSystem sind die (archivierten) Belegdaten und die darauf basierenden Exporten (z.B. DSFinV-K Export)** unvollständig.
 
-!POSSystem(media/fiskaltrustPOS-System.png "Ansicht POSSystem für KasenHersteller")
+![POSSystem](media/fiskaltrustPOS-System.png "Ansicht POSSystem für KasenHersteller")
 
 ### KassenSystem im Überblick
  | Daten                         | Exporte<sup>1</sup> | Finanzamt-<br />meldung<sup>2</sup> | fiskaltrust.Portal | Anmerkung                                                                                                                                                                      |
