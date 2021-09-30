@@ -61,22 +61,18 @@ Der KassenBetreiber ist bereits im Fiskaltrust-Portal aktiv, hat den Fiskaltrust
 &nbsp;
 
 
-2. Der KassenHändler stimmt im Namen des KassenBetreibers dem Nutzungsvertrag von MeinFiskal zu. Der KassenBetreibers erhält den unterschriebenen Vertrag per E-Mail.
+2. Der KassenHändler stimmt im Namen des KassenBetreibers dem Nutzungsvertrag, den AGBs und der Datenschutzerklärung von MeinFiskal zu. Der KassenBetreibers erhält den unterschriebenen Vertrag per E-Mail.
 
-! Link zum Vertrag den wir per mail senden notwendig ?
-
-? Kann es hier zu Problemen/Fehlermeldungen kommen, wenn die Daten an DATEV gesendet werden ?
-
-3. Für den KassenBetreiber wird automatisch ein DATEV MeinFiskal Benutzerkonto angelegt und das fiskaltrust.Portal bietet dem KassenHändler einen Link an, über den das Passwort geändert werden kann.
+3. Bei der Rolle DATEV MeinFiskal steht ab jetzt der Nutzungsvertrag zum Download und eine Schaltfläche für das Durchführen des DATEV MeinFiskal-Onboarding zur Verfügung. Der KassenHändler klickt auf die Schaltfläche "Durchführen von DATEV MeinFiskal-Onboarding Vorgängen". Die Stammdaten werden von DATEV überprüft, eventuelle Fehler angezeigt und im Erfolgsfall wird automatisch ein DATEV MeinFiskal Benutzerkonto angelegt.
 
 <details>
-<summary>Screenshot missing </summary>  
+<summary>DATEV MeinFiskal-Onboarding </summary>  
 
-![Rolle_Datev_MeinFiskal](media/Rolle_Datev_MeinFiskal.png)
+![Rolle_Datev_MeinFiskal](media/DATEV_Onboarding.png)
 </details>
 &nbsp;
 
-4. Der KassenHändler klickt auf den Link und wird auf die DATEV MeinFiskal-Seite zum Setzen eines Passwortes geleitet. Der KassenHändler setzt ein neues Passwort und drückt "Speichern".
+4. Der Passwort Änderungsfenster des DATEV MeinFiskal Portals wird angezeigt. Der KassenHändler setzt ein neues Passwort und drückt "Speichern".
 <details>
 <summary>Screenshot DATEV Kennwortänderung </summary>  
 
@@ -85,6 +81,18 @@ Der KassenBetreiber ist bereits im Fiskaltrust-Portal aktiv, hat den Fiskaltrust
 </details>
 &nbsp;
 
+! DEr Button zum Fiskaltrust portal fehlt !!! Klickt man auf Anmeldung kann man sich nicht anmelden und kommt nicht mehr weiter
+<details>
+<summary>aktueller DATEV Anmeldedialog </summary>  
+
+![DATEV_Passwort_ändern](media/DATEV_PW_Change_Success_Test1.png)
+
+</details>
+&nbsp;
+
+? Muss man sich nun bei DATEV MeinFiskal anmelden oder auf den fiskaltrust link klicken ?
+
+5. Der Anmeldefenster des DATEV MeinFiskal Portals wird angezeigt. Der KassenHändler meldet sich mit der Emailadresse des Kassenbetreibers und dem im vorigen Schritt eingegebenen Passwort an.
 
 5. Dem KassenHändler wird eine Bestätigung der Passwort Änderung und ein Hersteller-spezifischer Link durch z.B. ein Fiskaltrust-Icon angezeigt. Der KassenHändler drückt auf den Link und gelangt wieder zum fiskaltrust.Portal.
 <details>
