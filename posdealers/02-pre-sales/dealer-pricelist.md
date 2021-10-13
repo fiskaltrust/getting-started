@@ -1,11 +1,11 @@
 ---
 slug: /posdealers/get-started/pre-sales/dealer-pricelist
-title: Händler-Preisliste
+title: Händler-Preisliste Deutschland
 ---
 
-# Händler-Preisliste
+# Händler-Preisliste Deutschland
 
-Die Händler Preisliste mit Mengenrabatten für Einzelprodukte und Produkt-Bundles finden Sie hier:
+Die Händler Preisliste mit Mengenrabatten für Einzelprodukte und Produkt-Bundles für Deutschland finden Sie hier:
 
  [PosDealer-Preisliste.pdf](media/PosDealer-Preisliste.pdf)
 
@@ -13,4 +13,4 @@ Die Händler Preisliste mit Mengenrabatten für Einzelprodukte und Produkt-Bundl
 
 - Als PosDealer im Produktiv-Portal registriert und verifiziert
 
-**Für ein Angebot kontaktieren Sie bitte das fiskaltrust.Team ([info@fiskaltrust.de](mailto:info@fiskaltrust.de))**
+**Für ein Angebot kontaktieren Sie bitte das fiskaltrust.Team in Deutschland ([info@fiskaltrust.de](mailto:info@fiskaltrust.de))**
