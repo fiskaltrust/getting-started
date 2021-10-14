@@ -12,7 +12,7 @@ Das Produkt "MeinFiskal" ist fester Bestandteil des "fiskaltrust.Sorglos" Produk
 
 Der Kassenhändler aktiviert im fiskaltrust.Portal die Funktion DATEV MeinFiskal, indem er den Nutzungsvertrag (Link zum Nutzungsvertrag fehlt noch !) zeichnet.
 Die Kundendaten wie Email-Adresse und Steuernummer(St.-ldNr. oder USt-ldNr) werden zwischen dem fiskaltrust.Portal und der "[DATEV  MeinFiskal](https://www.meinfiskal.de/)" Plattform ausgetauscht. Bei der DATEV wird ein MeinFiskal Benutzerkonto mit einem automatisiert erstellten Kennwort und derselben Email-Adresse wie beim fiskaltrust.Portal angelegt. 
-Der KassenHändler ändert das Kennwort des DATEV Benutzerkontos und bestätigt im fiskaltrust.Portal die Datenübertragung zwischen fiskaltrust und DATEV. Der KassenBetreiber erhält eine Willkommens-E-Mail von DATEV MeinFiskal und kann die inkludierten Dienstleistungen DATEV KAssenarchiv online und DATEV Kassenbuch-Schnittstelle nutzen.
+Der KassenHändler ändert das Kennwort zu DATEV MeinFiskal und bestätigt im fiskaltrust.Portal die Datenübertragung zwischen fiskaltrust und DATEV. Der KassenBetreiber erhält eine Willkommens-E-Mail von DATEV MeinFiskal und kann die inkludierten Dienstleistungen DATEV KAssenarchiv online und DATEV Kassenbuch-Schnittstelle nutzen.
 
 fiskaltrust übernimmt die Generierung der gesetzlich vorgeschriebenen Datenformate (DSFinV-K, DFKA-Taxonomie, .tar-Files, natives Format, sonstige Dokumente), sowie die Anbindung und Datenübermittlung an DATEV MeinFiskal über das fiskaltrust.Portal. Eine Anbindung an DATEV MeinFiskal durch den KassenHersteller ist für den KassenHändler bzw. den KassenBetreiber nicht mehr notwendig.
 
