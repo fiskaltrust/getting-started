@@ -10,9 +10,8 @@ Das Produkt "MeinFiskal" ist fester Bestandteil des "fiskaltrust.Sorglos" Produk
 
 ### Prozessbeschreibung
 
-! Link zum Nutzungsvertrag fehlt noch !
-Der Kassenhändler aktiviert im fiskaltrust.Portal die Rolle DATEV MeinFiskal und zeichnet den Nutzungsvertrag.
-Die Kundendaten werden zwischen fiskaltrust und DATEV ausgetauscht und ein DATEV MeinFiskal Account angelegt. Der KassenHändler ändert das Kennwort des DATEV Accounts und bestätigt im fiskaltrust.Portal die Datenübertragung zwischen fiskaltrust und DATEV. Der KassenBetreiber erhält eine Willkommens-E-Mail von DATEV MeinFiskal, und kann die inkludierten Dienstleistungen DATEV KAssenarchiv online und DATEV Kassenbuch-Schnittstelle nutzen.
+Der Kassenhändler aktiviert im fiskaltrust.Portal die Funktion DATEV MeinFiskal indem er den Nutzungsvertrag (Link zum Nutzungsvertrag fehlt noch !) zeichnet.
+Die Kundendaten werden zwischen fiskaltrust und DATEV ausgetauscht und ein DATEV MeinFiskal Account angelegt. Der KassenHändler ändert das Kennwort des DATEV Accounts, verbindet diese mit der Anmeldung auf der DATEV mein Fiskal Webseite und bestätigt im fiskaltrust.Portal die Datenübertragung zwischen fiskaltrust und DATEV. Der KassenBetreiber erhält eine Willkommens-E-Mail von DATEV MeinFiskal, und kann die inkludierten Dienstleistungen DATEV KAssenarchiv online und DATEV Kassenbuch-Schnittstelle nutzen.
 
 fiskaltrust übernimmt die Generierung der gesetzlich vorgeschriebenen Datenformate (DSFinV-K, DFKA-Taxonomie, .tar-Files, natives Format, sonstige Dokumente), sowie die Anbindung und Datenübermittlung an DATEV MeinFiskal über das fiskaltrust.Portal. Eine Anbindung an DATEV MeinFiskal durch den KassenHersteller ist für den KassenHändler bzw. den KassenBetreiber nicht mehr notwendig.
 
@@ -49,10 +48,10 @@ Der KassenBetreiber ist bereits im fiskaltrust.Portal aktiv, hat den Fiskaltrust
 
 ### Anleitung
 
-1. Der KassenHändler aktiviert im Namen des KassenBetreibers die Rolle DATEV MeinFiskal im [fiskaltrust.Portal](https://portal-sandbox.fiskaltrust.de/AccountProfile).
+1. Der KassenHändler aktiviert im Namen des KassenBetreibers die Funktion DATEV MeinFiskal im [fiskaltrust.Portal](https://portal-sandbox.fiskaltrust.de/AccountProfile).
 
 <details>
-<summary>Screenshot Rollen </summary>  
+<summary>Screenshot Funktion DATEV MeinFiskal </summary>  
 
 ![Rolle_Datev_MeinFiskal](media/Rolle_Datev_MeinFiskal.png)
 </details>
@@ -61,7 +60,7 @@ Der KassenBetreiber ist bereits im fiskaltrust.Portal aktiv, hat den Fiskaltrust
 
 2. Der KassenHändler stimmt im Namen des KassenBetreibers dem Nutzungsvertrag, den AGBs und der Datenschutzerklärung von MeinFiskal zu. Der KassenBetreibers erhält den unterschriebenen Vertrag per E-Mail.
 
-3. Bei der Rolle DATEV MeinFiskal steht ab jetzt der Nutzungsvertrag zum Download und eine Schaltfläche für das Durchführen des DATEV MeinFiskal-Onboarding zur Verfügung. Der KassenHändler klickt auf die Schaltfläche "Durchführen von DATEV MeinFiskal-Onboarding Vorgängen". Die Stammdaten werden von DATEV überprüft, eventuelle Fehler angezeigt und im Erfolgsfall wird automatisch ein DATEV MeinFiskal Benutzerkonto angelegt.
+3. Bei der Funktion DATEV MeinFiskal steht ab jetzt der Nutzungsvertrag zum Download und eine Schaltfläche für das Durchführen des DATEV MeinFiskal-Onboarding zur Verfügung. Der KassenHändler klickt auf die Schaltfläche "Durchführen von DATEV MeinFiskal-Onboarding Vorgängen". Die Stammdaten werden von DATEV überprüft, eventuelle Fehler angezeigt und im Erfolgsfall wird automatisch ein DATEV MeinFiskal Benutzerkonto angelegt.
 
 <details>
 <summary>DATEV MeinFiskal-Onboarding </summary>  
