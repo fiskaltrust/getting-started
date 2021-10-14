@@ -6,17 +6,15 @@ title: MeinFiskal
 
 ## Produktbeschreibung
 
-Das Produkt "MeinFiskal" ist fester Bestandteil des "fiskaltrust.Sorglos" Produkt-Bundles, aber auch als optionales Einzelprodukt verfügbar. Von der fiskaltrust.Plattform gelangen die Daten über eine automatisierte Schnittstelle auf die "[DATEV  MeinFiskal](https://www.meinfiskal.de/)" Plattform, wodurch die inkludierten Grundservices „DATEV Kassenarchiv online“ und die „DATEV Kassenbuch-Schnittstelle“ genutzt werden können.
+Das Produkt "MeinFiskal" ist fester Bestandteil des "fiskaltrust.Sorglos" Produkt-Bundles, aber auch als optionales Einzelprodukt verfügbar. Vom fiskaltrust.Portal gelangen die Daten über eine automatisierte Schnittstelle auf die "[DATEV  MeinFiskal](https://www.meinfiskal.de/)" Plattform, wodurch die inkludierten Grundservices „DATEV Kassenarchiv online“ und die „DATEV Kassenbuch-Schnittstelle“ genutzt werden können.
 
 ### Prozessbeschreibung
 
-Der Kassenhändler aktiviert im fiskaltrust.Portal die Rolle DATEV MeinFiskal und zeichnet den <details>
-  <summary>Nutzungsvertrag.</summary> 
-
-<iframe src="media/Nutzungsvereinbarung-DATEV_MeinFiskal.pdf" width=100% height=500px)></iframe></details>
+! Link zum Nutzungsvertrag fehlt noch !
+Der Kassenhändler aktiviert im fiskaltrust.Portal die Rolle DATEV MeinFiskal und zeichnet den Nutzungsvertrag.
 Die Kundendaten werden zwischen fiskaltrust und DATEV ausgetauscht und ein DATEV MeinFiskal Account angelegt. Der KassenHändler ändert das Kennwort des DATEV Accounts und bestätigt im fiskaltrust.Portal die Datenübertragung zwischen fiskaltrust und DATEV. Der KassenBetreiber erhält eine Willkommens-E-Mail von DATEV MeinFiskal, und kann die inkludierten Dienstleistungen DATEV KAssenarchiv online und DATEV Kassenbuch-Schnittstelle nutzen.
 
-fiskaltrust übernimmt die Generierung der gesetzlich vorgeschriebenen Datenformate (DSFinV-K, DFKA-Taxonomie, .tar-Files, natives Format, sonstige Dokumente), sowie die Anbindung und Datenübermittlung an DATEV MeinFiskal über die fiskaltrust.Plattform. Eine Anbindung an DATEV MeinFiskal durch den KassenHersteller ist für den KassenHändler bzw. den KassenBetreiber nicht mehr notwendig.
+fiskaltrust übernimmt die Generierung der gesetzlich vorgeschriebenen Datenformate (DSFinV-K, DFKA-Taxonomie, .tar-Files, natives Format, sonstige Dokumente), sowie die Anbindung und Datenübermittlung an DATEV MeinFiskal über das fiskaltrust.Portal. Eine Anbindung an DATEV MeinFiskal durch den KassenHersteller ist für den KassenHändler bzw. den KassenBetreiber nicht mehr notwendig.
 
 ! Ersetzen durch eigenes?
 ![MeinFiskal_Prozess](media/meinFiskal_Schnittstellen.png)
@@ -25,7 +23,7 @@ fiskaltrust übernimmt die Generierung der gesetzlich vorgeschriebenen Datenform
 
 ### Voraussetzungen
 
-Der KassenBetreiber ist bereits im Fiskaltrust-Portal aktiv, hat den Fiskaltrust-AGBs und der KassenBetreiber-Nutzungsvereinbarung zugestimmt, seine Stammdaten kontrolliert und der KassenHändler hat die Berechtigung Vertragsabschluss. Sollten diese Voraussetzungen nicht erfüllt sein, muß erst das [KassenBetreiber Onboarding](https://docs.fiskaltrust.cloud/docs/posdealers/rollout-doc/invitation-management) abgeschlossen werden oder der die Einrichtung vom KassenBetreiber selbst durchgeführt werden.
+Der KassenBetreiber ist bereits im fiskaltrust.Portal aktiv, hat den Fiskaltrust-AGBs und der KassenBetreiber-Nutzungsvereinbarung zugestimmt, seine Stammdaten kontrolliert und der KassenHändler hat die Berechtigung Vertragsabschluss. Sollten diese Voraussetzungen nicht erfüllt sein, muß erst das [KassenBetreiber Onboarding](https://docs.fiskaltrust.cloud/docs/posdealers/rollout-doc/invitation-management) abgeschlossen werden oder der die Einrichtung vom KassenBetreiber selbst durchgeführt werden.
 
 <details>
   <summary>Prüfen der Voraussetzungen</summary>  
@@ -51,7 +49,7 @@ Der KassenBetreiber ist bereits im Fiskaltrust-Portal aktiv, hat den Fiskaltrust
 
 ### Anleitung
 
-1. Der KassenHändler aktiviert im Namen des KassenBetreibers die Rolle DATEV MeinFiskal im [Portal](https://portal-sandbox.fiskaltrust.de/AccountProfile).
+1. Der KassenHändler aktiviert im Namen des KassenBetreibers die Rolle DATEV MeinFiskal im [fiskaltrust.Portal](https://portal-sandbox.fiskaltrust.de/AccountProfile).
 
 <details>
 <summary>Screenshot Rollen </summary>  
@@ -72,7 +70,7 @@ Der KassenBetreiber ist bereits im Fiskaltrust-Portal aktiv, hat den Fiskaltrust
 </details>
 &nbsp;
 
-4. Der Passwort Änderungsfenster des DATEV MeinFiskal Portals wird angezeigt. Der KassenHändler setzt ein neues Passwort und drückt "Speichern".
+4. Der Passwort Änderungsfenster der DATEV MeinFiskal Webseite wird angezeigt. Der KassenHändler setzt ein neues Passwort und drückt "Speichern".
 <details>
 <summary>Screenshot DATEV Kennwortänderung </summary>  
 
@@ -81,20 +79,7 @@ Der KassenBetreiber ist bereits im Fiskaltrust-Portal aktiv, hat den Fiskaltrust
 </details>
 &nbsp;
 
-! DEr Button zum Fiskaltrust portal fehlt !!! Klickt man auf Anmeldung kann man sich nicht anmelden und kommt nicht mehr weiter
-<details>
-<summary>aktueller DATEV Anmeldedialog </summary>  
-
-![DATEV_Passwort_ändern](media/DATEV_PW_Change_Success_Test1.png)
-
-</details>
-&nbsp;
-
-? Muss man sich nun bei DATEV MeinFiskal anmelden oder auf den fiskaltrust link klicken ?
-
-5. Der Anmeldefenster des DATEV MeinFiskal Portals wird angezeigt. Der KassenHändler meldet sich mit der Emailadresse des Kassenbetreibers und dem im vorigen Schritt eingegebenen Passwort an.
-
-5. Dem KassenHändler wird eine Bestätigung der Passwort Änderung und ein Hersteller-spezifischer Link durch z.B. ein Fiskaltrust-Icon angezeigt. Der KassenHändler drückt auf den Link und gelangt wieder zum fiskaltrust.Portal.
+5. Dem KassenHändler wird eine Bestätigung der Passwort Änderung und ein Anmelde Button angezeigt. Der KassenHändler drückt auf den Anmelde Button.
 <details>
 <summary>Screenshot DATEV Kennwortänderung erfolgreich</summary>  
 
@@ -103,31 +88,27 @@ Der KassenBetreiber ist bereits im Fiskaltrust-Portal aktiv, hat den Fiskaltrust
 </details>
 &nbsp;
 
-6. Der KassenHändler drückt im fiskaltrust.Portal den Button "Mit MeinFiskal verbinden". 
-
-! Screenshot
-
-7. Der KassenHändler gibt in dem sich öffnenden Anmeldedialog seine DATEV MeinFiskal Anmeldedaten ein und bestätigt die Verbindung zwischen fiskaltrust und DATEV MeinFiskal. Der Datenaustausch zwischen den Plattformen fiskaltrust und DATEV MeinFiskal ist nun aktiv.
+6. Der KassenHändler gibt in dem sich öffnenden Anmeldedialog seine DATEV MeinFiskal Anmeldedaten ein und bestätigt die Verbindung zwischen fiskaltrust und DATEV MeinFiskal. Mit diesem Schritt werden das fiskaltrust und Datev MeinFiskal Konto miteinander verbunden. 
 
 <details>
-<summary>Screenshot DATEV Verbindung bestätigen</summary>  
+<summary>Screenshot DATEV Anmeldung / Accounts verbinden</summary>  
 
-![DATEV_Consent](media/DATEV_Consent_Dialog.png)
+![DATEV_Consent](media/DATEV_Login_Dialog.png)
+
+</details>
+&nbsp;
+
+7. Der KassenHändler hat sich erfolgreich auf der DATEV MeinFiskal Webseite angemeldet und wird aufgefordert, den Datenaustausch zwischen fikaltrust und DATEV MeinFiskal zu bestätigen. Der KassenHändler setzt den Haken bei der Checkbox und klickt auf den Bestätigen Button. Der Datenaustausch zwischen fiskaltrust und DATEV MeinFiskal ist nun aktiv. 
+
+<details>
+<summary>Screenshot DATEV Datenaustausch zustimmen </summary>  
+
+! Screenshot fehlt noch
 
 </details>
 &nbsp;
 
 8. Der KassenBetreiber erhält 1 Stunde später eine Willkommens-E-Mail mit allgemeinen Informationen und einem Link zur Kennwortänderung.
-
-! Screenshot anpassen / Name Adresse anonymisieren wenn mit Testdaten nicht möglich?
-
-<details>
-<summary>Screenshot DATEV Verbindung bestätigen</summary>  
-
-![DATEV_Willkomens_E_Mail](media/DATEV_Willkommens_E_Mail.png)
-
-</details>
-&nbsp;
 
 9. Der KassenBetreiber klickt auf den Link zur Kennwortänderung und ändert sein DATEV MeinFiskal Kennwort (siehe Screenshot unter Punkt 4). 
 Der KassenBetreiber kann nun die inkludierten Dienstleistungen DATEV KAssenarchiv online und DATEV Kassenbuch-Schnittstelle nutzen.
@@ -136,6 +117,8 @@ Der KassenBetreiber kann nun die inkludierten Dienstleistungen DATEV KAssenarchi
 
 - Der KassenHändler kann den Nutzungsvertrag zu DATEV MeinFiskal nicht für den KassenBetreiber unterschreiben, da ihm die Berechtigung dazu fehlt. Der KassenHändler muss Kontakt zum KassenBetreiber aufnehmen, damit dieser ihm die notwendige Berechtigung erteilt.
 
-- Der KassenHändler führt die Kennwortänderung in Schritt 3 nicht durch und kann sich nicht mehr bei der DATEV MeinFiskal Plattform als KassenBetreiber anmelden. Nach spätestens 4 Tagen wird die Willkommens-E-Mail an den KassenBetreiber versendet. Um den Prozess mit Schritt 4 fortsetzen zu können, muss der KassenHändler Kontakt mit dem KassenBetreiber aufnehmen um das aktuelle Kennwort zu erhalten.
+- Der KassenHändler führt die Kennwortänderung in Schritt 3 nicht durch und kann sich nicht mehr bei DATEV MeinFiskal als KassenBetreiber anmelden. Nach spätestens 4 Tagen wird die Willkommens-E-Mail an den KassenBetreiber versendet. Um den Prozess mit Schritt 4 fortsetzen zu können, muss der KassenHändler Kontakt mit dem KassenBetreiber aufnehmen um das aktuelle Kennwort zu erhalten.
 
-- Der KassenHändler kann sich nicht mehr auf der DATEV MeinFiskal Plattform anmelden, da er die Zugangsdaten nicht mehr hat. Er kann eine nochmalige E-Mail zur Kennwortänderung auf der DATEV MeinFiskal Plattform nicht eigenständig anfordern. Dies ist nur über den KassenBetreiber möglich, sobald dieser die Willkommens-E-Mail mit dem Link zur Kennwortänderung auf der DATEV MeinFiskal Plattform erhalten hat.
+- Der KassenHändler kann sich nicht mehr auf der DATEV MeinFiskal anmelden, da er die Zugangsdaten nicht mehr hat. Er kann eine nochmalige E-Mail zur Kennwortänderung auf der DATEV MeinFiskal Webseite nicht eigenständig anfordern. Dies ist nur über den KassenBetreiber möglich, sobald dieser die Willkommens-E-Mail mit dem Link zur Kennwortänderung auf der DATEV MeinFiskal Webseite erhalten hat.
+
+- Der KassenHändler kann den Verknüpfungsvorgang zwischen fiskaltrust und DATEV MeinFiskal nicht abschliessen, weil bei der Eingabe von Benutzername und Passwort auf der DATEV MeinFiskal Webseite in Schritt 6 der falsche Benutzername angegeben wurde. Der KassenHändler muss sich an den fiskaltrust Support wenden, damit die falsche Verknüpfung wieder gelöscht werden kann.
