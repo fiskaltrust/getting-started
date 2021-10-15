@@ -10,9 +10,9 @@ Das Produkt "DATEV MeinFiskal" ist fester Bestandteil des "fiskaltrust.Sorglos" 
 
 ### Prozessbeschreibung
 
-Der Kassenhändler aktiviert im fiskaltrust.Portal die Funktion DATEV MeinFiskal, indem er den Nutzungsvertrag (Link zum Nutzungsvertrag fehlt noch !) zeichnet.
-Die Kundendaten wie Email-Adresse und Steuernummer (St.-ldNr. oder USt-ldNr) werden zwischen dem fiskaltrust.Portal und der "[DATEV  MeinFiskal](https://www.meinfiskal.de/)" Plattform ausgetauscht. Bei der DATEV wird ein MeinFiskal Benutzerkonto mit einem automatisiert erstellten Kennwort und derselben Email-Adresse wie beim fiskaltrust.Portal angelegt. 
-Der KassenHändler ändert das Kennwort zum Benutzerkonto bei DATEV MeinFiskal und bestätigt im fiskaltrust.Portal die Datenübertragung zwischen fiskaltrust und DATEV. Der KassenBetreiber erhält eine Willkommens-E-Mail von DATEV MeinFiskal und kann die Services „DATEV Kassenarchiv online“ und die „DATEV Kassenbuch-Schnittstelle“ nutzen.
+Der Kassenhändler aktiviert im fiskaltrust.Portal die Funktion DATEV MeinFiskal, indem er den Nutzungsvertrag zeichnet.
+Die Kundendaten wie Email-Adresse und Steuernummer (St.-ldNr. oder USt-ldNr) werden zwischen dem fiskaltrust.Portal und der "[DATEV  MeinFiskal](https://www.meinfiskal.de/)" Plattform ausgetauscht. Bei der DATEV wird ein MeinFiskal Benutzerkonto angelegt, dabei wird ein Kennwort automatisiert erstellt und dieselbe Email-Adresse wie beim fiskaltrust.Portal verwendet. 
+Der KassenHändler ändert bei DATEV MeinFiskal das Kennwort zum Benutzerkonto und bestätigt die Datenübertragung zwischen fiskaltrust und DATEV. Der KassenBetreiber erhält eine Willkommens-E-Mail von DATEV MeinFiskal und kann die Services „DATEV Kassenarchiv online“ und die „DATEV Kassenbuch-Schnittstelle“ nutzen.
 
 fiskaltrust übernimmt die Generierung der gesetzlich vorgeschriebenen Datenformate (DSFinV-K, DFKA-Taxonomie, .tar-Files, natives Format, sonstige Dokumente), sowie die Anbindung und Datenübermittlung an DATEV MeinFiskal über das fiskaltrust.Portal. Dabei ist keine weitere Anbindung durch den KassenHersteller notwendig.
 
@@ -23,7 +23,7 @@ fiskaltrust übernimmt die Generierung der gesetzlich vorgeschriebenen Datenform
 
 ### Voraussetzungen
 
-Der KassenBetreiber ist bereits im fiskaltrust.Portal aktiv, hat den AGB und der KassenBetreiber-Nutzungsvereinbarung der fiskaltrust zugestimmt, seine Stammdaten kontrolliert und der KassenHändler hat die Berechtigung zum Vertragsabschluss. Sollten diese Voraussetzungen nicht erfüllt sein, muß erst das [KassenBetreiber Onboarding](https://docs.fiskaltrust.cloud/docs/posdealers/rollout-doc/invitation-management) abgeschlossen werden oder der die Einrichtung vom KassenBetreiber selbst durchgeführt werden.
+Der KassenBetreiber hat bereits einen Account im fiskaltrust.Portal, den AGB und der KassenBetreiber-Nutzungsvereinbarung der fiskaltrust zugestimmt, seine Stammdaten kontrolliert und der KassenHändler hat die Berechtigung zum Vertragsabschluss. Sollten diese Voraussetzungen nicht erfüllt sein, muß erst das [KassenBetreiber Onboarding](https://docs.fiskaltrust.cloud/docs/posdealers/rollout-doc/invitation-management) abgeschlossen werden oder der die Einrichtung vom KassenBetreiber selbst durchgeführt werden.
 
 <details>
   <summary>Prüfen der Voraussetzungen</summary>  
