@@ -1,11 +1,10 @@
 ---
-slug: /poscreators/get-started/onboarding-presentation
-title: Technical onboarding presentation
+slug: /poscreators/get-started/onboarding-video
+title: Technical onboarding video
 ---
 
-# Technical onboarding presentation for PosCreators
+# Technical onboarding for PosCreators
 
-You can download our presentation used for technical onboarding during our bi-weekly webinars for POS Creators:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/I205M1pUr-8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-- [Technical onboarding presentation for PosCreators](presentations/technical-onboarding-poscreators.pdf)
-
+The slides of the video can be downloaded [here](presentations/technical-onboarding-poscreators.pdf).
