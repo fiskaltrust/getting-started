@@ -115,5 +115,3 @@ The goal of this stage is about reaching an agreement with the PosDealers that t
 - FAQ: [fiskaltrust.Docs - faq](https://docs.fiskaltrust.cloud/doc/faq/qna/market-de.html) and [Github faq repo](https://github.com/fiskaltrust/faq) for creating issues (questions).
 - fiskaltrust Github repositories: [https://github.com/fiskaltrust](https://github.com/fiskaltrust)
 - fiskaltrust videos: [Youtube Channel](https://www.youtube.com/channel/UCmMlqO4L3AzkEhh6WYA8BJg)
-- [PosCreator technical onboarding presentation](presentations/technical-onboarding-creator-en.pptx)
-- PosCreator fiskaltrust.Middleware Webinar Recording on [fiskaltrust YouTube Channel](https://www.youtube.com/watch?v=mq1hHL8ezOg)
