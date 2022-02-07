@@ -28,8 +28,7 @@ The success of this journey can be achieved through the completion of the follow
 
 Before proceeding with this guide, you may consider getting familiar with the content of the following useful resources:
 
-- [POS Creator technical onboarding presentation](presentations/technical-onboarding-creator-en.pptx)
-- [POS Creator fiskaltrust.Middleware Webinar Recording on YouTube](https://www.youtube.com/watch?v=mq1hHL8ezOg)
+- [POS Creator technical onboarding video](onboarding-presentation.md)
 
 **Note:** you can find more useful resources in the [Further sources of information](#further-sources-of-information) section at the end of this document.
 
