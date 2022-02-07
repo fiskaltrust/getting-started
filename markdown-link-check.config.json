@@ -2,7 +2,7 @@
     "ignorePatterns": [
       { "pattern": "^https?://signaturcloud\\.fiskaltrust\\.at/?$" },
       { "pattern": "^https?://signaturcloud\\.fiskaltrust\\.at/?$" },
-      { "pattern": "^https?://fiskaltrust\\.de/?$" },
+      { "pattern": "^https?://fiskaltrust\\.de.*" },
       { "pattern": "^https?://helipad\\.fiskaltrust\\.cloud/?$" },
       { "pattern": "^https?://packages\\.fiskaltrust\\.cloud/?$" },
       { "pattern": "^https?://eur-lex\\.europa\\.eu.*" }
