@@ -66,12 +66,12 @@ Sie finden im Account des KassenBetreibers unter `[Firma]` &rarr;
 ## Benutzerangaben
 
 
-* Nachdem Anlegen oder dem Import der Daten der KassenBetreiber(#Firmendaten-bereit-stellen) können diese durch den KassenHändler unter `[PosOperator]` &rarr; `[Einladungen]` &rarr; `[Bearbeiten]` kontrolliert und ergänzt werden. 
+* Nachdem Anlegen oder dem Import der Daten der KassenBetreiber können diese durch den KassenHändler unter `[PosOperator]` &rarr; `[Einladungen]` &rarr; `[Bearbeiten]` kontrolliert und ergänzt werden. 
 * Die KassenBetreiber können nach der Erstanmeldung im fiskaltrust.Portal die Benutzerangaben unter `[Benutzername]` &rarr; `[Daten]` auch selbst bearbeiten. Die Pflichtangaben sind zur Nutzung des fiskaltrust.Portals notwendig, alle anderen Angaben optional. 
 
 ### Daten der Benutzer bereit stellen
 
-Mit dem [Anlegen oder dem Import der Daten der KassenBetreiber](#Firmendaten-bereit-stellen) werden die Benutzerdaten festgelegt. Bei der Erstanmeldung der Benutzer dient die E-Mailadresse als Benutzername, ein Passwort wird vom KassenBetreiber selbst vergeben.
+Mit dem Anlegen oder dem Import der Daten der KassenBetreiber werden die Benutzerdaten festgelegt. Bei der Erstanmeldung der Benutzer dient die E-Mailadresse als Benutzername, ein Passwort wird vom KassenBetreiber selbst vergeben.
 ### Benutzerangaben im Überblick
 | Daten                    | Exporte<sup>1</sup> | Finanzamt-<br />meldung<sup>2</sup> | fiskaltrust.Portal | Anmerkung                                                                                                                                                                                                                      |
 |--------------------------|---------------------|:---------------------------------:|:------------------:|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
