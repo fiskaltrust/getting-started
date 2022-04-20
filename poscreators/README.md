@@ -17,9 +17,9 @@ The success of this journey can be achieved through the completion of the follow
 
 
 
-[1. fiskaltrust.Portal Registration](#1-portal-registration)<br/>
+[1. fiskaltrust.Portal Registration](#1-fiskaltrustportal-registration)<br/>
 [2. Middleware Integration](#2-middleware-integration)<br/>
-[3. POS Dealer Onboarding](#3-pos-dealer-onboarding)<br/>
+[3. POS Dealer Onboarding](#3-posdealer-onboarding)<br/>
 [4. Complex Business Case Analysis](#4-complex-business-case-analysis)<br/>
 [5. Pilot Installation](#5-pilot-installation)<br/>
 [6. Handover for Rollout](#6-handover-for-rollout)<br/>
