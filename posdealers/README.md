@@ -42,23 +42,6 @@ Bei Fragen, Anregungen oder Supportfällen steht Ihnen das Support Team von fisk
 
 Reguläre Supportzeiten Mo-Do 9:00 – 16:00.
 
-## Übersicht
-
-1. [Über fiskaltrust](#1-über-fiskaltrust)
-2. [Vorteile für KassenHändler](#2-vorteile-für-kassenhändler)
-3. [Vertriebsmodell und Rollen](#3-vertriebsmodell-und-rollen)
-4. [Das Produktangebot von fiskaltrust zum Weiterverkauf an KassenBetreiber](#4-das-produktangebot-von-fiskaltrust)
-5. [Abschluss eines Kooperationsvertrages](#5-abschluss-eines-kooperationsvertrages)
-6. [Einkaufsplanung](#6-einkaufsplanung)
-7. [Optional: Abschluss eines Rahmenvertrages](#7-optional-abschluss-eines-rahmenvertrages)
-8. [Rollout Szenarien und Automatisierungsoptionen analysieren und technische Vorbereitungen treffen](#8-rollout-szenarien-und-automatisierungsoptionen-analysieren-und-technische-vorbereitungen-treffen)
-9. [Erwerb von Händlereinkaufsprodukten](#9-erwerb-von-händlereinkaufsprodukten) 
-10. [Weiterverkauf von fiskaltrust Produkten](#10-weiterverkauf-von-fiskaltrust-produkten)
-11. [Verknüpfung und Konfiguration von KassenBetreibern](#11-verknüpfung-und-konfiguration-von-kassenbetreibern)
-12. [Herstellung und Konfiguration der Produkte im Account des KassenBetreibers](#12-herstellung-und-konfiguration-der-produkte-im-account-des-kassenbetreibers)
-13. [Auslieferung & Inbetriebnahme](#13-auslieferung--inbetriebnahme)
-14. [After-sales Support](#14-after-sales-support)
-
 ## 1. Über fiskaltrust
 
 Als Softwarehersteller entwickelt fiskaltrust Produkte für KassenBetreiber im Bereich Compliance-as-a-Service und revisionssichere-Daten-as-a-Service.

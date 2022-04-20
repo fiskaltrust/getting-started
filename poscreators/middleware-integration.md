@@ -21,7 +21,7 @@ A so-called CashBox is a configuration container that connects (links) the confi
 
 ![cashbox](images/middleware.png)
 
-The steps for the creation and configuration of the CashBox are covered in the [further part of this document](#25-cashbox-creation).
+The steps for the creation and configuration of the CashBox are covered in the [further part of this document](#15-cashbox-creation).
 
 ### 1.3 Configuration of the SCU
 
