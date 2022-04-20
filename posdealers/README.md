@@ -102,7 +102,7 @@ Dazu registrieren Sie sich mit Hilfe der Einladung, die Sie von Ihrem KassenHers
 
 Damit erhalten Sie die notwendigen Rollenrechte, um im Webshop des fiskaltrust.Portals Produkte von fiskaltrust einzukaufen, Ihre Kunden einzuladen und deren Daten und Produkte zu verwalten. Sö können Sie Ihren Kunden im fiskaltrust.Portal die entsprechenden Produkte zuweisen, die Middleware konfigurieren und ausrollen.
 
-Ihre gewöhnliche Geschäftstätigkeit muss keineswegs einer einzelnen Rolle unserer Beschreibung entsprechen ([vgl. oben](#vertriebsmodell-und-rollen)). Sollten Sie zum Beispiel sowohl als KassenHersteller als auch KassenHändler und vielleicht sogar auch als KassenBetreiber auftreten, stellen Sie bitte nur sicher, dass Sie im fiskaltrust.Portal all diese Rollen aktiviert und die entsprechenden Verträge unterzeichnet haben.
+Ihre gewöhnliche Geschäftstätigkeit muss keineswegs einer einzelnen Rolle unserer Beschreibung entsprechen ([vgl. oben](#3-vertriebsmodell-und-rollen)). Sollten Sie zum Beispiel sowohl als KassenHersteller als auch KassenHändler und vielleicht sogar auch als KassenBetreiber auftreten, stellen Sie bitte nur sicher, dass Sie im fiskaltrust.Portal all diese Rollen aktiviert und die entsprechenden Verträge unterzeichnet haben.
 
 | Vertiefende Information                                                                                  | Zielgruppe                                   |
 |----------------------------------------------------------------------------------------------------------|----------------------------------------------|
@@ -129,7 +129,7 @@ Wenn laut Ihrer Einkaufsplanung mehr als zehn Produkt-Bundles benötigt werden, 
 |--------------------------------------------------------------------------|--------------------|
 | [Abschluss eines Rahmenvertrages](02-pre-sales/01-purchase-agreement.md) | Shareholder, Owner |
 
-## 8. Rollout Szenarien und Automatisierungsoptionen analysieren und technische Vorbereitungen treffen <a id="8."></a> 
+## 8. Rollout Szenarien und Automatisierungsoptionen analysieren und technische Vorbereitungen treffen
 
 Diese technisch geprägten Schritte erfolgen parallel zu den wirtschaftlich motivierten Schritten 7, 9, 10, 11 und 12.
 
@@ -190,7 +190,7 @@ Wir empfehlen, den Weiterverkauf außerhalb des fiskaltrust.Portals mit einem er
 > Hinweis: Nutzen Sie zur Verknüpfung und Einladung von KassenBetreibern die Option "KassenHändler Auto-Invitation" , so empfiehlt es sich für den Weiterverkauf der fiskaltrust Produkte die dafür erforderlichen Berechtigungen für Lesen/Schreiben sowie Vertragsabschluss beim KassenBetreiber einzuholen 
 (Menü PosOperator &rarr; Übersicht  &rarr;  Schaltfläche bei Berechtigungen).
 
-## 11. Verknüpfung und Konfiguration von KassenBetreibern<a id="11."></a> 
+## 11. Verknüpfung und Konfiguration von KassenBetreibern
 
 Damit ein KassenHändler fiskaltrust Produkte verkaufen kann, sollte vorher der KassenBetreiber im fiskaltrust.Portal angelegt und dessen Stammdaten eingepflegt werden. Die fiskaltrust Nutzungsvereinbarung muss vom KassenBetreiber selbst oder vom KassenHändler in dessen Namen digital unterschrieben werden. Danach können Ansprüche auf den KassenBetreiber übertragen und die erworbenen Produkte aktiviert/erzeugt werden. 
 
@@ -223,7 +223,7 @@ Hat ein KassenBetreiber vom KassenHändler einen Anspruch auf die Nutzung von Pr
 1. die Ansprüche im Shop im fiskaltrust.Portal auf den KassenBetreiber übertragen, 
 2. mit Hilfe dieser Ansprüche die Produkte aktivieren/erzeugen
 
-Voraussetzung für diesen Vorgang ist die im [Schritt 11](#11.) beschriebene Verbindung des KassenHändlers mit dem KassenBetreiber inklusive der notwendigen Berechtigungen. Damit kann der KassenHändler in den Account des KassenBetreibers wechseln und Entitlements übertragen und die Aktivierung der Produkte vornehmen. 
+Voraussetzung für diesen Vorgang ist die im [Schritt 11](#11-verknüpfung-und-konfiguration-von-kassenbetreibern) beschriebene Verbindung des KassenHändlers mit dem KassenBetreiber inklusive der notwendigen Berechtigungen. Damit kann der KassenHändler in den Account des KassenBetreibers wechseln und Entitlements übertragen und die Aktivierung der Produkte vornehmen. 
 Des Weiteren kann mit Hilfe der dazugehörigen Berechtigung die Erstellung der benötigen Konfigurationen (CashBoxen) für den KassenBetreiber erfolgen.
 
 Alternativ können auch sogenannte [Einkaufspläne](https://docs.fiskaltrust.cloud/de/docs/posdealers/rollout-doc/shop#einkaufspl%C3%A4ne) verwendet werden, die diesen Prozess stark simplifizieren.
