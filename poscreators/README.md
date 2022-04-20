@@ -11,18 +11,8 @@ This guide describes on a high level the stages, which a PosCreatorshould achiev
 
 The success of this journey can be achieved through the completion of the following stages:
 
-
-
 ![integration phases](images/pos-creator-integration-phases.png)
 
-
-
-[1. fiskaltrust.Portal Registration](#1-fiskaltrustportal-registration)<br/>
-[2. Middleware Integration](#2-middleware-integration)<br/>
-[3. POS Dealer Onboarding](#3-posdealer-onboarding)<br/>
-[4. Complex Business Case Analysis](#4-complex-business-case-analysis)<br/>
-[5. Pilot Installation](#5-pilot-installation)<br/>
-[6. Handover for Rollout](#6-handover-for-rollout)<br/>
 
 ## Useful resources
 
