@@ -7,7 +7,7 @@ module.exports = {
                 'getting-started/poscreators/README',
                 'getting-started/poscreators/middleware-integration',
                 'getting-started/poscreators/integration-checklist',
-                'getting-started/poscreators/lead-presentation',
+                'getting-started/poscreators/onboarding-presentation',
             ]
         },
     ]

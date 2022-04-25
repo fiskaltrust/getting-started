@@ -22,6 +22,7 @@ module.exports = {
                     label: 'Pre-Sales',
                     items: [
                         'getting-started/posdealers/02-pre-sales/README',
+                        'posdealers/get-started/pre-sales/dealer-pricelist',
                         'getting-started/posdealers/02-pre-sales/01-purchase-agreement',
                         'getting-started/posdealers/02-pre-sales/02-purchase',
                         'getting-started/posdealers/02-pre-sales/automated-rollout',
