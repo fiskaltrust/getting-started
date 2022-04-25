@@ -7,11 +7,7 @@ title: Middleware integration
 
 This document describes the steps required to configure and test the integration of the ft.Middleware with your POS-System.
 
-[1. CashBox Configuration](#1-cashbox-configuration)
-[2. Middleware Launcher](#2-middleware-launcher)
-[3. Middleware Communication](#3-middleware-communication)
-
-## 1 CashBox Configuration
+## 1. CashBox Configuration
 
 ### 1.1 Overview
 
@@ -25,7 +21,7 @@ A so-called CashBox is a configuration container that connects (links) the confi
 
 ![cashbox](images/middleware.png)
 
-The steps for the creation and configuration of the CashBox are covered in the [further part of this document](#25-cashbox-creation).
+The steps for the creation and configuration of the CashBox are covered in the [further part of this document](#15-cashbox-creation).
 
 ### 1.3 Configuration of the SCU
 
