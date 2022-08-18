@@ -16,7 +16,7 @@ Das Produkt-Bundle "fiskaltrust.Sorglos mit TSE" beinhaltet unser Basis-Produkt 
 ### Addon-Produkte der fiskaltrust.Middleware
 
 -  [POS Archiv](https://docs.fiskaltrust.cloud/de/docs/product-description/germany/products-and-services/rdaas/products/pos-archive) 
--  [DATEV MeinFiskal](https://docs.fiskaltrust.cloud/de/docs/product-description/germany/products-and-services/rdaas/products/meinfiskal) 
+-  [DATEV MeinFiskal Kassenarchiv online](https://docs.fiskaltrust.cloud/de/docs/product-description/germany/products-and-services/rdaas/products/meinfiskal) 
 -  [Finanzamtmeldung](https://docs.fiskaltrust.cloud/de/docs/product-description/germany/products-and-services/caas/products/tax-authority-notifications) 
 
 ### Einzelprodukte
