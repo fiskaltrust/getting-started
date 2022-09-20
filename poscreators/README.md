@@ -76,13 +76,13 @@ To assist you with the invitation of the POS Dealers, we have automated the invi
 
 As the approach to the rollout highly depends on the implementation, the components, and the capabilities of your POS-System, you should select the appropriate rollout scenario and discuss it with your POS Dealers, to ensure their sufficient levels of knowledge and understanding required for the successful execution of the rollout process.
 
-The rollout has 2 separate areas, sales and technical, which both have been covered by the [rollout presentations](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/for-posdealers/prepare-rollout-presentations-de.html) from our documentation portal.
+The rollout has 2 separate areas, the [buy- and resell part](https://docs.fiskaltrust.cloud/docs/posdealers/buy-resell/overview), and [the technical rollout](https://docs.fiskaltrust.cloud/docs/posdealers/technical-operations/rollout-scenarios), which are both covered in the the PosDealer area of this documentation.
 
-The technical stage requires a close collaboration of the technical experts from both sides: yours and the POS Dealer's. You will discuss the details of the implementation, agree on the approach for rollout automation and templating, and select the best strategy for the rollout based on the appropriate rollout scenario. We have documented examples of different [rollout scenarios](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/for-posdealers/02-pre-sales/rollout-scenarios.html) in our documentation portal.
+The technical stage requires a close collaboration of the technical experts from both sides: yours and the POS Dealer's. You will discuss the details of the implementation, agree on the approach for rollout automation and templating, and select the best strategy for the rollout based on the appropriate rollout scenario. We have documented examples of different [rollout scenarios](https://docs.fiskaltrust.cloud/docs/posdealers/technical-operations/rollout-scenarios) in our documentation portal.
 
 ### 3.3 Rollout Automation
 
-You should help the POS Dealer to automate the rollout process as much as possible for example by preparing a configuration ``Template`` and discussing its details with the POS Dealer. A ``Template``, which can be added in the fiskaltrust.Portal or executed via API, contains the details of a pre-configured CashBox with all its components. It is used to automatically create similar CashBoxes for the PosOperators. Such templates can be used among other fiskaltrust tools and features to automate, and therefore to significantly speed-up the rollout process. You can find the [details of the automation options and templating](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/for-posdealers/02-pre-sales/automatisierter-rollout.html) in our documentation portal.
+You should help the POS Dealer to automate the rollout process as much as possible for example by preparing a configuration ``Template`` and discussing its details with the POS Dealer. A ``Template``, which can be added in the fiskaltrust.Portal or executed via API, contains the details of a pre-configured CashBox with all its components. It is used to automatically create similar CashBoxes for the PosOperators. Such templates can be used among other fiskaltrust tools and features to automate, and therefore to significantly speed-up the rollout process. You can find the [details of the automation options and templating](https://docs.fiskaltrust.cloud/docs/posdealers/technical-operations/rollout-automation/templates) in our documentation portal.
 
 ## 4. Complex Business Case Analysis
 
@@ -101,6 +101,6 @@ The goal of this stage is about reaching an agreement with the PosDealers that t
 
 - German fiskaltrust website: [https://fiskaltrust.de](https://fiskaltrust.de/)
 - fiskaltrust.Docs: [https://docs.fiskaltrust.cloud](https://docs.fiskaltrust.cloud/)
-- FAQ: [fiskaltrust.Docs - faq](https://docs.fiskaltrust.cloud/doc/faq/qna/market-de.html) and [Github faq repo](https://github.com/fiskaltrust/faq) for creating issues (questions).
+- Knowledge Base: Available in the _Help_ section in the Portal
 - fiskaltrust Github repositories: [https://github.com/fiskaltrust](https://github.com/fiskaltrust)
 - fiskaltrust videos: [Youtube Channel](https://www.youtube.com/channel/UCmMlqO4L3AzkEhh6WYA8BJg)
