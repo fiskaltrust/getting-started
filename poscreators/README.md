@@ -70,13 +70,20 @@ These steps can be very time consuming. Therefore, we strongly recommend that yo
 
 ### 3.1 POS Dealer fiskaltrust.Portal Invitation Process
 
+:::important
+
+The steps below explain how to create a PosSystem in the fiskaltrust.Portal. These steps are mandatory to make sure that all required properties are set in country-specific exports, like e.g. the DSFinV-K in Germany.
+
+:::
+
 To assist you with the invitation of the POS Dealers, we have automated the invitation process in our fiskaltrust.Portal. Simply navigate to ``POS-Systems`` and click on ``Add``. Next, provide the ``Designation``, ``Brand``, and ``Type`` for your POS-System, select its ``Cash Register Type``, and save the data. Once the POS-System has been created, find it on the list of available POS-Systems and click the ``PosDealer`` button, which will open the list of connected Pos Dealers. Next, click ``Add``, provide the email of the POS Dealer whom you'd wish to invite, and click ``Search`` fiskaltrust.Portal you will have the option to assign that company to your POS-System. If no data of that POS Dealer has been found in the system,you will be presented with the ``Company Registration Form``. Completing the form will result in an invitation email sent to the POS Dealer. Such email will contain a link allowing to complete the registration process within the fiskaltrust.Portal.
+There is a step by step explanantion of the POS-System management in the dealer documentation [POsSystem](https://docs.fiskaltrust.cloud/docs/portal-manual/general/possystems#possystems)
 
 ### 3.2 Rollout Scenarios
 
 As the approach to the rollout highly depends on the implementation, the components, and the capabilities of your POS-System, you should select the appropriate rollout scenario and discuss it with your POS Dealers, to ensure their sufficient levels of knowledge and understanding required for the successful execution of the rollout process.
 
-The rollout has 2 separate areas, the [buy- and resell part](https://docs.fiskaltrust.cloud/docs/posdealers/buy-resell/overview), and [the technical rollout](https://docs.fiskaltrust.cloud/docs/posdealers/technical-operations/rollout-scenarios), which are both covered in the the PosDealer area of this documentation.
+The rollout has 2 separate areas, the [buy- and resell part](https://docs.fiskaltrust.cloud/docs/posdealers/buy-resell/overview), and [the technical rollout](https://docs.fiskaltrust.cloud/docs/posdealers/buy-resell/rollout-plans), which are both covered in the the PosDealer area of this documentation.
 
 The technical stage requires a close collaboration of the technical experts from both sides: yours and the POS Dealer's. You will discuss the details of the implementation, agree on the approach for rollout automation and templating, and select the best strategy for the rollout based on the appropriate rollout scenario. We have documented examples of different [rollout scenarios](https://docs.fiskaltrust.cloud/docs/posdealers/technical-operations/rollout-scenarios) in our documentation portal.
 
