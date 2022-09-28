@@ -72,7 +72,7 @@ These steps can be very time consuming. Therefore, we strongly recommend that yo
 
 :::important
 
-The steps below explain how to create a PosSystem in the fiskaltrust.Portal 
+The steps below explain how to create a PosSystem in the fiskaltrust.Portal. These steps are mandatory to make sure that all required properties are set in country-specific exports, like e.g. the DSFinV-K in Germany.
 
 :::
 
