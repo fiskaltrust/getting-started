@@ -61,23 +61,24 @@ It is important to involve your PosDealers as early as possible, because they ha
 1. Register in the fiskalttrust.Portal and there digitally sign a cooperation agreement with fiskaltrust.
 2. Depending on the circumstances, request and sign framework agreements for the purchase of products with fiskaltrust.
 3. Invite the PosOperators to the fiskaltrust.Portal so that they can sign the usage agreement for the fiskaltrust.Middleware.
-4. Request access rights to the PosOperator's fiskaltrust.Account so that the PosDealer can redeem and activate the product entitlements purchased from fiskaltrust
-5. Request access rights to the PosOperator's fiskaltrust.Account so that the PosDealer can configure the fiskaltrust.Middleware instance to be installed on behalf of the operator.
+4. Request access rights to the PosOperator`s fiskaltrust.Account so that the PosDealer can redeem and activate the product entitlements purchased from fiskaltrust
+5. Request access rights to the PosOperator`s fiskaltrust.Account so that the PosDealer can configure the fiskaltrust.Middleware instance to be installed on behalf of the operator.
 6. For the correct DSFInV-K export the information of the POS-System needs to be connected by the PosDealer with the master data of the PosOperator.
 7. Technical planning and preparation for rollout together with the POS Creator.
 
 These steps can be very time consuming. Therefore, we strongly recommend that you **inform your PosDealers as early as possible and especially invite them to register in the fiskaltrust.Portal**.
 
-### 3.1 POS Dealer fiskaltrust.Portal Invitation Process
+### 3.1 Invite PosDealer in fiskaltrust.Portal 
 
 :::important
 
-The steps below explain how to create a PosSystem in the fiskaltrust.Portal. These steps are mandatory to make sure that all required properties are set in country-specific exports, like e.g. the DSFinV-K in Germany.
+The following steps explain how you, as PosCreator, register a PosSystem in the fiskaltrust.Portal. This registration includes a PossystemID, which ensures that all country-specific requirements are met, regardless of whether they are currently mandatory in your country or will become if you want to expand your offering to other markets. In addition, the fiskaltrust.Portal supports you with a simplified invitation process for your PosDealers.
 
 :::
 
-To assist you with the invitation of the POS Dealers, we have automated the invitation process in our fiskaltrust.Portal. Simply navigate to ``POS-Systems`` and click on ``Add``. Next, provide the ``Designation``, ``Brand``, and ``Type`` for your POS-System, select its ``Cash Register Type``, and save the data. Once the POS-System has been created, find it on the list of available POS-Systems and click the ``PosDealer`` button, which will open the list of connected Pos Dealers. Next, click ``Add``, provide the email of the POS Dealer whom you'd wish to invite, and click ``Search`` fiskaltrust.Portal you will have the option to assign that company to your POS-System. If no data of that POS Dealer has been found in the system,you will be presented with the ``Company Registration Form``. Completing the form will result in an invitation email sent to the POS Dealer. Such email will contain a link allowing to complete the registration process within the fiskaltrust.Portal.
-There is a step by step explanantion of the POS-System management in the dealer documentation [POsSystem](https://docs.fiskaltrust.cloud/docs/portal-manual/general/possystems#possystems)
+Log in to the fiskaltrust.Portal and select `PosSystems`, then `Add`. 
+Enter the properties of your PosSystem and select `Create new`. 
+Once the PosSystem is created, you will find it in the list of your available systems. You can add `Business areas` and `Properties` to each PosSystem. With `PosDealer`, you open the list of assigned PosDealers. To invite more, click on `Add`.  For more detailed instructions, please open the drop-down window below.
 
 ### 3.2 Rollout Scenarios
 
@@ -85,11 +86,11 @@ As the approach to the rollout highly depends on the implementation, the compone
 
 The rollout has 2 separate areas, the [buy- and resell part](https://docs.fiskaltrust.cloud/docs/posdealers/buy-resell/overview), and [the technical rollout](https://docs.fiskaltrust.cloud/docs/posdealers/buy-resell/rollout-plans), which are both covered in the the PosDealer area of this documentation.
 
-The technical stage requires a close collaboration of the technical experts from both sides: yours and the POS Dealer's. You will discuss the details of the implementation, agree on the approach for rollout automation and templating, and select the best strategy for the rollout based on the appropriate rollout scenario. We have documented examples of different [rollout scenarios](https://docs.fiskaltrust.cloud/docs/posdealers/technical-operations/rollout-scenarios) in our documentation portal.
+The technical stage requires a close collaboration of the technical experts from both sides: yours and the POS Dealer`s. You will discuss the details of the implementation, agree on the approach for rollout automation and templating, and select the best strategy for the rollout based on the appropriate rollout scenario. We have documented examples of different [rollout scenarios](https://docs.fiskaltrust.cloud/docs/posdealers/technical-operations/rollout-scenarios) in our documentation portal.
 
 ### 3.3 Rollout Automation
 
-You should help the POS Dealer to automate the rollout process as much as possible for example by preparing a configuration ``Template`` and discussing its details with the POS Dealer. A ``Template``, which can be added in the fiskaltrust.Portal or executed via API, contains the details of a pre-configured CashBox with all its components. It is used to automatically create similar CashBoxes for the PosOperators. Such templates can be used among other fiskaltrust tools and features to automate, and therefore to significantly speed-up the rollout process. You can find the [details of the automation options and templating](https://docs.fiskaltrust.cloud/docs/posdealers/technical-operations/rollout-automation/templates) in our documentation portal.
+You should help the POS Dealer to automate the rollout process as much as possible for example by preparing a configuration `Template` and discussing its details with the POS Dealer. A `Template`, which can be added in the fiskaltrust.Portal or executed via API, contains the details of a pre-configured CashBox with all its components. It is used to automatically create similar CashBoxes for the PosOperators. Such templates can be used among other fiskaltrust tools and features to automate, and therefore to significantly speed-up the rollout process. You can find the [details of the automation options and templating](https://docs.fiskaltrust.cloud/docs/posdealers/technical-operations/rollout-automation/templates) in our documentation portal.
 
 ## 4. Complex Business Case Analysis
 
@@ -97,7 +98,7 @@ Each industry may have several specific and complex business cases which require
 
 ## 5. Pilot Installation
 
-Once the rollout strategy has been selected and the approach to automation of the rollout (e.g. templating) has been agreed, it's time for you and the PosDealer to test it with selected PosOperator(s). Such pilot installation(s) should provide you with sufficient feedback, to allow early identification of problems and their possible resolutions, before handing over to the PosDealer for mass rollout to multiple PosOperators.
+Once the rollout strategy has been selected and the approach to automation of the rollout (e.g. templating) has been agreed, it`s time for you and the PosDealer to test it with selected PosOperator(s). Such pilot installation(s) should provide you with sufficient feedback, to allow early identification of problems and their possible resolutions, before handing over to the PosDealer for mass rollout to multiple PosOperators.
 
 ## 6. Handover for Rollout
 
