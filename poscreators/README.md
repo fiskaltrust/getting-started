@@ -128,18 +128,19 @@ For more detailed instructions, please open the drop-down window below.
 |![Number 3](../images/Numbers/circle-3o.png) |With `Remove assignment`, you cut the connection between the selected PosDealer and the actual PosSystem.  |
 |![Number 3](../images/Numbers/circle-3o.png) |To assign or invite more PosDealers, select `Add`. |
 
-
-    To add a PosDealer to a selected PosSystem, enter his E-Mail address and select `Search`. If the desired PosDealer is already registered in the fiskaltrust.Portal, you finalize the assignment of the selected PosSystem. Suppose no company with that E-Mail address is registered in the fiskaltrust.Portal, you must complete the business data and choose `Add / Invite`.This invitation will send an E-Mail and assign the company to your selected PosSystem. The invitation E-Mail contains a link the recipient can use to complete the registration process. 
+To add a PosDealer to a selected PosSystem, enter his E-Mail address and select `Search`. If the desired PosDealer is already registered in the fiskaltrust.Portal, you finalize the assignment of the selected PosSystem. Suppose no company with that E-Mail address is registered in the fiskaltrust.Portal, you must complete the business data and choose `Add / Invite`.This invitation will send an E-Mail and assign the company to your selected PosSystem. The invitation E-Mail contains a link the recipient can use to complete the registration process. 
 
 #### Request of a PosSystem as PosDealer
 
 :::caution
 
-    Depending on the chosen role, the fiskaltrust.Portal offers different items on the menu. Suppose the items described here are unavailable; check `Company` / `Overview` for the active roles. We recommend handling an account as PosCreator and as PosDealer separated.
+    Depending on the chosen role, the fiskaltrust.Portal offers different items
+    on the menu. Suppose the items described here are unavailable;
+    check `Company` / `Overview` for the active roles.
+    We recommend handling an account as PosCreator and as PosDealer separated. 
 :::
 
 As a PosDealer, you get either the invitation by a PosCreator to receive the assignment of a PosSystem. Or you reach out to a PosCreator to request the assignment of your desired PosSystem. Please note that this requires that you, as a PosDealer, are registered in the fiskaltrust.Portal.
-
 
 ![PosSystem Creation](images/PosSystem-creation-004.png "PosSystem / Request")
 
@@ -147,10 +148,9 @@ As a PosDealer, you get either the invitation by a PosCreator to receive the ass
 |:----------------------:|-------------------------------------------------------------------------------------------------------------------------------------|
 |![Number 1](../images/Numbers/circle-1o.png) |Log in to the fiskaltrust.Portal as a PosDealer, select `PosSystems` and `Add` to start your request for new ones.   |
 |![Number 2](../images/Numbers/circle-2o.png) |Enter data like `Name`, `Brand`, `Type` or `Manufacturer` of your desired PosSystem and press `Search`.   |
-|![Number 3](../images/Numbers/circle-3o.png) |Make your selection with `Request Assignment`.  |
-|![Number 4](../images/Numbers/circle-4o.png) |With `ABCXYZ`, your request is sent to the PosCreator.  |
+|![Number 3](../images/Numbers/circle-3o.png) |With `Request Assignment`, your request is sent to the PosCreator.  |
 
-If the PosCreator accepts the assignment, the connection between the PosDealer and the manufacturer's POS-System is established.
+If the PosCreator accepts the assignment, the connection between the PosDealer`s account and the manufacturer's POS-System is established.
 
 </details>
 
