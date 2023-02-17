@@ -89,13 +89,15 @@ For more detailed instructions, please open the drop-down window below.
 
 :::caution
 
-    Depending on the chosen role, the fiskaltrust.Portal offers different items on the menu. Suppose the items described here are unavailable; check `Company` / `Overview` for the active roles. We recommend handling an account as PosCreator and as PosDealer separated. 
+    Depending on the chosen role, the fiskaltrust.Portal offers different items
+    on the menu. Suppose the items described here are unavailable;
+    check `Company` / `Overview` for the active roles.
+    We recommend handling an account as PosCreator and as PosDealer separated. 
 :::
 
 #### Creation of a PosSystem
 
 ![PosSystem Creation](images/PosSystem-creation-001.png "PosSystem / Add")
-
 
 | steps | description                                                                                                                |
 |:----------------------:|-------------------------------------------------------------------------------------------------------------------------------------|
@@ -107,11 +109,12 @@ For more detailed instructions, please open the drop-down window below.
 #### Editing of a PosSystem
 
 ![PosSystem Creation](images/PosSystem-creation-002.png "PosSystem / List")
+
 | steps | description                                                                                                                |
 |:----------------------:|-------------------------------------------------------------------------------------------------------------------------------------|
-|![Number 1](../images/Numbers/circle-1o.png) | You can find the `PosSystemId` in the list but not change this value.  |
-|![Number 2](../images/Numbers/circle-2o.png) | You can add `Business areas` (like trade or services) and `Properties` (like technical base or equipment) to each PosSystem.   |
-|![Number 3](../images/Numbers/circle-3o.png) | With `PosDealer`, you open the list of assigned PosDealers; read below for further details. |
+|![Number 1](../images/Numbers/circle-1o.png) |You can find the `PosSystemId` in the list but not change this value.  |
+|![Number 2](../images/Numbers/circle-2o.png) |You can add `Business areas` (like trade or services) and `Properties` (like technical base or equipment) to each PosSystem.  |
+|![Number 3](../images/Numbers/circle-3o.png) |With `PosDealer`, you open the list of assigned PosDealers; read below for further details. |
 |![Number 4](../images/Numbers/circle-4o.png) |You can change the data of the PosSystem with `Edit`.  |
 
 #### Assignment of a PosSystem
@@ -150,6 +153,7 @@ As a PosDealer, you get either the invitation by a PosCreator to receive the ass
 If the PosCreator accepts the assignment, the connection between the PosDealer and the manufacturer's POS-System is established.
 
 </details>
+
 ### 3.2 Rollout Scenarios
 
 As the approach to the rollout highly depends on the implementation, the components, and the capabilities of your POS-System, you should select the appropriate rollout scenario and discuss it with your POS Dealers, to ensure their sufficient levels of knowledge and understanding required for the successful execution of the rollout process.
