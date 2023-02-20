@@ -86,14 +86,15 @@ For more detailed instructions, please open the drop-down window below.
 <details>
   <summary>Management of PosSystems in Details</summary>  
 
+:::caution if you are missing menu items, please check your active roles 
 
-:::caution
-
-    Depending on the chosen role, the fiskaltrust.Portal offers different items
-    on the menu. Suppose the items described here are unavailable;
-    check `Company` / `Overview` for the active roles.
-    We recommend handling an account as PosCreator and as PosDealer separated. 
 :::
+
+Depending on the active roles and contractual agreements,  
+the fiskaltrust.Portal offers different items  
+on the menu. Suppose the items described here are unavailable;  
+check `Company` / `Overview` for the active roles.  
+We recommend handling an account as PosCreator and as PosDealer separated. 
 
 #### Creation of a PosSystem
 
@@ -129,14 +130,24 @@ For more detailed instructions, please open the drop-down window below.
 |![Number 3](../images/Numbers/circle-3o.png) |To assign or invite more PosDealers, select `Add`. |
 
 
-    To add a PosDealer to a selected PosSystem, enter his E-Mail address and select `Search`. If the desired PosDealer is already registered in the fiskaltrust.Portal, you finalize the assignment of the selected PosSystem. Suppose no company with that E-Mail address is registered in the fiskaltrust.Portal, you must complete the business data and choose `Add / Invite`.This invitation will send an E-Mail and assign the company to your selected PosSystem. The invitation E-Mail contains a link the recipient can use to complete the registration process. 
+To add a PosDealer to a selected PosSystem, enter his E-Mail address and  
+select `Search`. If the desired PosDealer is already registered in the  
+fiskaltrust.Portal, you finalize the assignment of the selected PosSystem.  
+Suppose no company with that E-Mail address is registered in the fiskaltrust.Portal,  
+you must complete the business data and choose `Add / Invite`.  
+This invitation will send an E-Mail and assign the company to your selected PosSystem.  The E-Mail contains a link the recipient needs to use to complete the registration process.
 
 #### Request of a PosSystem as PosDealer
 
-:::caution
+:::caution if you are missing menu items, please check your active roles 
 
-    Depending on the chosen role, the fiskaltrust.Portal offers different items on the menu. Suppose the items described here are unavailable; check `Company` / `Overview` for the active roles. We recommend handling an account as PosCreator and as PosDealer separated.
 :::
+
+Depending on the active roles and contractual agreements,  
+the fiskaltrust.Portal offers different items  
+on the menu. Suppose the items described here are unavailable;  
+check `Company` / `Overview` for the active roles.  
+We recommend handling an account as PosCreator and as PosDealer separated. 
 
 As a PosDealer, you get either the invitation by a PosCreator to receive the assignment of a PosSystem. Or you reach out to a PosCreator to request the assignment of your desired PosSystem. Please note that this requires that you, as a PosDealer, are registered in the fiskaltrust.Portal.
 
